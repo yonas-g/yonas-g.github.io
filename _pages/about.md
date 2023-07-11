@@ -2,12 +2,12 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.cmu.edu'>Carnegie Mellon University</a>·<a href='https://www.linkedin.com/in/yonas-g'>Linkedin</a>·<a href='https://www.github.com/yonas-g'>Github</a>
+subtitle: Carnegie Mellon University | <a href='https://www.linkedin.com/in/yonas-g'>Linkedin</a> | <a href='https://www.github.com/yonas-g'>Github</a>
 #. Address. Contacts. Moto. Etc.
 
 profile:
   align: #right
-  image: #prof_pic.jpg
+  image: profile_pic_cropped.jpeg
   image_circular: false # crops the image to make it circular
   address: #>
     # <p>555 your office number</p>
