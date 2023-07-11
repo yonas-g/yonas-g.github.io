@@ -73,34 +73,34 @@ You can go to AWS's EFS and create an efs. This will allow you to store your imp
 
 2. Mount the efs
 After creating efs, you will find a button that says "Attach". Click on it and you'll find a command to execture on your terminal to attach the efs. But before that make sure to create `efs` folder in your instance.
-    
-```bash
-    sudo mount ******.amazonaws.com:/ efs
-```
+        
+    ```bash
+        sudo mount ******.amazonaws.com:/ efs
+    ```
     
 3. This is an optional command. It allows you to use the temporary storage instance available along with your EC2.
 
-```bash
-    sudo mkfs -t xfs /dev/nvme1n1
-```
+    ```bash
+        sudo mkfs -t xfs /dev/nvme1n1
+    ```
 
 4. Mount the storage
 
-```bash
-    sudo mkdir ~/data && sudo mount /dev/nvme1n1 ~/data
-```
+    ```bash
+        sudo mkdir ~/data && sudo mount /dev/nvme1n1 ~/data
+    ```
 
 5. Allow read/write persmission
 
-```bash
-    sudo chmod go+rw data
-```
+    ```bash
+        sudo chmod go+rw data
+    ```
 
 6. Extract your data
 
-```bash
-    tar -xf efs/*.tar && source .bashrc
-```
+    ```bash
+        tar -xf efs/*.tar && source .bashrc
+    ```
 
 ### All Combined
 
