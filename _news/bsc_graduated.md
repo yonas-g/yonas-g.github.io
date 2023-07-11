@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated from Addis Ababa Science and Technology University with a BSc in Software Engineering
+Graduated from Addis Ababa Science and Technology University with a BSc in Software Engineering (Honors: Best Academic Achievement, Very Great Distinction)
