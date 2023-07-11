@@ -78,8 +78,7 @@ After creating efs, you will find a button that says "Attach". Click on it and y
     sudo mount ******.amazonaws.com:/ efs
 ```
     
-3. 
-This is an optional command. It allows you to used the temporary storage instance available along with your EC2.
+3. This is an optional command. It allows you to use the temporary storage instance available along with your EC2.
 
 ```bash
     sudo mkfs -t xfs /dev/nvme1n1
@@ -91,7 +90,7 @@ This is an optional command. It allows you to used the temporary storage instanc
     sudo mkdir ~/data && sudo mount /dev/nvme1n1 ~/data
 ```
 
-5. 
+5. Allow read/write persmission
 
 ```bash
     sudo chmod go+rw data
