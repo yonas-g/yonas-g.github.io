@@ -2,7 +2,8 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='cmu.edu'>Carnegie Mellon University</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.cmu.edu'>Carnegie Mellon University</a>
+#. Address. Contacts. Moto. Etc.
 
 profile:
   align: #right
