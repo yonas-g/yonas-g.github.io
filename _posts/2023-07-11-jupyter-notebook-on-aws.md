@@ -1,15 +1,15 @@
 ---
 layout: post
-title: How to run jupyter notebook on AWS EC2 instance
+title: How to Run Jupyter Notebook on AWS EC2 Instance
 date: 2023-07-11 08:57:00-0400
 description: How to run jupyter notebook on AWS EC2 instance
 tags: general
 categories: jupyer-notebook aws
 # thumbnail: assets/img/9.jpg
-featured: true
+featured: false
+related_posts: false
 ---
 
-# How to Run Jupyter Notebook on AWS EC2 Instance
 
 After creating EC2 instance follow the following steps to run a jupyter notebook. Jupyter notebook uses port 8888 to access the web interface. When you create the instance make sure to add port 8888 under security policy configurations before launching so that you will be able access your jupyter notebook later.
 
@@ -17,7 +17,7 @@ After creating EC2 instance follow the following steps to run a jupyter notebook
 
 From the official website [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html) find the right link based on your python version.
 
-![python-versions](assets/img/python_versions.png)
+![python-versions](/assets/img/python_versions.png)
 
 Copy the address link and download the setup file using
 
