@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.cmu.edu'>Carnegie Mellon University</a>
+subtitle: <a href='https://www.cmu.edu'>Carnegie Mellon University</a>·<a href='https://www.linkedin.com/in/yonas-g'>Linkedin</a>·<a href='https://www.github.com/yonas-g'>Github</a>
 #. Address. Contacts. Moto. Etc.
 
 profile:
