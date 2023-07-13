@@ -10,8 +10,6 @@ featured: false
 related_posts: false
 ---
 
-{% raw %}
-
 {::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/r_squared_explained.ipynb" | relative_url %}
 {% capture notebook_exists %}{% file_exists assets/jupyter/r_squared_explained.ipynb %}{% endcapture %}
@@ -21,4 +19,3 @@ related_posts: false
     <p>Sorry, the notebook you are looking for does not exist.</p>
 {% endif %}
 {:/nomarkdown}
-{% endraw %}
