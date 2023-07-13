@@ -20,7 +20,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a masters student in Egnineering Artificial Intelligence at [Carnegie Mellon University](https://cmu.edu). I am interested in the applications of machine learning and deep learning for speech processing. I am currently working on leveraging deep learning based models for automatic speech recognition, especially focusing on African languages in a low resource multilingual setup. I am also interested in the application of machine learning to the field of earth observation, currently working on flood extent prediction using opensource satellite imagery data. 
+I am a masters student in Egnineering Artificial Intelligence at [Carnegie Mellon University (CMU)](https://cmu.edu). I am interested in the applications of machine learning and deep learning for speech processing. I am currently working on leveraging deep learning based models for automatic speech recognition, especially focusing on African languages in a low resource multilingual setup. I am also interested in the application of machine learning to the field of earth observation, currently working on flood extent prediction using opensource satellite imagery data. 
+
+Prior to joining CMU, I was a software engineer at [Paga](https://mypaga.com) where I worked on building and scaling the backend infrastructure for the Paga mobile money platform focusing on the Paga agent network system. I have a Bachelors degree in Software Engineering from the [Addis Ababa Science and Technology University, Ethiopia](https://aastu.edu.et).
 
 
 
