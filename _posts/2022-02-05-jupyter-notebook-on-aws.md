@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Run Jupyter Notebook on AWS EC2 Instance
-date: 2023-07-11 08:57:00-0400
+date: 2022-02-05 08:57:00-0400
 description: How to run jupyter notebook on AWS EC2 instance
 tags: general
 categories: jupyter-notebook aws
