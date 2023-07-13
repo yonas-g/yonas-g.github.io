@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: distill
 title: How to Run Jupyter Notebook on AWS EC2 Instance
 date: 2022-02-05 08:57:00-0400
 description: How to run jupyter notebook on AWS EC2 instance
@@ -8,6 +8,21 @@ categories: jupyter-notebook aws
 # thumbnail: assets/img/9.jpg
 featured: false
 related_posts: false
+
+authors:
+  - name: Yonas Chanie
+    url: "https://yonas-g.github.io/"
+
+# bibliography: 2023-07-13-r_squared_explained.bib
+
+toc:
+  - name: Install Conda (Miniconda)
+  - name: Install Jupyter Lab
+  - name: Attach EFS
+  - name: All Combined
+  - name: Persist config data to EFS
+
+
 ---
 
 
@@ -102,7 +117,7 @@ After creating efs, you will find a button that says "Attach". Click on it and y
         tar -xf efs/*.tar && source .bashrc
     ```
 
-### All Combined
+## All Combined
 
 ```bash
     mkdir efs
@@ -113,7 +128,7 @@ After creating efs, you will find a button that says "Attach". Click on it and y
     tar -xf efs/*.tar && source .bashrc
 ```
 
-### Persist config data to EFS
+## Persist config data to EFS
 
 If you want to store your data fter you're done with your work;
 
