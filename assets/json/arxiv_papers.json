@@ -9,7 +9,8 @@
       "Guangqi Jiang",
       "Furong Huang",
       "Huazhe Xu"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10973v1"
   },
   {
     "title": "VGBench: Evaluating Large Language Models on Vector Graphics Understanding and Generation",
@@ -19,7 +20,8 @@
       "Mu Cai",
       "Jianrui Zhang",
       "Yong Jae Lee"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10972v1"
   },
   {
     "title": "Ref-AVS: Refer and Segment Objects in Audio-Visual Scenes",
@@ -31,7 +33,8 @@
       "Guangyao Li",
       "Honggang Zhang",
       "Di Hu"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10957v1"
   },
   {
     "title": "Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?",
@@ -60,7 +63,8 @@
       "Lu Chen",
       "Kai Yu",
       "Tao Yu"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10956v1"
   },
   {
     "title": "Fine-Tuning and Prompt Optimization: Two Great Steps that Work Better Together",
@@ -69,7 +73,8 @@
       "Dilara Soylu",
       "Christopher Potts",
       "Omar Khattab"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10930v1"
   },
   {
     "title": "Benchmarking Vision Language Models for Cultural Understanding",
@@ -83,7 +88,8 @@
       "Lisa Anne Hendricks",
       "Karolina Sta\u0144czak",
       "Aishwarya Agrawal"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10920v1"
   },
   {
     "title": "Leveraging LLM-Respondents for Item Evaluation: a Psychometric Analysis",
@@ -92,7 +98,8 @@
       "Yunting Liu",
       "Shreya Bhandari",
       "Zachary A. Pardos"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10899v1"
   },
   {
     "title": "Leveraging Multimodal CycleGAN for the Generation of Anatomically Accurate Synthetic CT Scans from MRIs",
@@ -105,7 +112,8 @@
       "Pietro Mancosu",
       "Marta Scorsetti",
       "Daniele Loiacono"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10888v1"
   },
   {
     "title": "Hey, That's My Model! Introducing Chain & Hash, An LLM Fingerprinting Technique",
@@ -113,7 +121,8 @@
     "authors": [
       "Mark Russinovich",
       "Ahmed Salem"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10887v1"
   },
   {
     "title": "Deep Causal Learning to Explain and Quantify The Geo-Tension's Impact on Natural Gas Market",
@@ -123,7 +132,8 @@
       "Yulin Li",
       "Ziyue Li",
       "Wolfgang Ketter"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10878v1"
   },
   {
     "title": "Understanding the Importance of Evolutionary Search in Automated Heuristic Design with Large Language Models",
@@ -135,7 +145,8 @@
       "Zhenkun Wang",
       "Zhichao Lu",
       "Qingfu Zhang"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10873v1"
   },
   {
     "title": "GPT Sonograpy: Hand Gesture Decoding from Forearm Ultrasound Images via VLM",
@@ -145,7 +156,8 @@
       "Ye Wang",
       "Jing Liu",
       "Toshiaki Koike-Akino"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10870v1"
   },
   {
     "title": "Weighted Grouped Query Attention in Transformers",
@@ -153,14 +165,16 @@
     "authors": [
       "Sai Sena Chinnakonduru",
       "Astarag Mohapatra"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10855v1"
   },
   {
     "title": "An Actionable Framework for Assessing Bias and Fairness in Large Language Model Use Cases",
     "abstract": "Large language models (LLMs) can exhibit bias in a variety of ways. Such\nbiases can create or exacerbate unfair outcomes for certain groups within a\nprotected attribute, including, but not limited to sex, race, sexual\norientation, or age. This paper aims to provide a technical guide for\npractitioners to assess bias and fairness risks in LLM use cases. The main\ncontribution of this work is a decision framework that allows practitioners to\ndetermine which metrics to use for a specific LLM use case. To achieve this,\nthis study categorizes LLM bias and fairness risks, maps those risks to a\ntaxonomy of LLM use cases, and then formally defines various metrics to assess\neach type of risk. As part of this work, several new bias and fairness metrics\nare introduced, including innovative counterfactual metrics as well as metrics\nbased on stereotype classifiers. Instead of focusing solely on the model\nitself, the sensitivity of both prompt-risk and model-risk are taken into\naccount by defining evaluations at the level of an LLM use case, characterized\nby a model and a population of prompts. Furthermore, because all of the\nevaluation metrics are calculated solely using the LLM output, the proposed\nframework is highly practical and easily actionable for practitioners.",
     "authors": [
       "Dylan Bouchard"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10853v1"
   },
   {
     "title": "Offline Reinforcement Learning with Imputed Rewards",
@@ -168,7 +182,8 @@
     "authors": [
       "Carlo Romeo",
       "Andrew D. Bagdanov"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10839v1"
   },
   {
     "title": "MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs",
@@ -180,7 +195,8 @@
       "Saurav Manchanda",
       "Nitesh V. Chawla",
       "Khoa D. Doan"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10834v1"
   },
   {
     "title": "BiasScanner: Automatic Detection and Classification of News Bias to Strengthen Democracy",
@@ -188,7 +204,8 @@
     "authors": [
       "Tim Menzner",
       "Jochen L. Leidner"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10829v1"
   },
   {
     "title": "Towards Enhanced Classification of Abnormal Lung sound in Multi-breath: A Light Weight Multi-label and Multi-head Attention Classification Method",
@@ -196,7 +213,8 @@
     "authors": [
       "Yi-Wei Chua",
       "Yun-Chien Cheng"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10828v1"
   },
   {
     "title": "Enabling MCTS Explainability for Sequential Planning Through Computation Tree Logic",
@@ -207,7 +225,8 @@
       "Abhishek Dubey",
       "Ayan Mukhopadhyay",
       "Meiyi Ma"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10820v1"
   },
   {
     "title": "Foundational Autoraters: Taming Large Language Models for Better Automatic Evaluation",
@@ -219,7 +238,8 @@
       "Chris Tar",
       "Manaal Faruqui",
       "Yun-Hsuan Sung"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10817v1"
   },
   {
     "title": "GuideLight: \"Industrial Solution\" Guidance for More Practical Traffic Signal Control Agents",
@@ -235,7 +255,8 @@
       "Hua Wei",
       "Wolfgang Ketter",
       "Rui Zhao"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10811v1"
   },
   {
     "title": "FabGPT: An Efficient Large Multimodal Model for Complex Wafer Defect Knowledge Queries",
@@ -247,7 +268,8 @@
       "Qi Sun",
       "Hanming Wu",
       "Cheng Zhuo"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10810v1"
   },
   {
     "title": "Think-on-Graph 2.0: Deep and Interpretable Large Language Model Reasoning with Knowledge Graph-guided Retrieval",
@@ -259,7 +281,8 @@
       "Muzhi Li",
       "Huaren Qu",
       "Jian Guo"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10805v1"
   },
   {
     "title": "Mammographic Breast Positioning Assessment via Deep Learning",
@@ -273,7 +296,8 @@
       "Ercan Karaarslan",
       "Erkin Aribal",
       "Ilkay Oksuz"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10796v1"
   },
   {
     "title": "Graphusion: Leveraging Large Language Models for Scientific Knowledge Graph Fusion and Construction in NLP Education",
@@ -288,7 +312,8 @@
       "Freddy Lecue",
       "Jinghui Lu",
       "Irene Li"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10794v1"
   },
   {
     "title": "GraphEval: A Knowledge-Graph Based LLM Hallucination Evaluation Framework",
@@ -298,7 +323,8 @@
       "Nicholas Richardson",
       "Hermina Petric Maretic",
       "Juba Nait Saada"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10793v1"
   },
   {
     "title": "AdapTable: Test-Time Adaptation for Tabular Data via Shift-Aware Uncertainty Calibrator and Label Distribution Handler",
@@ -309,7 +335,8 @@
       "Seungyeon Woo",
       "June Yong Yang",
       "Eunho Yang"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10784v1"
   },
   {
     "title": "MSegRNN:Enhanced SegRNN Model with Mamba for Long-Term Time Series Forecasting",
@@ -317,7 +344,8 @@
     "authors": [
       "GaoXiang Zhao",
       "XiaoQiang Wang"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10768v1"
   },
   {
     "title": "Continual Deep Learning on the Edge via Stochastic Local Competition among Subnetworks",
@@ -326,7 +354,8 @@
       "Theodoros Christophides",
       "Kyriakos Tolias",
       "Sotirios Chatzis"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10758v1"
   },
   {
     "title": "Scaling 3D Reasoning with LMMs to Large Robot Mission Environments Using Datagraphs",
@@ -339,7 +368,8 @@
       "M. van Bekkum",
       "G. J. Burghouts",
       "J. D. van Mil"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10743v1"
   },
   {
     "title": "Aligning Neuronal Coding of Dynamic Visual Scenes with Foundation Vision Models",
@@ -349,7 +379,8 @@
       "Feixiang Zhou",
       "Ziwei Yin",
       "Jian K. Liu"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10737v1"
   },
   {
     "title": "Transforming Agency. On the mode of existence of Large Language Models",
@@ -357,7 +388,8 @@
     "authors": [
       "Xabier E. Barandiaran",
       "Lola S. Almendros"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10735v1"
   },
   {
     "title": "When Synthetic Traces Hide Real Content: Analysis of Stable Diffusion Image Laundering",
@@ -366,7 +398,8 @@
       "Sara Mandelli",
       "Paolo Bestagini",
       "Stefano Tubaro"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10736v1"
   },
   {
     "title": "On-Device Training of Fully Quantized Deep Neural Networks on Cortex-M Microcontrollers",
@@ -376,7 +409,8 @@
       "Frank Hannig",
       "Christopher Mutschler",
       "J\u00fcrgen Teich"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10734v1"
   },
   {
     "title": "CLAVE: An Adaptive Framework for Evaluating Values of LLM Generated Responses",
@@ -385,7 +419,8 @@
       "Jing Yao",
       "Xiaoyuan Yi",
       "Xing Xie"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10725v1"
   },
   {
     "title": "Sibyl: Simple yet Effective Agent Framework for Complex Real-world Reasoning",
@@ -395,7 +430,8 @@
       "Tianhao Shen",
       "Lifeng Liu",
       "Jian Xie"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10718v1"
   },
   {
     "title": "SEMINAR: Search Enhanced Multi-modal Interest Network and Approximate Retrieval for Lifelong Sequential Recommendation",
@@ -408,7 +444,8 @@
       "Qianqian Li",
       "Zhongyi Liu",
       "Guannan Zhang"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10714v1"
   },
   {
     "title": "Classification of Heart Sounds Using Multi-Branch Deep Convolutional Network and LSTM-CNN",
@@ -417,7 +454,8 @@
       "Seyed Amir Latifi",
       "Hassan Ghassemian",
       "Maryam Imani"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10689v1"
   },
   {
     "title": "Addressing Image Hallucination in Text-to-Image Generation through Factual Image Retrieval",
@@ -425,7 +463,8 @@
     "authors": [
       "Youngsun Lim",
       "Hyunjung Shim"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10683v1"
   },
   {
     "title": "Qwen2 Technical Report",
@@ -489,7 +528,8 @@
       "Zeyu Cui",
       "Zhenru Zhang",
       "Zhihao Fan"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10671v1"
   },
   {
     "title": "Enhancing Retrieval and Managing Retrieval: A Four-Module Synergy for Improved Quality and Efficiency in RAG Systems",
@@ -501,7 +541,8 @@
       "Haimin Zhang",
       "Qiang Wu",
       "Min Xu"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10670v1"
   },
   {
     "title": "Spatio-temporal neural distance fields for conditional generative modeling of the heart",
@@ -518,7 +559,8 @@
       "Klaus Kofoed",
       "Oscar Camara",
       "Rasmus Paulsen"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10663v1"
   },
   {
     "title": "XEQ Scale for Evaluating XAI Experience Quality Grounded in Psychometric Theory",
@@ -531,7 +573,8 @@
       "Ikechukwu Nkisi-Orji",
       "Belen D\u00edaz-Agudo",
       "Derek Bridge"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10662v1"
   },
   {
     "title": "An Empirical Study of Validating Synthetic Data for Formula Generation",
@@ -545,7 +588,8 @@
       "Vu Le",
       "Mukul Singh",
       "Gust Verbruggen"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10657v1"
   },
   {
     "title": "Prompt Selection Matters: Enhancing Text Annotations for Social Sciences with Large Language Models",
@@ -554,7 +598,8 @@
       "Louis Abraham",
       "Charles Arnal",
       "Antoine Marie"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10645v1"
   },
   {
     "title": "Risk-aware Trajectory Prediction by Incorporating Spatio-temporal Traffic Interaction Analysis",
@@ -563,7 +608,8 @@
       "Divya Thuremella",
       "Lewis Ince",
       "Lars Kunze"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10639v1"
   },
   {
     "title": "Bidirectional Stereo Image Compression with Cross-Dimensional Entropy Model",
@@ -574,7 +620,8 @@
       "Jiawei Shao",
       "Zehong Lin",
       "Jun Zhang"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10632v1"
   },
   {
     "title": "Arena Learning: Build Data Flywheel for LLMs Post-training via Simulated Chatbot Arena",
@@ -589,7 +636,8 @@
       "Shifeng Chen",
       "Yansong Tang",
       "Weizhu Chen"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10627v1"
   },
   {
     "title": "An evaluation of CNN models and data augmentation techniques in hierarchical localization of mobile robots",
@@ -600,7 +648,8 @@
       "S. Cebollada",
       "O. Reinoso",
       "L. Pay\u00e1"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10596v1"
   },
   {
     "title": "Three Dogmas of Reinforcement Learning",
@@ -609,7 +658,8 @@
       "David Abel",
       "Mark K. Ho",
       "Anna Harutyunyan"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10583v1"
   },
   {
     "title": "Boosting Zero-Shot Crosslingual Performance using LLM-Based Augmentations with Effective Data Selection",
@@ -618,7 +668,8 @@
       "Barah Fazili",
       "Ashish Sunil Agrawal",
       "Preethi Jyothi"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10582v1"
   },
   {
     "title": "Leveraging Hybrid Intelligence Towards Sustainable and Energy-Efficient Machine Learning",
@@ -626,7 +677,8 @@
     "authors": [
       "Daniel Geissler",
       "Paul Lukowicz"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10580v1"
   },
   {
     "title": "Learning Social Cost Functions for Human-Aware Path Planning",
@@ -635,7 +687,8 @@
       "Andrea Eirale",
       "Matteo Leonetti",
       "Marcello Chiaberge"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10547v1"
   },
   {
     "title": "Efficient Continual Learning with Low Memory Footprint For Edge Device",
@@ -645,7 +698,8 @@
       "Fei Cheng",
       "Kangye Ji",
       "Bohu Huang"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10545v1"
   },
   {
     "title": "Understanding the Dependence of Perception Model Competency on Regions in an Image",
@@ -653,7 +707,8 @@
     "authors": [
       "Sara Pohland",
       "Claire Tomlin"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10543v1"
   },
   {
     "title": "3D Geometric Shape Assembly via Efficient Point Cloud Matching",
@@ -666,7 +721,8 @@
       "Kanghee Lee",
       "Jaesik Park",
       "Minsu Cho"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10542v1"
   },
   {
     "title": "An experimental evaluation of Siamese Neural Networks for robot localization using omnidirectional imaging in indoor environments",
@@ -677,7 +733,8 @@
       "A. Gil",
       "O. Reinoso",
       "L. Pay\u00e1"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10536v1"
   },
   {
     "title": "TCM-FTP: Fine-Tuning Large Language Models for Herbal Prescription Prediction",
@@ -694,7 +751,8 @@
       "Runshun Zhang",
       "Xuezhong Zhou",
       "Nevin L. Zhang"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10510v1"
   },
   {
     "title": "Learning Dynamics of LLM Finetuning",
@@ -702,7 +760,8 @@
     "authors": [
       "Yi Ren",
       "Danica J. Sutherland"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10490v1"
   },
   {
     "title": "How and where does CLIP process negation?",
@@ -711,7 +770,8 @@
       "Vincent Quantmeyer",
       "Pablo Mosteiro",
       "Albert Gatt"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10488v1"
   },
   {
     "title": "IDEAL: Leveraging Infinite and Dynamic Characterizations of Large Language Models for Query-focused Summarization",
@@ -723,7 +783,8 @@
       "Wenqiao Zhang",
       "Siliang Tang",
       "Yueting Zhuang"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10486v1"
   },
   {
     "title": "SuperPADL: Scaling Language-Directed Physics-Based Control with Progressive Supervised Distillation",
@@ -733,7 +794,8 @@
       "Yunrong Guo",
       "Sanja Fidler",
       "Xue Bin Peng"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10481v1"
   },
   {
     "title": "Kinetic Typography Diffusion Model",
@@ -743,7 +805,8 @@
       "Inhwan Bae",
       "Seunghyun Shin",
       "Hae-Gon Jeon"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10476v1"
   },
   {
     "title": "GROOT: Generating Robust Watermark for Diffusion-Model-Based Audio Synthesis",
@@ -754,7 +817,8 @@
       "Dongdong Lin",
       "Hui Tian",
       "Haizhou Li"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10471v1"
   },
   {
     "title": "LiteFocus: Accelerated Diffusion Inference for Long Audio Synthesis",
@@ -764,7 +828,8 @@
       "Xinyin Ma",
       "Gongfan Fang",
       "Xinchao Wang"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10468v1"
   },
   {
     "title": "BandControlNet: Parallel Transformers-based Steerable Popular Music Generation with Fine-Grained Spatiotemporal Features",
@@ -773,7 +838,8 @@
       "Jing Luo",
       "Xinyu Yang",
       "Dorien Herremans"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10462v1"
   },
   {
     "title": "The Good, The Bad, and The Greedy: Evaluation of LLMs Should Not Ignore Non-Determinism",
@@ -783,14 +849,16 @@
       "Guoyin Wang",
       "Sujian Li",
       "Bill Yuchen Lin"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10457v1"
   },
   {
     "title": "GraphPrint: Extracting Features from 3D Protein Structure for Drug Target Affinity Prediction",
     "abstract": "Accurate drug target affinity prediction can improve drug candidate\nselection, accelerate the drug discovery process, and reduce drug production\ncosts. Previous work focused on traditional fingerprints or used features\nextracted based on the amino acid sequence in the protein, ignoring its 3D\nstructure which affects its binding affinity. In this work, we propose\nGraphPrint: a framework for incorporating 3D protein structure features for\ndrug target affinity prediction. We generate graph representations for protein\n3D structures using amino acid residue location coordinates and combine them\nwith drug graph representation and traditional features to jointly learn drug\ntarget affinity. Our model achieves a mean square error of 0.1378 and a\nconcordance index of 0.8929 on the KIBA dataset and improves over using\ntraditional protein features alone. Our ablation study shows that the 3D\nprotein structure-based features provide information complementary to\ntraditional features.",
     "authors": [
       "Amritpal Singh"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10452v1"
   },
   {
     "title": "DDFAD: Dataset Distillation Framework for Audio Data",
@@ -802,7 +870,8 @@
       "Xiaoyuan Liu",
       "Haomiao Yang",
       "Shui Yu"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10446v1"
   },
   {
     "title": "Backdoor Attacks against Image-to-Image Networks",
@@ -815,7 +884,8 @@
       "Guowen Xu",
       "Tianwei Zhang",
       "Rongxing Lu"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10445v1"
   },
   {
     "title": "Enhancing Building Safety Design for Active Shooter Incidents: Exploration of Building Exit Parameters using Reinforcement Learning-Based Simulations",
@@ -825,7 +895,8 @@
       "Wanjing Wu",
       "Burcin Becerik-Gerber",
       "Gale M. Lucas"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10441v1"
   },
   {
     "title": "A Multi-Stage Framework for 3D Individual Tooth Segmentation in Dental CBCT",
@@ -834,7 +905,8 @@
       "Chunshi Wang",
       "Bin Zhao",
       "Shuxue Ding"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10433v1"
   },
   {
     "title": "Expanding the Scope: Inductive Knowledge Graph Reasoning with Multi-Starting Progressive Propagation",
@@ -843,7 +915,8 @@
       "Zhoutian Shao",
       "Yuanning Cui",
       "Wei Hu"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10430v1"
   },
   {
     "title": "Empowering LLMs for Verilog Generation through Multi-Level Summarization",
@@ -864,7 +937,8 @@
       "Qi Guo",
       "Xing Hu",
       "Yunji Chen"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10424v1"
   },
   {
     "title": "Learning Rapid Turning, Aerial Reorientation, and Balancing using Manipulator as a Tail",
@@ -872,7 +946,8 @@
     "authors": [
       "Insung Yang",
       "Jemin Hwangbo"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10420v1"
   },
   {
     "title": "Melon Fruit Detection and Quality Assessment Using Generative AI-Based Image Data Augmentation",
@@ -881,7 +956,8 @@
       "Seungri Yoon",
       "Yunseong Cho",
       "Tae In Ahn"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10413v1"
   },
   {
     "title": "Cooperative Reward Shaping for Multi-Agent Pathfinding",
@@ -891,7 +967,8 @@
       "Ronghao Zheng",
       "Senlin Zhang",
       "Meiqin Liu"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10403v1"
   },
   {
     "title": "Masked Generative Video-to-Audio Transformers with Enhanced Synchronicity",
@@ -901,7 +978,8 @@
       "Chunghsin Yeh",
       "Ioannis Tsiamas",
       "Joan Serr\u00e0"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10387v1"
   },
   {
     "title": "By My Eyes: Grounding Multimodal Large Language Models with Sensor Data via Visual Prompting",
@@ -912,7 +990,8 @@
       "Taesik Gong",
       "Kimin Lee",
       "Sung-Ju Lee"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10385v1"
   },
   {
     "title": "Communication- and Computation-Efficient Distributed Decision-Making in Multi-Robot Networks",
@@ -921,7 +1000,8 @@
       "Zirui Xu",
       "Sandilya Sai Garimella",
       "Vasileios Tzoumas"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10382v1"
   },
   {
     "title": "NTSEBENCH: Cognitive Reasoning Benchmark for Vision Language Models",
@@ -933,7 +1013,8 @@
       "Tushar Kataria",
       "Vivek Gupta",
       "Dan Roth"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10380v1"
   },
   {
     "title": "Enhanced Self-supervised Learning for Multi-modality MRI Segmentation and Classification: A Novel Approach Avoiding Model Collapse",
@@ -947,7 +1028,8 @@
       "Fumin Guo",
       "Yeqing Han",
       "Xin Zhou"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10377v1"
   },
   {
     "title": "An Empirical Study of Mamba-based Pedestrian Attribute Recognition",
@@ -961,7 +1043,8 @@
       "Qingchuan Ma",
       "Chenglong Li",
       "Jin Tang"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10374v1"
   },
   {
     "title": "Mutual Learning for Acoustic Matching and Dereverberation via Visual Scene-driven Diffusion",
@@ -971,7 +1054,8 @@
       "Wenguan Wang",
       "Yi Yang",
       "Feng Zheng"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10373v1"
   },
   {
     "title": "Accessing Vision Foundation Models at ImageNet-level Costs",
@@ -982,7 +1066,8 @@
       "Yue Bai",
       "Huan Wang",
       "Yun Fu"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10366v1"
   },
   {
     "title": "Leave No Knowledge Behind During Knowledge Distillation: Towards Practical and Effective Knowledge Distillation for Code-Switching ASR Using Realistic Data",
@@ -994,7 +1079,8 @@
       "Cheng-Kuang Lee",
       "Tsung-Ren Huang",
       "Hung-yi Lee"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10603v1"
   },
   {
     "title": "Mutual Learning for Acoustic Matching and Dereverberation via Visual Scene-driven Diffusion",
@@ -1004,6 +1090,7 @@
       "Wenguan Wang",
       "Yi Yang",
       "Feng Zheng"
-    ]
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.10373v1"
   }
 ]
