@@ -1,114 +1,113 @@
 ---
 layout: page
-title: ArxivSpot
+title: Arxiv Papers
 permalink: /arxiv/
 ---
 
-<!-- <div id="arxiv-content">
+<div id="arxiv-content">
   <h1>ArxivSpot</h1>
   <ul class="paper-list" id="papers-list"></ul>
-</div> -->
+</div>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  fetch("{{ '/assets/json/arxiv_papers.json' | relative_url }}")
+    .then(response => response.json())
+    .then(data => {
+      const papersList = document.getElementById("papers-list");
+      data.forEach((paper, index) => {
+        const listItem = document.createElement("li");
+        listItem.className = "paper";
+
+        const title = document.createElement("div");
+        title.textContent = paper.title;
+        title.className = "paper-title";
+        title.setAttribute("data-index", index);
+        title.addEventListener("click", function() {
+          const details = document.getElementById("details-" + this.getAttribute("data-index"));
+          details.classList.toggle("expanded");
+        });
+        listItem.appendChild(title);
+
+        const details = document.createElement("div");
+        details.id = "details-" + index;
+        details.className = "paper-details";
+
+        const authors = document.createElement("div");
+        authors.textContent = "Authors: " + paper.authors.join(", ");
+        authors.className = "authors";
+        details.appendChild(authors);
+
+        const abstract = document.createElement("div");
+        abstract.textContent = paper.abstract;
+        abstract.className = "abstract";
+        details.appendChild(abstract);
+
+        const pdfLink = document.createElement("a");
+        pdfLink.href = paper.pdf_link;
+        pdfLink.textContent = "PDF Link";
+        pdfLink.target = "_blank";
+        pdfLink.className = "paper-pdf-link";
+        details.appendChild(pdfLink);
+
+        listItem.appendChild(details);
+        papersList.appendChild(listItem);
+      });
+    })
+    .catch(error => console.error("Error loading JSON:", error));
+});
+</script>
 
 <style>
-  body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-  }
-  h1 {
-      color: #2c3e50;
-  }
-  .paper-list {
-      list-style-type: none;
-      padding: 0;
-  }
-  .paper {
-      border-bottom: 1px solid #eee;
-      padding: 10px 0;
-  }
-  .paper-title {
-      cursor: pointer;
-      display: inline-block;
-  }
-  .paper-title:hover {
-      text-decoration: underline;
-      text-decoration-color: #3498db;
-  }
-  .paper-details {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.3s ease-out;
-  }
-  .paper-details.expanded {
-      max-height: 500px;
-      transition: max-height 0.5s ease-in;
-  }
-  .authors {
-      font-style: italic;
-      color: #666;
-      margin: 10px 0 5px;
-  }
-  .abstract {
-      font-size: 0.9em;
-  }
-  .paper-pdf-link {
-      color: #007acc;
-      text-decoration: none;
-  }
-  .paper-pdf-link:hover {
-      text-decoration: underline;
-  }
-  </style>
-  
-  <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    fetch("{{ '/assets/json/arxiv_papers.json' | relative_url }}")
-      .then(response => response.json())
-      .then(data => {
-        const papersList = document.getElementById("papers-list");
-        data.forEach((paper, index) => {
-          const listItem = document.createElement("li");
-          listItem.className = "paper";
-  
-          const title = document.createElement("div");
-          title.textContent = paper.title;
-          title.className = "paper-title";
-          title.setAttribute("data-index", index);
-          title.addEventListener("click", function() {
-            const details = document.getElementById("details-" + this.getAttribute("data-index"));
-            details.classList.toggle("expanded");
-          });
-          listItem.appendChild(title);
-  
-          const details = document.createElement("div");
-          details.id = "details-" + index;
-          details.className = "paper-details";
-  
-          const authors = document.createElement("div");
-          authors.textContent = "Authors: " + paper.authors.join(", ");
-          authors.className = "authors";
-          details.appendChild(authors);
-  
-          const abstract = document.createElement("div");
-          abstract.textContent = paper.abstract;
-          abstract.className = "abstract";
-          details.appendChild(abstract);
-  
-          const pdfLink = document.createElement("a");
-          pdfLink.href = paper.pdf_link;
-          pdfLink.textContent = "PDF Link";
-          pdfLink.target = "_blank";
-          pdfLink.className = "paper-pdf-link";
-          details.appendChild(pdfLink);
-  
-          listItem.appendChild(details);
-          papersList.appendChild(listItem);
-        });
-      })
-      .catch(error => console.error("Error loading JSON:", error));
-  });
-  </script>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    color: #2c3e50;
+}
+.paper-list {
+    list-style-type: none;
+    padding: 0;
+}
+.paper {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+.paper-title {
+    cursor: pointer;
+    display: inline-block;
+}
+.paper-title:hover {
+    text-decoration: underline;
+    text-decoration-color: #3498db;
+}
+.paper-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.paper-details.expanded {
+    max-height: 500px;
+    transition: max-height 0.5s ease-in;
+}
+.authors {
+    font-style: italic;
+    color: #666;
+    margin: 10px 0 5px;
+}
+.abstract {
+    font-size: 0.9em;
+}
+.paper-pdf-link {
+    color: #007acc;
+    text-decoration: none;
+}
+.paper-pdf-link:hover {
+    text-decoration: underline;
+}
+</style>
