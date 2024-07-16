@@ -10,7 +10,8 @@
       "Furong Huang",
       "Huazhe Xu"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10973v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10973v1",
+    "category": "Robotics"
   },
   {
     "title": "VGBench: Evaluating Large Language Models on Vector Graphics Understanding and Generation",
@@ -21,7 +22,8 @@
       "Jianrui Zhang",
       "Yong Jae Lee"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10972v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10972v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Ref-AVS: Refer and Segment Objects in Audio-Visual Scenes",
@@ -34,7 +36,8 @@
       "Honggang Zhang",
       "Di Hu"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10957v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10957v1",
+    "category": "Speech Recognition"
   },
   {
     "title": "Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?",
@@ -64,7 +67,8 @@
       "Kai Yu",
       "Tao Yu"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10956v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10956v1",
+    "category": "Robotics"
   },
   {
     "title": "Fine-Tuning and Prompt Optimization: Two Great Steps that Work Better Together",
@@ -74,7 +78,8 @@
       "Christopher Potts",
       "Omar Khattab"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10930v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10930v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Benchmarking Vision Language Models for Cultural Understanding",
@@ -89,7 +94,8 @@
       "Karolina Sta\u0144czak",
       "Aishwarya Agrawal"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10920v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10920v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Leveraging LLM-Respondents for Item Evaluation: a Psychometric Analysis",
@@ -99,7 +105,8 @@
       "Shreya Bhandari",
       "Zachary A. Pardos"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10899v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10899v1",
+    "category": "Speech Recognition"
   },
   {
     "title": "Leveraging Multimodal CycleGAN for the Generation of Anatomically Accurate Synthetic CT Scans from MRIs",
@@ -113,7 +120,8 @@
       "Marta Scorsetti",
       "Daniele Loiacono"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10888v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10888v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Hey, That's My Model! Introducing Chain & Hash, An LLM Fingerprinting Technique",
@@ -122,7 +130,8 @@
       "Mark Russinovich",
       "Ahmed Salem"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10887v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10887v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Deep Causal Learning to Explain and Quantify The Geo-Tension's Impact on Natural Gas Market",
@@ -133,7 +142,8 @@
       "Ziyue Li",
       "Wolfgang Ketter"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10878v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10878v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Understanding the Importance of Evolutionary Search in Automated Heuristic Design with Large Language Models",
@@ -146,7 +156,8 @@
       "Zhichao Lu",
       "Qingfu Zhang"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10873v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10873v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "GPT Sonograpy: Hand Gesture Decoding from Forearm Ultrasound Images via VLM",
@@ -157,7 +168,8 @@
       "Jing Liu",
       "Toshiaki Koike-Akino"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10870v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10870v1",
+    "category": "Speech Recognition"
   },
   {
     "title": "Weighted Grouped Query Attention in Transformers",
@@ -166,7 +178,8 @@
       "Sai Sena Chinnakonduru",
       "Astarag Mohapatra"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10855v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10855v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "An Actionable Framework for Assessing Bias and Fairness in Large Language Model Use Cases",
@@ -174,7 +187,8 @@
     "authors": [
       "Dylan Bouchard"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10853v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10853v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Offline Reinforcement Learning with Imputed Rewards",
@@ -183,7 +197,8 @@
       "Carlo Romeo",
       "Andrew D. Bagdanov"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10839v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10839v1",
+    "category": "Robotics"
   },
   {
     "title": "MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs",
@@ -196,7 +211,8 @@
       "Nitesh V. Chawla",
       "Khoa D. Doan"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10834v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10834v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "BiasScanner: Automatic Detection and Classification of News Bias to Strengthen Democracy",
@@ -205,7 +221,8 @@
       "Tim Menzner",
       "Jochen L. Leidner"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10829v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10829v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Towards Enhanced Classification of Abnormal Lung sound in Multi-breath: A Light Weight Multi-label and Multi-head Attention Classification Method",
@@ -214,7 +231,8 @@
       "Yi-Wei Chua",
       "Yun-Chien Cheng"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10828v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10828v1",
+    "category": "Speech Recognition"
   },
   {
     "title": "Enabling MCTS Explainability for Sequential Planning Through Computation Tree Logic",
@@ -226,7 +244,8 @@
       "Ayan Mukhopadhyay",
       "Meiyi Ma"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10820v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10820v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Foundational Autoraters: Taming Large Language Models for Better Automatic Evaluation",
@@ -239,7 +258,8 @@
       "Manaal Faruqui",
       "Yun-Hsuan Sung"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10817v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10817v1",
+    "category": "Speech Synthesis"
   },
   {
     "title": "GuideLight: \"Industrial Solution\" Guidance for More Practical Traffic Signal Control Agents",
@@ -256,7 +276,8 @@
       "Wolfgang Ketter",
       "Rui Zhao"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10811v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10811v1",
+    "category": "Robotics"
   },
   {
     "title": "FabGPT: An Efficient Large Multimodal Model for Complex Wafer Defect Knowledge Queries",
@@ -269,7 +290,8 @@
       "Hanming Wu",
       "Cheng Zhuo"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10810v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10810v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Think-on-Graph 2.0: Deep and Interpretable Large Language Model Reasoning with Knowledge Graph-guided Retrieval",
@@ -282,7 +304,8 @@
       "Huaren Qu",
       "Jian Guo"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10805v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10805v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Mammographic Breast Positioning Assessment via Deep Learning",
@@ -297,7 +320,8 @@
       "Erkin Aribal",
       "Ilkay Oksuz"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10796v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10796v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Graphusion: Leveraging Large Language Models for Scientific Knowledge Graph Fusion and Construction in NLP Education",
@@ -313,7 +337,8 @@
       "Jinghui Lu",
       "Irene Li"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10794v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10794v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "GraphEval: A Knowledge-Graph Based LLM Hallucination Evaluation Framework",
@@ -324,7 +349,8 @@
       "Hermina Petric Maretic",
       "Juba Nait Saada"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10793v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10793v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "AdapTable: Test-Time Adaptation for Tabular Data via Shift-Aware Uncertainty Calibrator and Label Distribution Handler",
@@ -336,7 +362,8 @@
       "June Yong Yang",
       "Eunho Yang"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10784v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10784v1",
+    "category": "Machine Learning"
   },
   {
     "title": "MSegRNN:Enhanced SegRNN Model with Mamba for Long-Term Time Series Forecasting",
@@ -345,7 +372,8 @@
       "GaoXiang Zhao",
       "XiaoQiang Wang"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10768v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10768v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Continual Deep Learning on the Edge via Stochastic Local Competition among Subnetworks",
@@ -355,7 +383,8 @@
       "Kyriakos Tolias",
       "Sotirios Chatzis"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10758v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10758v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Scaling 3D Reasoning with LMMs to Large Robot Mission Environments Using Datagraphs",
@@ -369,7 +398,8 @@
       "G. J. Burghouts",
       "J. D. van Mil"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10743v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10743v1",
+    "category": "Robotics"
   },
   {
     "title": "Aligning Neuronal Coding of Dynamic Visual Scenes with Foundation Vision Models",
@@ -380,7 +410,8 @@
       "Ziwei Yin",
       "Jian K. Liu"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10737v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10737v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Transforming Agency. On the mode of existence of Large Language Models",
@@ -389,7 +420,8 @@
       "Xabier E. Barandiaran",
       "Lola S. Almendros"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10735v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10735v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "When Synthetic Traces Hide Real Content: Analysis of Stable Diffusion Image Laundering",
@@ -399,7 +431,8 @@
       "Paolo Bestagini",
       "Stefano Tubaro"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10736v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10736v1",
+    "category": "Computer Vision"
   },
   {
     "title": "On-Device Training of Fully Quantized Deep Neural Networks on Cortex-M Microcontrollers",
@@ -410,7 +443,8 @@
       "Christopher Mutschler",
       "J\u00fcrgen Teich"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10734v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10734v1",
+    "category": "Machine Learning"
   },
   {
     "title": "CLAVE: An Adaptive Framework for Evaluating Values of LLM Generated Responses",
@@ -420,7 +454,8 @@
       "Xiaoyuan Yi",
       "Xing Xie"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10725v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10725v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Sibyl: Simple yet Effective Agent Framework for Complex Real-world Reasoning",
@@ -431,7 +466,8 @@
       "Lifeng Liu",
       "Jian Xie"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10718v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10718v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "SEMINAR: Search Enhanced Multi-modal Interest Network and Approximate Retrieval for Lifelong Sequential Recommendation",
@@ -445,7 +481,8 @@
       "Zhongyi Liu",
       "Guannan Zhang"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10714v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10714v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Classification of Heart Sounds Using Multi-Branch Deep Convolutional Network and LSTM-CNN",
@@ -455,7 +492,8 @@
       "Hassan Ghassemian",
       "Maryam Imani"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10689v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10689v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Addressing Image Hallucination in Text-to-Image Generation through Factual Image Retrieval",
@@ -464,7 +502,8 @@
       "Youngsun Lim",
       "Hyunjung Shim"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10683v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10683v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Qwen2 Technical Report",
@@ -529,7 +568,8 @@
       "Zhenru Zhang",
       "Zhihao Fan"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10671v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10671v1",
+    "category": "Speech Synthesis"
   },
   {
     "title": "Enhancing Retrieval and Managing Retrieval: A Four-Module Synergy for Improved Quality and Efficiency in RAG Systems",
@@ -542,7 +582,8 @@
       "Qiang Wu",
       "Min Xu"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10670v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10670v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Spatio-temporal neural distance fields for conditional generative modeling of the heart",
@@ -560,7 +601,8 @@
       "Oscar Camara",
       "Rasmus Paulsen"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10663v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10663v1",
+    "category": "Machine Learning"
   },
   {
     "title": "XEQ Scale for Evaluating XAI Experience Quality Grounded in Psychometric Theory",
@@ -574,7 +616,8 @@
       "Belen D\u00edaz-Agudo",
       "Derek Bridge"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10662v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10662v1",
+    "category": "Machine Learning"
   },
   {
     "title": "An Empirical Study of Validating Synthetic Data for Formula Generation",
@@ -589,7 +632,8 @@
       "Mukul Singh",
       "Gust Verbruggen"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10657v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10657v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Prompt Selection Matters: Enhancing Text Annotations for Social Sciences with Large Language Models",
@@ -599,7 +643,8 @@
       "Charles Arnal",
       "Antoine Marie"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10645v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10645v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Risk-aware Trajectory Prediction by Incorporating Spatio-temporal Traffic Interaction Analysis",
@@ -609,7 +654,8 @@
       "Lewis Ince",
       "Lars Kunze"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10639v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10639v1",
+    "category": "Robotics"
   },
   {
     "title": "Bidirectional Stereo Image Compression with Cross-Dimensional Entropy Model",
@@ -621,7 +667,8 @@
       "Zehong Lin",
       "Jun Zhang"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10632v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10632v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Arena Learning: Build Data Flywheel for LLMs Post-training via Simulated Chatbot Arena",
@@ -637,7 +684,8 @@
       "Yansong Tang",
       "Weizhu Chen"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10627v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10627v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "An evaluation of CNN models and data augmentation techniques in hierarchical localization of mobile robots",
@@ -649,7 +697,8 @@
       "O. Reinoso",
       "L. Pay\u00e1"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10596v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10596v1",
+    "category": "Robotics"
   },
   {
     "title": "Three Dogmas of Reinforcement Learning",
@@ -659,7 +708,8 @@
       "Mark K. Ho",
       "Anna Harutyunyan"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10583v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10583v1",
+    "category": "Robotics"
   },
   {
     "title": "Boosting Zero-Shot Crosslingual Performance using LLM-Based Augmentations with Effective Data Selection",
@@ -669,7 +719,8 @@
       "Ashish Sunil Agrawal",
       "Preethi Jyothi"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10582v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10582v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Leveraging Hybrid Intelligence Towards Sustainable and Energy-Efficient Machine Learning",
@@ -678,7 +729,8 @@
       "Daniel Geissler",
       "Paul Lukowicz"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10580v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10580v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Learning Social Cost Functions for Human-Aware Path Planning",
@@ -688,7 +740,8 @@
       "Matteo Leonetti",
       "Marcello Chiaberge"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10547v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10547v1",
+    "category": "Robotics"
   },
   {
     "title": "Efficient Continual Learning with Low Memory Footprint For Edge Device",
@@ -699,7 +752,8 @@
       "Kangye Ji",
       "Bohu Huang"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10545v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10545v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Understanding the Dependence of Perception Model Competency on Regions in an Image",
@@ -708,7 +762,8 @@
       "Sara Pohland",
       "Claire Tomlin"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10543v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10543v1",
+    "category": "Machine Learning"
   },
   {
     "title": "3D Geometric Shape Assembly via Efficient Point Cloud Matching",
@@ -722,7 +777,8 @@
       "Jaesik Park",
       "Minsu Cho"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10542v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10542v1",
+    "category": "Computer Vision"
   },
   {
     "title": "An experimental evaluation of Siamese Neural Networks for robot localization using omnidirectional imaging in indoor environments",
@@ -734,7 +790,8 @@
       "O. Reinoso",
       "L. Pay\u00e1"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10536v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10536v1",
+    "category": "Computer Vision"
   },
   {
     "title": "TCM-FTP: Fine-Tuning Large Language Models for Herbal Prescription Prediction",
@@ -752,7 +809,8 @@
       "Xuezhong Zhou",
       "Nevin L. Zhang"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10510v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10510v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Learning Dynamics of LLM Finetuning",
@@ -761,7 +819,8 @@
       "Yi Ren",
       "Danica J. Sutherland"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10490v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10490v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "How and where does CLIP process negation?",
@@ -771,7 +830,8 @@
       "Pablo Mosteiro",
       "Albert Gatt"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10488v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10488v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "IDEAL: Leveraging Infinite and Dynamic Characterizations of Large Language Models for Query-focused Summarization",
@@ -784,7 +844,8 @@
       "Siliang Tang",
       "Yueting Zhuang"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10486v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10486v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "SuperPADL: Scaling Language-Directed Physics-Based Control with Progressive Supervised Distillation",
@@ -795,7 +856,8 @@
       "Sanja Fidler",
       "Xue Bin Peng"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10481v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10481v1",
+    "category": "Robotics"
   },
   {
     "title": "Kinetic Typography Diffusion Model",
@@ -806,7 +868,8 @@
       "Seunghyun Shin",
       "Hae-Gon Jeon"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10476v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10476v1",
+    "category": "Speech Synthesis"
   },
   {
     "title": "GROOT: Generating Robust Watermark for Diffusion-Model-Based Audio Synthesis",
@@ -818,7 +881,8 @@
       "Hui Tian",
       "Haizhou Li"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10471v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10471v1",
+    "category": "Speech Recognition"
   },
   {
     "title": "LiteFocus: Accelerated Diffusion Inference for Long Audio Synthesis",
@@ -829,7 +893,8 @@
       "Gongfan Fang",
       "Xinchao Wang"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10468v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10468v1",
+    "category": "Speech Synthesis"
   },
   {
     "title": "BandControlNet: Parallel Transformers-based Steerable Popular Music Generation with Fine-Grained Spatiotemporal Features",
@@ -839,7 +904,8 @@
       "Xinyu Yang",
       "Dorien Herremans"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10462v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10462v1",
+    "category": "Speech Synthesis"
   },
   {
     "title": "The Good, The Bad, and The Greedy: Evaluation of LLMs Should Not Ignore Non-Determinism",
@@ -850,7 +916,8 @@
       "Sujian Li",
       "Bill Yuchen Lin"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10457v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10457v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "GraphPrint: Extracting Features from 3D Protein Structure for Drug Target Affinity Prediction",
@@ -858,7 +925,8 @@
     "authors": [
       "Amritpal Singh"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10452v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10452v1",
+    "category": "Machine Learning"
   },
   {
     "title": "DDFAD: Dataset Distillation Framework for Audio Data",
@@ -871,7 +939,8 @@
       "Haomiao Yang",
       "Shui Yu"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10446v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10446v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Backdoor Attacks against Image-to-Image Networks",
@@ -885,7 +954,8 @@
       "Tianwei Zhang",
       "Rongxing Lu"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10445v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10445v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Enhancing Building Safety Design for Active Shooter Incidents: Exploration of Building Exit Parameters using Reinforcement Learning-Based Simulations",
@@ -896,7 +966,8 @@
       "Burcin Becerik-Gerber",
       "Gale M. Lucas"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10441v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10441v1",
+    "category": "Robotics"
   },
   {
     "title": "A Multi-Stage Framework for 3D Individual Tooth Segmentation in Dental CBCT",
@@ -906,7 +977,8 @@
       "Bin Zhao",
       "Shuxue Ding"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10433v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10433v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Expanding the Scope: Inductive Knowledge Graph Reasoning with Multi-Starting Progressive Propagation",
@@ -916,7 +988,8 @@
       "Yuanning Cui",
       "Wei Hu"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10430v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10430v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Empowering LLMs for Verilog Generation through Multi-Level Summarization",
@@ -938,7 +1011,8 @@
       "Xing Hu",
       "Yunji Chen"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10424v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10424v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Learning Rapid Turning, Aerial Reorientation, and Balancing using Manipulator as a Tail",
@@ -947,7 +1021,8 @@
       "Insung Yang",
       "Jemin Hwangbo"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10420v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10420v1",
+    "category": "Robotics"
   },
   {
     "title": "Melon Fruit Detection and Quality Assessment Using Generative AI-Based Image Data Augmentation",
@@ -957,7 +1032,8 @@
       "Yunseong Cho",
       "Tae In Ahn"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10413v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10413v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Cooperative Reward Shaping for Multi-Agent Pathfinding",
@@ -968,7 +1044,8 @@
       "Senlin Zhang",
       "Meiqin Liu"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10403v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10403v1",
+    "category": "Robotics"
   },
   {
     "title": "Masked Generative Video-to-Audio Transformers with Enhanced Synchronicity",
@@ -979,7 +1056,8 @@
       "Ioannis Tsiamas",
       "Joan Serr\u00e0"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10387v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10387v1",
+    "category": "Speech Synthesis"
   },
   {
     "title": "By My Eyes: Grounding Multimodal Large Language Models with Sensor Data via Visual Prompting",
@@ -991,7 +1069,8 @@
       "Kimin Lee",
       "Sung-Ju Lee"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10385v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10385v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Communication- and Computation-Efficient Distributed Decision-Making in Multi-Robot Networks",
@@ -1001,7 +1080,8 @@
       "Sandilya Sai Garimella",
       "Vasileios Tzoumas"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10382v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10382v1",
+    "category": "Robotics"
   },
   {
     "title": "NTSEBENCH: Cognitive Reasoning Benchmark for Vision Language Models",
@@ -1014,7 +1094,8 @@
       "Vivek Gupta",
       "Dan Roth"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10380v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10380v1",
+    "category": "Natural Language Processing"
   },
   {
     "title": "Enhanced Self-supervised Learning for Multi-modality MRI Segmentation and Classification: A Novel Approach Avoiding Model Collapse",
@@ -1029,7 +1110,8 @@
       "Yeqing Han",
       "Xin Zhou"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10377v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10377v1",
+    "category": "Machine Learning"
   },
   {
     "title": "An Empirical Study of Mamba-based Pedestrian Attribute Recognition",
@@ -1044,7 +1126,8 @@
       "Chenglong Li",
       "Jin Tang"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10374v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10374v1",
+    "category": "Computer Vision"
   },
   {
     "title": "Mutual Learning for Acoustic Matching and Dereverberation via Visual Scene-driven Diffusion",
@@ -1055,7 +1138,8 @@
       "Yi Yang",
       "Feng Zheng"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10373v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10373v1",
+    "category": "Speech Recognition"
   },
   {
     "title": "Accessing Vision Foundation Models at ImageNet-level Costs",
@@ -1067,7 +1151,8 @@
       "Huan Wang",
       "Yun Fu"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10366v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10366v1",
+    "category": "Machine Learning"
   },
   {
     "title": "Leave No Knowledge Behind During Knowledge Distillation: Towards Practical and Effective Knowledge Distillation for Code-Switching ASR Using Realistic Data",
@@ -1080,7 +1165,8 @@
       "Tsung-Ren Huang",
       "Hung-yi Lee"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10603v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10603v1",
+    "category": "Speech Recognition"
   },
   {
     "title": "Mutual Learning for Acoustic Matching and Dereverberation via Visual Scene-driven Diffusion",
@@ -1091,6 +1177,7 @@
       "Yi Yang",
       "Feng Zheng"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.10373v1"
+    "pdf_link": "http://arxiv.org/pdf/2407.10373v1",
+    "category": "Speech Recognition"
   }
 ]
