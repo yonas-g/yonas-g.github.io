@@ -1,0 +1,35 @@
+name: Fetch Arxiv Papers
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Runs every day at midnight UTC
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
+jobs:
+  fetch_arxiv:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install arxiv package
+      run: pip install arxiv
+
+    - name: Fetch Arxiv papers
+      run: |
+        python fetch_arxiv.py
+
+    - name: Commit and push results
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add arxiv_papers.json
+        git commit -m "Update arxiv_papers.json with today's papers"
+        git push
+
