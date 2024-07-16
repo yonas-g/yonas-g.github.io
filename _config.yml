@@ -173,6 +173,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  pages:
+    output: true
 
 # news on home page
 announcements:

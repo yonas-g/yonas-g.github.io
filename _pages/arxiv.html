@@ -1,0 +1,37 @@
+---
+layout: page
+title: Arxiv Papers
+permalink: /arxiv/
+---
+
+<div id="arxiv-content">
+  <h2>Recent Arxiv Papers</h2>
+  <ul id="papers-list"></ul>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  fetch("{{ '/assets/json/arxiv_papers.json' | relative_url }}")
+    .then(response => response.json())
+    .then(data => {
+      const papersList = document.getElementById("papers-list");
+      data.forEach(paper => {
+        const listItem = document.createElement("li");
+        const title = document.createElement("h3");
+        title.textContent = paper.title;
+        listItem.appendChild(title);
+
+        const authors = document.createElement("p");
+        authors.textContent = "Authors: " + paper.authors.join(", ");
+        listItem.appendChild(authors);
+
+        const abstract = document.createElement("p");
+        abstract.textContent = paper.abstract;
+        listItem.appendChild(abstract);
+
+        papersList.appendChild(listItem);
+      });
+    })
+    .catch(error => console.error("Error loading JSON:", error));
+});
+</script>
