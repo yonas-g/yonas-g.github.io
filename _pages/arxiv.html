@@ -4,6 +4,7 @@ title: ArxivSpot
 permalink: /arxiv/
 ---
 
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   fetch("{{ '/assets/json/arxiv_papers.json' | relative_url }}")
@@ -40,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const pdfLink = document.createElement("a");
         pdfLink.href = paper.pdf_link;
-        pdfLink.textContent = "PDF Link";
+        pdfLink.textContent = "link";
         pdfLink.target = "_blank";
         pdfLink.className = "paper-pdf-link";
         details.appendChild(pdfLink);
