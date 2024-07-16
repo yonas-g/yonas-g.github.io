@@ -7,15 +7,19 @@ today = datetime.now()
 yesterday = today - timedelta(days=1)
 query = f"cat:cs.AI AND submittedDate:[{yesterday.strftime('%Y%m%d')} TO {today.strftime('%Y%m%d')}]"
 
+# Initialize the Arxiv client
+client = arxiv.Client()
+
 # Fetch papers
 search = arxiv.Search(
     query=query,
-    max_results=200,
+    max_results=100,  # Adjust the number as needed
     sort_by=arxiv.SortCriterion.SubmittedDate
 )
 
+# Collect titles, abstracts, and authors
 papers = []
-for result in search.results():
+for result in client.results(search):
     papers.append({
         "title": result.title,
         "abstract": result.summary,
