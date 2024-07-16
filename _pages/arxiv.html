@@ -15,10 +15,20 @@ document.addEventListener("DOMContentLoaded", function() {
     .then(response => response.json())
     .then(data => {
       const papersList = document.getElementById("papers-list");
-      data.forEach(paper => {
+      data.forEach((paper, index) => {
         const listItem = document.createElement("li");
         const title = document.createElement("h3");
         title.textContent = paper.title;
+        title.style.cursor = "pointer";
+        title.setAttribute("data-index", index);
+        title.addEventListener("click", function() {
+          const abstract = document.getElementById("abstract-" + this.getAttribute("data-index"));
+          if (abstract.style.display === "none") {
+            abstract.style.display = "block";
+          } else {
+            abstract.style.display = "none";
+          }
+        });
         listItem.appendChild(title);
 
         const authors = document.createElement("p");
@@ -27,6 +37,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const abstract = document.createElement("p");
         abstract.textContent = paper.abstract;
+        abstract.id = "abstract-" + index;
+        abstract.style.display = "none";
         listItem.appendChild(abstract);
 
         papersList.appendChild(listItem);
