@@ -6,7 +6,7 @@ permalink: /arxiv/
 
 <div id="arxiv-content">
   <h2>Recent Arxiv Papers</h2>
-  <ul id="papers-list"></ul>
+  <ul id="papers-list" class="papers-list"></ul>
 </div>
 
 <script>
@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
       const papersList = document.getElementById("papers-list");
       data.forEach((paper, index) => {
         const listItem = document.createElement("li");
+        listItem.className = "paper-item";
+
         const title = document.createElement("h3");
         title.textContent = paper.title;
         title.style.cursor = "pointer";
@@ -33,13 +35,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const authors = document.createElement("p");
         authors.textContent = "Authors: " + paper.authors.join(", ");
+        authors.className = "paper-authors";
         listItem.appendChild(authors);
 
         const abstract = document.createElement("p");
         abstract.textContent = paper.abstract;
         abstract.id = "abstract-" + index;
         abstract.style.display = "none";
+        abstract.className = "paper-abstract";
         listItem.appendChild(abstract);
+
+        const pdfLink = document.createElement("a");
+        pdfLink.href = paper.pdf_link;
+        pdfLink.textContent = "PDF Link";
+        pdfLink.target = "_blank";
+        pdfLink.className = "paper-pdf-link";
+        listItem.appendChild(pdfLink);
 
         papersList.appendChild(listItem);
       });
@@ -47,3 +58,25 @@ document.addEventListener("DOMContentLoaded", function() {
     .catch(error => console.error("Error loading JSON:", error));
 });
 </script>
+
+<style>
+#arxiv-content {
+  font-family: Arial, sans-serif;
+}
+
+.papers-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.paper-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.paper-item h3 {
+  margin: 0;
+  font-size: 1.2em
