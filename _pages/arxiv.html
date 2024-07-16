@@ -1,13 +1,8 @@
 ---
 layout: page
-title: Arxiv Papers
+title: ArxivSpot
 permalink: /arxiv/
 ---
-
-<div id="arxiv-content">
-  <h1>ArxivSpot</h1>
-  <ul class="paper-list" id="papers-list"></ul>
-</div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -45,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const pdfLink = document.createElement("a");
         pdfLink.href = paper.pdf_link;
-        pdfLink.textContent = "PDF Link";
+        pdfLink.textContent = "link";
         pdfLink.target = "_blank";
         pdfLink.className = "paper-pdf-link";
         details.appendChild(pdfLink);
