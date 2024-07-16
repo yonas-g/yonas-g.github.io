@@ -31,7 +31,8 @@ for query in queries:
         papers.append({
             "title": result.title,
             "abstract": result.summary,
-            "authors": [author.name for author in result.authors]
+            "authors": [author.name for author in result.authors],
+            "pdf_link": result.pdf_url
         })
 
 # Archive the previous JSON file if it exists
