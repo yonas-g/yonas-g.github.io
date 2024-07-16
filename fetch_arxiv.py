@@ -1,5 +1,6 @@
 import arxiv
 import json
+import os
 from datetime import datetime, timedelta
 
 # Define the search queries to get papers submitted today in cs.AI category
@@ -33,8 +34,14 @@ for query in queries:
             "authors": [author.name for author in result.authors]
         })
 
+# Archive the previous JSON file if it exists
+filename = "assets/json/arxiv_papers.json"
+if os.path.exists(filename):
+    archived_filename = f"assets/json/arxiv_papers_{yesterday.strftime('%Y%m%d')}.json"
+    os.rename(filename, archived_filename)
+
 # Save to JSON file
-with open("assets/json/arxiv_papers.json", "w") as f:
+with open(filename, "w") as f:
     json.dump(papers, f, indent=2)
 
 print(f"Fetched {len(papers)} papers.")
