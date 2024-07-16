@@ -19,7 +19,7 @@ jobs:
         python-version: '3.x'
 
     - name: Install arxiv package
-      run: pip install arxiv
+      run: pip install arxiv sentence-transformers scikit-learn
 
     - name: Fetch Arxiv papers
       run: |

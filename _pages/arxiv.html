@@ -1,13 +1,9 @@
 ---
 layout: page
-title: Arxiv Papers
+title: ArxivSpot
 permalink: /arxiv/
 ---
 
-<div id="arxiv-content">
-  <h1>ArxivSpot</h1>
-  <ul class="paper-list" id="papers-list"></ul>
-</div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -33,6 +29,11 @@ document.addEventListener("DOMContentLoaded", function() {
         details.id = "details-" + index;
         details.className = "paper-details";
 
+        const category = document.createElement("p");
+        category.textContent = "Category: " + paper.category;
+        category.className = "paper-category";
+        listItem.appendChild(category);
+
         const authors = document.createElement("div");
         authors.textContent = "Authors: " + paper.authors.join(", ");
         authors.className = "authors";
@@ -45,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const pdfLink = document.createElement("a");
         pdfLink.href = paper.pdf_link;
-        pdfLink.textContent = "PDF Link";
+        pdfLink.textContent = "link";
         pdfLink.target = "_blank";
         pdfLink.className = "paper-pdf-link";
         details.appendChild(pdfLink);
@@ -102,6 +103,13 @@ h1 {
 }
 .abstract {
     font-size: 0.9em;
+}
+.paper-category, .paper-authors, .paper-abstract, .paper-pdf-link {
+  margin: 5px 0;
+}
+.paper-category {
+  font-weight: bold;
+  color: #555;
 }
 .paper-pdf-link {
     color: #007acc;
