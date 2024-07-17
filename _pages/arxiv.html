@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
     .then(data => {
       const summaryContainer = document.getElementById("summary-container");
       const summary = document.createElement("div");
-      summary.innerHTML = marked(data.summary);
+      summary.innerHTML = marked.parse(data.summary);
       summary.className = "summary";
       summaryContainer.appendChild(summary);
     })
