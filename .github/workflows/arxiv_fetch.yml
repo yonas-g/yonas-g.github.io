@@ -2,7 +2,7 @@ name: Fetch Arxiv Papers
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs every day at midnight UTC
+    - cron: "0 1 * * *"  # Cronjob schedule to run at 9 PM ET (01:00 UTC)
   workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
