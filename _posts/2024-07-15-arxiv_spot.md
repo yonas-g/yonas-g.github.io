@@ -1,16 +1,16 @@
 ---
-layout: distill
+layout: default
 title: ArxivSpot - A daily digest of the latest arXiv papers
 description: ArxivSpot - A daily digest of the latest arXiv papers
 tags: general
 categories: arxiv
 date: 2024-07-16 08:57:00-0400
-featured: true
+featured: false
 related_posts: false
 
-authors:
-  - name: Yonas Chanie
-    url: "https://yonas-g.github.io/"
+# authors:
+#   - name: Yonas Chanie
+#     url: "https://yonas-g.github.io/"
 
 # bibliography: 2024-07-15-r_squared_explained.bib
 
