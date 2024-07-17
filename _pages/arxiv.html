@@ -40,6 +40,11 @@ document.addEventListener("DOMContentLoaded", function() {
         abstract.className = "abstract";
         details.appendChild(abstract);
 
+        const categories = document.createElement("div");
+        categories.textContent = "Categories: " + paper.categories.join(", ");
+        categories.className = "categories";
+        details.appendChild(categories);
+
         const pdfLink = document.createElement("a");
         pdfLink.href = paper.pdf_link;
         pdfLink.textContent = "link";
@@ -99,6 +104,10 @@ h1 {
 }
 .abstract {
     font-size: 0.9em;
+}
+.categories {
+    font-weight: bold;
+    margin: 5px 0;
 }
 .paper-pdf-link {
     color: #007acc;
