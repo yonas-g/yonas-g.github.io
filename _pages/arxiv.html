@@ -4,7 +4,8 @@ title: ArxivSpot
 permalink: /arxiv/
 ---
 
-<div id="summary-container"></div>
+<div id="summary-header" class="collapsible-header">Summary</div>
+<div id="summary-container" class="collapsible-content"></div>
 <ul id="papers-list" class="paper-list"></ul>
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -21,6 +22,13 @@ document.addEventListener("DOMContentLoaded", function() {
       summaryContainer.appendChild(summary);
     })
     .catch(error => console.error("Error loading summary JSON:", error));
+
+  // Toggle summary visibility
+  const summaryHeader = document.getElementById("summary-header");
+  const summaryContainer = document.getElementById("summary-container");
+  summaryHeader.addEventListener("click", function() {
+    summaryContainer.classList.toggle("expanded");
+  });
 
   // Fetch and display papers
   fetch("{{ '/assets/json/arxiv_papers.json' | relative_url }}")
@@ -92,9 +100,23 @@ body {
 h1 {
     color: #2c3e50;
 }
-.summary {
+.collapsible-header {
     font-size: 1.2em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #3498db;
+}
+.collapsible-header:hover {
+    text-decoration: underline;
+}
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.collapsible-content.expanded {
+    max-height: 500px;
+    transition: max-height 0.5s ease-in;
 }
 .paper-list {
     list-style-type: none;
