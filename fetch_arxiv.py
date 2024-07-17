@@ -53,7 +53,7 @@ seen_titles = set()
 for query in queries:
     search = arxiv.Search(
         query=query,
-        max_results=100,
+        max_results=200,
         sort_by=arxiv.SortCriterion.SubmittedDate
     )
 
