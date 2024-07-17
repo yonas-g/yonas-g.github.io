@@ -9,6 +9,7 @@ permalink: /arxiv/
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+  // Fetch and display summary
   fetch("{{ '/assets/json/summary.json' | relative_url }}")
     .then(response => response.json())
     .then(data => {
@@ -20,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     })
     .catch(error => console.error("Error loading summary JSON:", error));
 
-document.addEventListener("DOMContentLoaded", function() {
+  // Fetch and display papers
   fetch("{{ '/assets/json/arxiv_papers.json' | relative_url }}")
     .then(response => response.json())
     .then(data => {
@@ -74,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function() {
         papersList.appendChild(listItem);
       });
     })
-    .catch(error => console.error("Error loading JSON:", error));
+    .catch(error => console.error("Error loading papers JSON:", error));
 });
 </script>
 
