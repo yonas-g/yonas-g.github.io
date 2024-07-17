@@ -57,15 +57,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
         listItem.appendChild(title);
 
-        const details = document.createElement("div");
-        details.id = "details-" + index;
-        details.className = "paper-details";
-
-        const authors = document.createElement("div");
-        authors.textContent = "Authors: " + paper.authors.join(", ");
-        authors.className = "authors";
-        details.appendChild(authors);
-
         const categories = document.createElement("div");
         categories.className = "categories";
         paper.category.forEach(cat => {
@@ -74,7 +65,16 @@ document.addEventListener("DOMContentLoaded", function() {
           hashtag.className = "category-hashtag";
           categories.appendChild(hashtag);
         });
-        details.appendChild(categories);
+        listItem.appendChild(categories);
+
+        const details = document.createElement("div");
+        details.id = "details-" + index;
+        details.className = "paper-details";
+
+        const authors = document.createElement("div");
+        authors.textContent = "Authors: " + paper.authors.join(", ");
+        authors.className = "authors";
+        details.appendChild(authors);
 
         const abstract = document.createElement("div");
         abstract.textContent = paper.abstract;
