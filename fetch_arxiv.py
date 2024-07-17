@@ -111,16 +111,16 @@ def classify_abstract(abstract):
 
 def summarize_abstracts(papers):
 
-    groq_api = os.getenv("GROQ_API")
+    groq_api = os.getenv("GROQ_API_KEY")
     if not groq_api:
-        raise ValueError("GROQ_API environment variable is not set")
+        raise ValueError("GROQ_API_KEY environment variable is not set")
     
     content = ""
     for paper in papers:
         content += f"{paper['title']}\n{paper['abstract']}\n\n"
     
     client = Groq(
-        api_key=os.environ.get(groq_api),
+        api_key=groq_api,
     )
 
     chat_completion = client.chat.completions.create(
