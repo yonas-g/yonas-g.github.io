@@ -35,15 +35,15 @@ document.addEventListener("DOMContentLoaded", function() {
         authors.className = "authors";
         details.appendChild(authors);
 
+        const categories = document.createElement("div");
+        categories.textContent = paper.category.join(", ");
+        categories.className = "categories";
+        details.appendChild(categories);
+
         const abstract = document.createElement("div");
         abstract.textContent = paper.abstract;
         abstract.className = "abstract";
         details.appendChild(abstract);
-
-        const categories = document.createElement("div");
-        categories.textContent = "Categories: " + paper.category.join(", ");
-        categories.className = "categories";
-        details.appendChild(categories);
 
         const pdfLink = document.createElement("a");
         pdfLink.href = paper.pdf_link;
@@ -106,7 +106,6 @@ h1 {
     font-size: 0.9em;
 }
 .categories {
-    font-weight: bold;
     margin: 5px 0;
 }
 .paper-pdf-link {
