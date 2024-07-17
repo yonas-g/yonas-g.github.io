@@ -112,7 +112,7 @@ base_query = f"submittedDate:[{yesterday.strftime('%Y%m%d')} TO {today.strftime(
 
 # Specific queries for cs.AI, speech recognition, and speech synthesis
 queries = [
-    f"(cat:cs.AI OR cat:cs.LG OR cat:cs.CL) AND {base_query} AND NOT (all:robotics OR all:'computer vision')",
+    f"(cat:cs.AI OR cat:cs.CL) AND {base_query} AND NOT (all:robotics OR all:'computer vision')",
     f"(all:speech AND all:recognition) AND (cat:cs.AI OR cat:cs.LG OR cat:cs.CL) AND {base_query} AND NOT (all:robotics OR all:'computer vision')",
     f"(all:speech AND all:synthesis) AND (cat:cs.AI OR cat:cs.LG OR cat:cs.CL) AND {base_query} AND NOT (all:robotics OR all:'computer vision')"
 ]
