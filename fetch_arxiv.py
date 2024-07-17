@@ -77,6 +77,6 @@ if os.path.exists(filename):
 
 
 with open(filename, "w") as f:
-    json.dump(reversed(papers), f, indent=2)
+    json.dump(list(reversed(papers)), f, indent=2)
 
 print(f"Fetched {len(papers)} papers.")
