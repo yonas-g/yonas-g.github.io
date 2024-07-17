@@ -23,7 +23,7 @@ jobs:
 
     - name: Fetch Arxiv papers
       env:
-        GROQ_API: ${{ secrets.GROQ_API }}
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       run: |
         python fetch_arxiv.py
 
@@ -32,6 +32,7 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add assets/json/arxiv_papers.json
+        git add assets/json/arxiv_papers_*.json
         git add assets/json/summary.json
         git commit -m "Update arxiv_papers.json and summary.json with today's papers"
         git push
