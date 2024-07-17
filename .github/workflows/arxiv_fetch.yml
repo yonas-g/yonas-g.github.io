@@ -19,11 +19,12 @@ jobs:
         python-version: '3.x'
 
     - name: Install arxiv package
-      run: pip install arxiv sentence-transformers scikit-learn groq
+      run: pip install arxiv sentence-transformers scikit-learn groq openai
 
     - name: Fetch Arxiv papers
       env:
         GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: |
         python fetch_arxiv.py
 
