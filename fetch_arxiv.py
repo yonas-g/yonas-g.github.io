@@ -157,7 +157,13 @@ def summarize_abstracts(papers):
         messages=[
             {
                 "role": "system",
-                "content": "You're a useful assistant that summarizes research papers. I will give you a list of abstracts with titles and you will summarize them to help me understand the key points. Only return your summary and no additional information. Keep it concise, short and informative in one paragraph.",
+                # "content": "You're a useful assistant that summarizes research papers. I will give you a list of abstracts with titles and you will summarize them to help me understand the key points. Only return your summary and no additional information. Keep it concise, short and informative in one paragraph.",
+                "content": """
+                        You're a useful assistant that summarizes research papers.
+                        I will give you a list of abstracts with titles and you will summarize them to help me understand the key points. 
+                        Only return your summary and no additional information. Keep it concise, short and informative in one paragraph.
+                        Start with "Today's research papers are about"
+                """,
             },
             {
                 "role": "user",
