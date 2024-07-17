@@ -8,6 +8,6 @@ children:
     - title: Notes
       permalink: /notes/
     # - title: divider
-    # - title: projects
-    #   permalink: /projects/
+    - title: ArxivSpot
+      permalink: /arxiv/
 ---
