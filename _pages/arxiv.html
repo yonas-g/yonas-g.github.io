@@ -36,8 +36,13 @@ document.addEventListener("DOMContentLoaded", function() {
         details.appendChild(authors);
 
         const categories = document.createElement("div");
-        categories.textContent = paper.category.join(", ");
         categories.className = "categories";
+        paper.category.forEach(cat => {
+          const hashtag = document.createElement("span");
+          hashtag.textContent = "#" + cat;
+          hashtag.className = "category-hashtag";
+          categories.appendChild(hashtag);
+        });
         details.appendChild(categories);
 
         const abstract = document.createElement("div");
@@ -107,6 +112,14 @@ h1 {
 }
 .categories {
     margin: 5px 0;
+}
+.category-hashtag {
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    padding: 2px 5px;
+    margin-right: 5px;
+    font-size: 0.9em;
+    color: #007acc;
 }
 .paper-pdf-link {
     color: #007acc;
