@@ -32,9 +32,9 @@ def classify_abstract(abstract):
     return [scores[0][0], scores[1][0]]
 
 
-# Define the search queries to get papers submitted today in cs.AI category
+# Define the date range for the query
 today = datetime.now()
-yesterday = today - timedelta(days=1)
+yesterday = today - timedelta(days=2)
 base_query = f"submittedDate:[{yesterday.strftime('%Y%m%d')} TO {today.strftime('%Y%m%d')}]"
 
 # Specific queries for cs.AI, speech recognition, and speech synthesis
@@ -48,6 +48,8 @@ queries = [
 client = arxiv.Client()
 
 papers = []
+seen_titles = set()
+
 for query in queries:
     search = arxiv.Search(
         query=query,
@@ -56,14 +58,16 @@ for query in queries:
     )
 
     for result in client.results(search):
-        category = classify_abstract(result.summary)
-        papers.append({
-            "title": result.title,
-            "abstract": result.summary,
-            "authors": [author.name for author in result.authors],
-            "pdf_link": result.pdf_url,
-            "category": category
-        })
+        if result.title not in seen_titles:
+            seen_titles.add(result.title)
+            category = classify_abstract(result.summary)
+            papers.append({
+                "title": result.title,
+                "abstract": result.summary,
+                "authors": [author.name for author in result.authors],
+                "pdf_link": result.pdf_url,
+                "category": category
+            })
 
 # Archive the previous JSON file if it exists
 filename = "assets/json/arxiv_papers.json"
@@ -73,6 +77,6 @@ if os.path.exists(filename):
 
 
 with open(filename, "w") as f:
-    json.dump(papers, f, indent=2)
+    json.dump(reversed(papers), f, indent=2)
 
 print(f"Fetched {len(papers)} papers.")
