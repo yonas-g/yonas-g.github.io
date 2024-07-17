@@ -29,7 +29,7 @@ def classify_abstract(abstract):
         score = similarity.mean()
         scores.append((category, score))
     scores.sort(key=lambda x: x[1], reverse=True)
-    return scores[:2]
+    return [scores[0][0], scores[1][0]]
 
 
 # Define the search queries to get papers submitted today in cs.AI category
