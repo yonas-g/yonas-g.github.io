@@ -7,6 +7,7 @@ permalink: /arxiv/
 <div id="summary-container"></div>
 <ul id="papers-list" class="paper-list"></ul>
 
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   // Fetch and display summary
@@ -15,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
     .then(data => {
       const summaryContainer = document.getElementById("summary-container");
       const summary = document.createElement("div");
-      summary.textContent = data.summary;
+      summary.innerHTML = marked(data.summary);
       summary.className = "summary";
       summaryContainer.appendChild(summary);
     })
