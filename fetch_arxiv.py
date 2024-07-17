@@ -177,6 +177,8 @@ for query in queries:
                 "category": category
             })
 
+papers = list(reversed(papers))
+
 # Archive the previous JSON file if it exists
 filename = "assets/json/arxiv_papers.json"
 if os.path.exists(filename):
@@ -184,7 +186,7 @@ if os.path.exists(filename):
     os.rename(filename, archived_filename)
 
 with open(filename, "w") as f:
-    json.dump(list(reversed(papers)), f, indent=2)
+    json.dump(papers, f, indent=2)
 print(f"Fetched {len(papers)} papers.")
 
 print("Summarizing abstracts...")
