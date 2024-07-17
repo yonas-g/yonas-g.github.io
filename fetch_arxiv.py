@@ -112,9 +112,9 @@ base_query = f"submittedDate:[{yesterday.strftime('%Y%m%d')} TO {today.strftime(
 
 # Specific queries for cs.AI, speech recognition, and speech synthesis
 queries = [
-    f"cat:cs.AI AND {base_query} AND NOT (all:robotics OR all:'computer vision')",
-    f"(all:speech AND all:recognition) AND {base_query} AND NOT (all:robotics OR all:'computer vision')",
-    f"(all:speech AND all:synthesis) AND {base_query} AND NOT (all:robotics OR all:'computer vision')"
+    f"(cat:cs.AI OR cat:cs.LG OR cat:cs.CL) AND {base_query} AND NOT (all:robotics OR all:'computer vision')",
+    f"(all:speech AND all:recognition) AND (cat:cs.AI OR cat:cs.LG OR cat:cs.CL) AND {base_query} AND NOT (all:robotics OR all:'computer vision')",
+    f"(all:speech AND all:synthesis) AND (cat:cs.AI OR cat:cs.LG OR cat:cs.CL) AND {base_query} AND NOT (all:robotics OR all:'computer vision')"
 ]
 
 
@@ -126,7 +126,7 @@ seen_titles = set()
 for query in queries:
     search = arxiv.Search(
         query=query,
-        max_results=200,
+        max_results=100,
         sort_by=arxiv.SortCriterion.SubmittedDate
     )
 
