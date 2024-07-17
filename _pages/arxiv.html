@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
         details.appendChild(abstract);
 
         const categories = document.createElement("div");
-        categories.textContent = "Categories: " + paper.categories.join(", ");
+        categories.textContent = "Categories: " + paper.category.join(", ");
         categories.className = "categories";
         details.appendChild(categories);
 
