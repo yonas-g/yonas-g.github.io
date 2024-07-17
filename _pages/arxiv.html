@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
    // Add today's date in its own div
   const dateContainer = document.getElementById("date-container");
   const dateElement = document.createElement("div");
-  dateElement.textContent = new Date().toLocaleDateString();
+  dateElement.textContent = "Today's papers: " + new Date().toLocaleDateString();
   dateElement.className = "date";
   dateContainer.appendChild(dateElement);
   
