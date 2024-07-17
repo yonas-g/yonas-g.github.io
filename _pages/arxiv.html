@@ -4,6 +4,7 @@ title: ArxivSpot
 permalink: /arxiv/
 ---
 
+<div id="date-container"></div>
 <div id="summary-header" class="collapsible-header">Summary</div>
 <div id="summary-container" class="collapsible-content"></div>
 <ul id="papers-list" class="paper-list"></ul>
@@ -11,6 +12,13 @@ permalink: /arxiv/
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+   // Add today's date in its own div
+  const dateContainer = document.getElementById("date-container");
+  const dateElement = document.createElement("div");
+  dateElement.textContent = new Date().toLocaleDateString();
+  dateElement.className = "date";
+  dateContainer.appendChild(dateElement);
+  
   // Fetch and display summary
   fetch("{{ '/assets/json/summary.json' | relative_url }}")
     .then(response => response.json())
