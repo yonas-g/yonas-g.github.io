@@ -1,59 +1,5 @@
 [
   {
-    "title": "VoxBlink2: A 100K+ Speaker Recognition Corpus and the Open-Set Speaker-Identification Benchmark",
-    "abstract": "In this paper, we provide a large audio-visual speaker recognition dataset,\nVoxBlink2, which includes approximately 10M utterances with videos from 110K+\nspeakers in the wild. This dataset represents a significant expansion over the\nVoxBlink dataset, encompassing a broader diversity of speakers and scenarios by\nthe grace of an optimized data collection pipeline. Afterward, we explore the\nimpact of training strategies, data scale, and model complexity on speaker\nverification and finally establish a new single-model state-of-the-art EER at\n0.170% and minDCF at 0.006% on the VoxCeleb1-O test set. Such remarkable\nresults motivate us to explore speaker recognition from a new challenging\nperspective. We raise the Open-Set Speaker-Identification task, which is\ndesigned to either match a probe utterance with a known gallery speaker or\ncategorize it as an unknown query. Associated with this task, we design\nconcrete benchmark and evaluation protocols. The data and model resources can\nbe found in http://voxblink2.github.io.",
-    "authors": [
-      "Yuke Lin",
-      "Ming Cheng",
-      "Fulin Zhang",
-      "Yingying Gao",
-      "Shilei Zhang",
-      "Ming Li"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.11510v1",
-    "category": [
-      "Speech Recognition",
-      "Multimodal Learning"
-    ]
-  },
-  {
-    "title": "The VoicePrivacy 2022 Challenge: Progress and Perspectives in Voice Anonymisation",
-    "abstract": "The VoicePrivacy Challenge promotes the development of voice anonymisation\nsolutions for speech technology. In this paper we present a systematic overview\nand analysis of the second edition held in 2022. We describe the voice\nanonymisation task and datasets used for system development and evaluation,\npresent the different attack models used for evaluation, and the associated\nobjective and subjective metrics. We describe three anonymisation baselines,\nprovide a summary description of the anonymisation systems developed by\nchallenge participants, and report objective and subjective evaluation results\nfor all. In addition, we describe post-evaluation analyses and a summary of\nrelated work reported in the open literature. Results show that solutions based\non voice conversion better preserve utility, that an alternative which combines\nautomatic speech recognition with synthesis achieves greater privacy, and that\na privacy-utility trade-off remains inherent to current anonymisation\nsolutions. Finally, we present our ideas and priorities for future VoicePrivacy\nChallenge editions.",
-    "authors": [
-      "Michele Panariello",
-      "Natalia Tomashenko",
-      "Xin Wang",
-      "Xiaoxiao Miao",
-      "Pierre Champion",
-      "Hubert Nourtel",
-      "Massimiliano Todisco",
-      "Nicholas Evans",
-      "Emmanuel Vincent",
-      "Junichi Yamagishi"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.11516v1",
-    "category": [
-      "Speech Synthesis",
-      "Speech Recognition"
-    ]
-  },
-  {
-    "title": "Investigating the Effect of Label Topology and Training Criterion on ASR Performance and Alignment Quality",
-    "abstract": "The ongoing research scenario for automatic speech recognition (ASR)\nenvisions a clear division between end-to-end approaches and classic modular\nsystems. Even though a high-level comparison between the two approaches in\nterms of their requirements and (dis)advantages is commonly addressed, a closer\ncomparison under similar conditions is not readily available in the literature.\nIn this work, we present a comparison focused on the label topology and\ntraining criterion. We compare two discriminative alignment models with hidden\nMarkov model (HMM) and connectionist temporal classification topology, and two\nfirst-order label context ASR models utilizing factored HMM and strictly\nmonotonic recurrent neural network transducer, respectively. We use different\nmeasurements for the evaluation of the alignment quality, and compare word\nerror rate and real time factor of our best systems. Experiments are conducted\non the LibriSpeech 960h and Switchboard 300h tasks.",
-    "authors": [
-      "Tina Raissi",
-      "Christoph L\u00fcscher",
-      "Simon Berger",
-      "Ralf Schl\u00fcter",
-      "Hermann Ney"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.11641v1",
-    "category": [
-      "Speech Recognition",
-      "Speech Synthesis"
-    ]
-  },
-  {
     "title": "Vibravox: A Dataset of French Speech Captured with Body-conduction Audio Sensors",
     "abstract": "Vibravox is a dataset compliant with the General Data Protection Regulation\n(GDPR) containing audio recordings using five different body-conduction audio\nsensors : two in-ear microphones, two bone conduction vibration pickups and a\nlaryngophone. The data set also includes audio data from an airborne microphone\nused as a reference. The Vibravox corpus contains 38 hours of speech samples\nand physiological sounds recorded by 188 participants under different acoustic\nconditions imposed by an high order ambisonics 3D spatializer. Annotations\nabout the recording conditions and linguistic transcriptions are also included\nin the corpus. We conducted a series of experiments on various speech-related\ntasks, including speech recognition, speech enhancement and speaker\nverification. These experiments were carried out using state-of-the-art models\nto evaluate and compare their performances on signals captured by the different\naudio sensors offered by the Vibravox dataset, with the aim of gaining a better\ngrasp of their individual characteristics.",
     "authors": [
