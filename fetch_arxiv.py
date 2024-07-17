@@ -6,6 +6,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.cluster import KMeans
 
 from groq import Groq
+from openai import OpenAI
 
 
 # Define categories and corresponding keywords
@@ -109,35 +110,63 @@ def classify_abstract(abstract):
 
 
 
-def summarize_abstracts(papers):
+# def summarize_abstracts(papers):
 
-    groq_api = os.getenv("GROQ_API_KEY")
-    if not groq_api:
-        raise ValueError("GROQ_API_KEY environment variable is not set")
+#     groq_api = os.getenv("GROQ_API_KEY")
+#     if not groq_api:
+#         raise ValueError("GROQ_API_KEY environment variable is not set")
+    
+#     content = ""
+#     for paper in papers:
+#         content += f"{paper['title']}\n{paper['abstract']}\n\n"
+    
+#     client = Groq(
+#         api_key=groq_api,
+#     )
+
+#     chat_completion = client.chat.completions.create(
+#         messages=[
+#             {
+#                 "role": "system",
+#                 "content": "You're a useful assistant that summarizes research papers. I will give you a list of abstracts with titles and you will summarize them to help me understand the key points. Only return your summary and no additional information. Keep it concise, short and informative.",
+#             },
+#             {
+#                 "role": "user",
+#                 "content": content,
+#             }
+#         ],
+#         model="llama3-8b-8192",
+#     )
+
+#     return chat_completion.choices[0].message.content
+
+
+def summarize_abstracts(papers):
+    openai_api_key = os.getenv("OPENAI_API_KEY")
+    if not openai_api_key:
+        raise ValueError("OPENAI_API_KEY environment variable is not set")
     
     content = ""
     for paper in papers:
         content += f"{paper['title']}\n{paper['abstract']}\n\n"
     
-    client = Groq(
-        api_key=groq_api,
-    )
+    client = OpenAI(api_key=openai_api_key)
 
     chat_completion = client.chat.completions.create(
+        model="gpt-3.5-turbo",
         messages=[
             {
                 "role": "system",
-                "content": "You're a useful assistant that summarizes research papers. I will give you a list of abstracts with titles and you will summarize them to help me understand the key points. Only return your summary and no additional information. Keep it concise, short and informative.",
+                "content": "You're a useful assistant that summarizes research papers. I will give you a list of abstracts with titles and you will summarize them to help me understand the key points. Only return your summary and no additional information. Keep it concise, short and informative. Don't group your summary on individual papers.",
             },
             {
                 "role": "user",
                 "content": content,
             }
-        ],
-        model="llama3-8b-8192",
+        ]
     )
 
-    return chat_completion.choices[0].message.content
+    return chat_completion.choices[0].message['content']
 
 
 # Define the date range for the query
@@ -190,10 +219,12 @@ with open(filename, "w") as f:
 print(f"Fetched {len(papers)} papers.")
 
 print("Summarizing abstracts...")
-summary_1 = summarize_abstracts(papers[:len(papers)//2])
-summary_2 = summarize_abstracts(papers[len(papers)//2:])
+# summary_1 = summarize_abstracts(papers[:len(papers)//2])
+# summary_2 = summarize_abstracts(papers[len(papers)//2:])
 
-summary = summary_1 + "\n\n" + summary_2
+# summary = summary_1 + "\n\n" + summary_2
+
+summary = summarize_abstracts(papers)
 
 with open("assets/json/summary.json", "w") as f:
     json.dump({"summary": summary}, f, indent=2)
