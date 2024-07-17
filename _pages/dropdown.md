@@ -4,10 +4,10 @@ title: Other
 nav: true
 nav_order: 6
 dropdown: true
-children: 
+children:
+    - title: ArxivSpot
+      permalink: /arxiv/
     - title: Notes
       permalink: /notes/
     # - title: divider
-    - title: ArxivSpot
-      permalink: /arxiv/
 ---
