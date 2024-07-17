@@ -7,15 +7,88 @@ from sklearn.cluster import KMeans
 
 # Define categories and corresponding keywords
 categories = {
-    "Speech Recognition": ["speech recognition", "automatic speech recognition", "ASR", "speech-to-text"],
-    "Speech Synthesis": ["speech synthesis", "text-to-speech", "TTS", "speech generation"],
-    "Datasets": ["new dataset", "dataset collection", "data gathering", "dataset creation"],
-    "Benchmarking": ["benchmarking", "performance evaluation", "model comparison", "benchmark dataset"],
-    "LLMs": ["large language model", "LLM", "transformer model", "GPT", "BERT"],
-    "Multimodal Learning": ["multimodal learning", "cross-modal learning", "multisensory learning", "fusion of modalities"],
-    "Explainable AI": ["explainable AI", "model interpretability", "XAI", "model explanation", "transparent AI"],
-    "AI in Healthcare": ["AI in healthcare", "medical AI", "healthcare applications", "clinical decision support", "medical imaging"],
-    "Reinforcement Learning": ["reinforcement learning", "RL", "policy gradient", "Q-learning", "actor-critic"]
+    "Speech Recognition": [
+        "speech recognition",
+        "automatic speech recognition",
+        "ASR",
+        "speech-to-text",
+        "converting spoken language to text",
+        "voice recognition",
+        "transcribing audio to text"
+    ],
+    "Speech Synthesis": [
+        "speech synthesis",
+        "text-to-speech",
+        "TTS",
+        "speech generation",
+        "converting text to spoken language",
+        "synthetic speech",
+        "voice synthesis"
+    ],
+    "Datasets": [
+        "new dataset",
+        "dataset collection",
+        "data gathering",
+        "dataset creation",
+        "curating data for training",
+        "annotated datasets",
+        "data preprocessing"
+    ],
+    "Benchmarking": [
+        "benchmarking",
+        "performance evaluation",
+        "model comparison",
+        "benchmark dataset",
+        "testing model performance",
+        "standardized testing",
+        "model benchmarking"
+    ],
+    "LLMs": [
+        "large language model",
+        "LLM",
+        "transformer model",
+        "GPT",
+        "BERT",
+        "massive pre-trained language models",
+        "language model fine-tuning",
+        "contextual embeddings"
+    ],
+    "Multimodal Learning": [
+        "multimodal learning",
+        "cross-modal learning",
+        "multisensory learning",
+        "fusion of modalities",
+        "integrating multiple data types",
+        "visual and textual data fusion",
+        "audio-visual learning"
+    ],
+    "Explainable AI": [
+        "explainable AI",
+        "model interpretability",
+        "XAI",
+        "model explanation",
+        "transparent AI",
+        "understanding model decisions",
+        "interpretable machine learning"
+    ],
+    "AI in Healthcare": [
+        "AI in healthcare",
+        "medical AI",
+        "healthcare applications",
+        "clinical decision support",
+        "medical imaging",
+        "AI for diagnosis",
+        "health data analytics"
+    ],
+    "Reinforcement Learning": [
+        "reinforcement learning",
+        "RL",
+        "policy gradient",
+        "Q-learning",
+        "actor-critic",
+        "reward-based learning",
+        "decision making algorithms"
+    ]
 }
 
 model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
