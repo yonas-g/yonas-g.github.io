@@ -7,29 +7,29 @@ from sklearn.cluster import KMeans
 
 # Define categories and corresponding keywords
 categories = {
-    "Machine Learning": ["machine learning", "deep learning", "neural network", "supervised learning", "unsupervised learning"],
-    "Natural Language Processing": ["NLP", "language model", "text generation", "text classification"],
-    "Computer Vision": ["computer vision", "image processing", "object detection", "image recognition"],
     "Speech Recognition": ["speech recognition", "automatic speech recognition", "ASR", "speech-to-text"],
     "Speech Synthesis": ["speech synthesis", "text-to-speech", "TTS", "speech generation"],
-    "Robotics": ["robotics", "robot", "robot learning", "autonomous system"]
+    "Datasets": ["new dataset", "dataset collection", "data gathering", "dataset creation"],
+    "Benchmarking": ["benchmarking", "performance evaluation", "model comparison", "benchmark dataset"],
+    "LLMs": ["large language model", "LLM", "transformer model", "GPT", "BERT"],
+    "Multimodal Learning": ["multimodal learning", "cross-modal learning", "multisensory learning", "fusion of modalities"],
+    "Explainable AI": ["explainable AI", "model interpretability", "XAI", "model explanation", "transparent AI"],
+    "AI in Healthcare": ["AI in healthcare", "medical AI", "healthcare applications", "clinical decision support", "medical imaging"],
+    "Reinforcement Learning": ["reinforcement learning", "RL", "policy gradient", "Q-learning", "actor-critic"]
 }
 
-
-model = SentenceTransformer('sentence-transformers/all-mpnet-base-v2')
+model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
 
 def classify_abstract(abstract):
     embeddings = model.encode([abstract])
-    best_category = None
-    best_score = float('-inf')
+    scores = []
     for category, keywords in categories.items():
         category_embeddings = model.encode(keywords)
         similarity = embeddings @ category_embeddings.T
         score = similarity.mean()
-        if score > best_score:
-            best_score = score
-            best_category = category
-    return best_category
+        scores.append((category, score))
+    scores.sort(key=lambda x: x[1], reverse=True)
+    return scores[:2]
 
 
 # Define the search queries to get papers submitted today in cs.AI category
@@ -39,9 +39,9 @@ base_query = f"submittedDate:[{yesterday.strftime('%Y%m%d')} TO {today.strftime(
 
 # Specific queries for cs.AI, speech recognition, and speech synthesis
 queries = [
-    f"cat:cs.AI AND {base_query}",
-    f"(all:speech AND all:recognition) AND {base_query}",
-    f"(all:speech AND all:synthesis) AND {base_query}"
+    f"cat:cs.AI AND {base_query} AND NOT (all:robotics OR all:'computer vision')",
+    f"(all:speech AND all:recognition) AND {base_query} AND NOT (all:robotics OR all:'computer vision')",
+    f"(all:speech AND all:synthesis) AND {base_query} AND NOT (all:robotics OR all:'computer vision')"
 ]
 
 
