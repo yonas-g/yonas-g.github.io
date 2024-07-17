@@ -127,14 +127,14 @@ def summarize_abstracts(papers):
         messages=[
             {
                 "role": "system",
-                "content": "You're a useful assistant that summarizes research papers. I will give you a list of abstracts with titles and you will summarize them to help me understand the key points.",
+                "content": "You're a useful assistant that summarizes research papers. I will give you a list of abstracts with titles and you will summarize them to help me understand the key points. Only return your summary and no additional information. Keep it concise, short and informative.",
             },
             {
                 "role": "user",
                 "content": content,
             }
         ],
-        model="llama3-8b-8192",
+        model="llama3-70b-8192", #"llama3-8b-8192",
     )
 
     return chat_completion.choices[0].message.content
