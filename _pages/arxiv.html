@@ -4,9 +4,22 @@ title: ArxivSpot
 permalink: /arxiv/
 ---
 
+<div id="summary-container"></div>
 <ul id="papers-list" class="paper-list"></ul>
 
 <script>
+document.addEventListener("DOMContentLoaded", function() {
+  fetch("{{ '/assets/json/summary.json' | relative_url }}")
+    .then(response => response.json())
+    .then(data => {
+      const summaryContainer = document.getElementById("summary-container");
+      const summary = document.createElement("div");
+      summary.textContent = data.summary;
+      summary.className = "summary";
+      summaryContainer.appendChild(summary);
+    })
+    .catch(error => console.error("Error loading summary JSON:", error));
+
 document.addEventListener("DOMContentLoaded", function() {
   fetch("{{ '/assets/json/arxiv_papers.json' | relative_url }}")
     .then(response => response.json())
@@ -76,6 +89,10 @@ body {
 }
 h1 {
     color: #2c3e50;
+}
+.summary {
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
 .paper-list {
     list-style-type: none;
