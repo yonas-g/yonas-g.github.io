@@ -12,8 +12,8 @@
     ],
     "pdf_link": "http://arxiv.org/pdf/2407.11510v1",
     "category": [
-      "Multimodal Learning",
-      "Speech Recognition"
+      "Speech Recognition",
+      "Multimodal Learning"
     ]
   },
   {
@@ -33,8 +33,8 @@
     ],
     "pdf_link": "http://arxiv.org/pdf/2407.11516v1",
     "category": [
-      "Speech Recognition",
-      "Speech Synthesis"
+      "Speech Synthesis",
+      "Speech Recognition"
     ]
   },
   {
@@ -128,7 +128,7 @@
     "pdf_link": "http://arxiv.org/pdf/2407.10424v2",
     "category": [
       "Speech Synthesis",
-      "Speech Recognition"
+      "LLMs"
     ]
   },
   {
@@ -140,7 +140,7 @@
     "pdf_link": "http://arxiv.org/pdf/2407.10452v1",
     "category": [
       "AI in Healthcare",
-      "Multimodal Learning"
+      "Datasets"
     ]
   },
   {
@@ -169,8 +169,8 @@
     ],
     "pdf_link": "http://arxiv.org/pdf/2407.10471v1",
     "category": [
-      "Speech Recognition",
-      "Speech Synthesis"
+      "Speech Synthesis",
+      "Speech Recognition"
     ]
   },
   {
@@ -234,7 +234,7 @@
     "pdf_link": "http://arxiv.org/pdf/2407.10714v1",
     "category": [
       "Multimodal Learning",
-      "Speech Recognition"
+      "LLMs"
     ]
   },
   {
@@ -246,8 +246,8 @@
     ],
     "pdf_link": "http://arxiv.org/pdf/2407.11104v1",
     "category": [
-      "Multimodal Learning",
-      "Explainable AI"
+      "Explainable AI",
+      "Multimodal Learning"
     ]
   },
   {
@@ -276,7 +276,7 @@
     "pdf_link": "http://arxiv.org/pdf/2407.10768v1",
     "category": [
       "Speech Synthesis",
-      "Speech Recognition"
+      "Explainable AI"
     ]
   },
   {
@@ -292,7 +292,7 @@
     "pdf_link": "http://arxiv.org/pdf/2407.10784v1",
     "category": [
       "Datasets",
-      "Multimodal Learning"
+      "Explainable AI"
     ]
   },
   {
@@ -339,7 +339,7 @@
     "pdf_link": "http://arxiv.org/pdf/2407.10835v1",
     "category": [
       "Reinforcement Learning",
-      "Multimodal Learning"
+      "Explainable AI"
     ]
   },
   {
@@ -352,7 +352,7 @@
     "pdf_link": "http://arxiv.org/pdf/2407.10839v1",
     "category": [
       "Reinforcement Learning",
-      "Multimodal Learning"
+      "Explainable AI"
     ]
   },
   {
@@ -379,7 +379,7 @@
     ],
     "pdf_link": "http://arxiv.org/pdf/2407.10887v1",
     "category": [
-      "Explainable AI",
+      "LLMs",
       "Speech Recognition"
     ]
   },
@@ -398,8 +398,8 @@
     ],
     "pdf_link": "http://arxiv.org/pdf/2407.10954v1",
     "category": [
-      "Multimodal Learning",
-      "Reinforcement Learning"
+      "Reinforcement Learning",
+      "Multimodal Learning"
     ]
   },
   {
@@ -435,8 +435,8 @@
     ],
     "pdf_link": "http://arxiv.org/pdf/2407.11245v1",
     "category": [
-      "Multimodal Learning",
-      "Reinforcement Learning"
+      "Reinforcement Learning",
+      "Multimodal Learning"
     ]
   },
   {
@@ -449,8 +449,8 @@
     ],
     "pdf_link": "http://arxiv.org/pdf/2407.11249v1",
     "category": [
-      "Multimodal Learning",
-      "Reinforcement Learning"
+      "Reinforcement Learning",
+      "Explainable AI"
     ]
   },
   {
@@ -498,7 +498,7 @@
     "pdf_link": "http://arxiv.org/pdf/2407.11359v1",
     "category": [
       "Explainable AI",
-      "Reinforcement Learning"
+      "Datasets"
     ]
   },
   {
@@ -536,7 +536,7 @@
     "pdf_link": "http://arxiv.org/pdf/2407.11439v1",
     "category": [
       "Datasets",
-      "Multimodal Learning"
+      "Explainable AI"
     ]
   },
   {
@@ -644,7 +644,7 @@
     "pdf_link": "http://arxiv.org/pdf/2407.11501v1",
     "category": [
       "Datasets",
-      "Multimodal Learning"
+      "Explainable AI"
     ]
   },
   {
@@ -661,8 +661,8 @@
     ],
     "pdf_link": "http://arxiv.org/pdf/2407.11534v1",
     "category": [
-      "Speech Recognition",
-      "LLMs"
+      "LLMs",
+      "Speech Recognition"
     ]
   },
   {
@@ -675,8 +675,8 @@
     ],
     "pdf_link": "http://arxiv.org/pdf/2407.11553v1",
     "category": [
-      "Multimodal Learning",
-      "Datasets"
+      "Datasets",
+      "Multimodal Learning"
     ]
   },
   {
@@ -727,8 +727,8 @@
     ],
     "pdf_link": "http://arxiv.org/pdf/2407.11676v1",
     "category": [
-      "Multimodal Learning",
-      "Datasets"
+      "Datasets",
+      "Multimodal Learning"
     ]
   },
   {
@@ -761,7 +761,7 @@
     ],
     "pdf_link": "http://arxiv.org/pdf/2407.11790v1",
     "category": [
-      "Multimodal Learning",
+      "LLMs",
       "Explainable AI"
     ]
   },
@@ -779,8 +779,8 @@
     ],
     "pdf_link": "http://arxiv.org/pdf/2407.11821v1",
     "category": [
-      "Explainable AI",
-      "Datasets"
+      "LLMs",
+      "Multimodal Learning"
     ]
   },
   {
@@ -825,8 +825,8 @@
     ],
     "pdf_link": "http://arxiv.org/pdf/2407.11852v1",
     "category": [
-      "Datasets",
-      "Benchmarking"
+      "LLMs",
+      "Datasets"
     ]
   },
   {
@@ -841,8 +841,8 @@
     ],
     "pdf_link": "http://arxiv.org/pdf/2407.11928v1",
     "category": [
-      "Datasets",
-      "Explainable AI"
+      "LLMs",
+      "Datasets"
     ]
   }
 ]
