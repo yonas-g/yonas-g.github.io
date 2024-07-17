@@ -5,6 +5,9 @@ from datetime import datetime, timedelta
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import KMeans
 
+from groq import Groq
+
+
 # Define categories and corresponding keywords
 categories = {
     "Speech Recognition": [
@@ -105,6 +108,38 @@ def classify_abstract(abstract):
     return [scores[0][0], scores[1][0]]
 
 
+
+def summarize_abstracts(papers):
+
+    groq_api = os.getenv("GROQ_API")
+    if not groq_api:
+        raise ValueError("GROQ_API environment variable is not set")
+    
+    content = ""
+    for paper in papers:
+        content += f"{paper['title']}\n{paper['abstract']}\n\n"
+    
+    client = Groq(
+        api_key=os.environ.get(groq_api),
+    )
+
+    chat_completion = client.chat.completions.create(
+        messages=[
+            {
+                "role": "system",
+                "content": "You're a useful assistant that summarizes research papers. I will give you a list of abstracts with titles and you will summarize them to help me understand the key points.",
+            },
+            {
+                "role": "user",
+                "content": content,
+            }
+        ],
+        model="llama3-8b-8192",
+    )
+
+    return chat_completion.choices[0].message.content
+
+
 # Define the date range for the query
 today = datetime.now()
 yesterday = today - timedelta(days=2)
@@ -126,7 +161,7 @@ seen_titles = set()
 for query in queries:
     search = arxiv.Search(
         query=query,
-        max_results=100,
+        max_results=200,
         sort_by=arxiv.SortCriterion.SubmittedDate
     )
 
@@ -148,8 +183,16 @@ if os.path.exists(filename):
     archived_filename = f"assets/json/arxiv_papers_{yesterday.strftime('%Y%m%d')}.json"
     os.rename(filename, archived_filename)
 
-
 with open(filename, "w") as f:
     json.dump(list(reversed(papers)), f, indent=2)
-
 print(f"Fetched {len(papers)} papers.")
+
+print("Summarizing abstracts...")
+summary = summarize_abstracts(papers)
+
+with open("assets/json/summary.json", "w") as f:
+    json.dump({"summary": summary}, f, indent=2)
+
+
+
+print("Summary done")
