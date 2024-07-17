@@ -188,7 +188,10 @@ with open(filename, "w") as f:
 print(f"Fetched {len(papers)} papers.")
 
 print("Summarizing abstracts...")
-summary = summarize_abstracts(papers)
+summary_1 = summarize_abstracts(papers[:len(papers)//2])
+summary_2 = summarize_abstracts(papers[len(papers)//2:])
+
+summary = summary_1 + "\n\n" + summary_2
 
 with open("assets/json/summary.json", "w") as f:
     json.dump({"summary": summary}, f, indent=2)
