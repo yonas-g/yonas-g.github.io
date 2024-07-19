@@ -1,0 +1,396 @@
+[
+  {
+    "title": "Vibravox: A Dataset of French Speech Captured with Body-conduction Audio Sensors",
+    "abstract": "Vibravox is a dataset compliant with the General Data Protection Regulation\n(GDPR) containing audio recordings using five different body-conduction audio\nsensors : two in-ear microphones, two bone conduction vibration pickups and a\nlaryngophone. The data set also includes audio data from an airborne microphone\nused as a reference. The Vibravox corpus contains 38 hours of speech samples\nand physiological sounds recorded by 188 participants under different acoustic\nconditions imposed by an high order ambisonics 3D spatializer. Annotations\nabout the recording conditions and linguistic transcriptions are also included\nin the corpus. We conducted a series of experiments on various speech-related\ntasks, including speech recognition, speech enhancement and speaker\nverification. These experiments were carried out using state-of-the-art models\nto evaluate and compare their performances on signals captured by the different\naudio sensors offered by the Vibravox dataset, with the aim of gaining a better\ngrasp of their individual characteristics.",
+    "authors": [
+      "Julien Hauret",
+      "Malo Olivier",
+      "Thomas Joubaud",
+      "Christophe Langrenne",
+      "Sarah Poir\u00e9e",
+      "V\u00e9ronique Zimpfer",
+      "\u00c9ric Bavu"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11828v2",
+    "category": [
+      "Speech Recognition",
+      "Speech Synthesis"
+    ]
+  },
+  {
+    "title": "COMET: \"Cone of experience\" enhanced large multimodal model for mathematical problem generation",
+    "abstract": "The automatic generation of high-quality mathematical problems is practically\nvaluable in many educational scenarios. Large multimodal model provides a novel\ntechnical approach for the mathematical problem generation because of its wide\nsuccess in cross-modal data scenarios. However, the traditional method of\nseparating problem solving from problem generation and the mainstream\nfine-tuning framework of monotonous data structure with homogeneous training\nobjectives limit the application of large multimodal model in mathematical\nproblem generation. Addressing these challenges, this paper proposes COMET, a\n\"Cone of Experience\" enhanced large multimodal model for mathematical problem\ngeneration. Firstly, from the perspective of mutual ability promotion and\napplication logic, we unify stem generation and problem solving into\nmathematical problem generation. Secondly, a three-stage fine-turning framework\nguided by the \"Cone of Experience\" is proposed. The framework divides the\nfine-tuning data into symbolic experience, iconic experience, and direct\nexperience to draw parallels with experiences in the career growth of teachers.\nSeveral fine-grained data construction and injection methods are designed in\nthis framework. Finally, we construct a Chinese multimodal mathematical problem\ndataset to fill the vacancy of Chinese multimodal data in this field. Combined\nwith objective and subjective indicators, experiments on multiple datasets\nfully verify the effectiveness of the proposed framework and model.",
+    "authors": [
+      "Sannyuya Liu",
+      "Jintian Feng",
+      "Zongkai Yang",
+      "Yawei Luo",
+      "Qian Wan",
+      "Xiaoxuan Shen",
+      "Jianwen Sun"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11315v1",
+    "category": [
+      "Multimodal Learning",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Feature Inference Attack on Shapley Values",
+    "abstract": "As a solution concept in cooperative game theory, Shapley value is highly\nrecognized in model interpretability studies and widely adopted by the leading\nMachine Learning as a Service (MLaaS) providers, such as Google, Microsoft, and\nIBM. However, as the Shapley value-based model interpretability methods have\nbeen thoroughly studied, few researchers consider the privacy risks incurred by\nShapley values, despite that interpretability and privacy are two foundations\nof machine learning (ML) models.\n  In this paper, we investigate the privacy risks of Shapley value-based model\ninterpretability methods using feature inference attacks: reconstructing the\nprivate model inputs based on their Shapley value explanations. Specifically,\nwe present two adversaries. The first adversary can reconstruct the private\ninputs by training an attack model based on an auxiliary dataset and black-box\naccess to the model interpretability services. The second adversary, even\nwithout any background knowledge, can successfully reconstruct most of the\nprivate features by exploiting the local linear correlations between the model\ninputs and outputs. We perform the proposed attacks on the leading MLaaS\nplatforms, i.e., Google Cloud, Microsoft Azure, and IBM aix360. The\nexperimental results demonstrate the vulnerability of the state-of-the-art\nShapley value-based model interpretability methods used in the leading MLaaS\nplatforms and highlight the significance and necessity of designing\nprivacy-preserving model interpretability methods in future studies. To our\nbest knowledge, this is also the first work that investigates the privacy risks\nof Shapley values.",
+    "authors": [
+      "Xinjian Luo",
+      "Yangfan Jiang",
+      "Xiaokui Xiao"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11359v1",
+    "category": [
+      "Explainable AI",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Thorns and Algorithms: Navigating Generative AI Challenges Inspired by Giraffes and Acacias",
+    "abstract": "The interplay between humans and Generative AI (Gen AI) draws an insightful\nparallel with the dynamic relationship between giraffes and acacias on the\nAfrican Savannah. Just as giraffes navigate the acacia's thorny defenses to\ngain nourishment, humans engage with Gen AI, maneuvering through ethical and\noperational challenges to harness its benefits. This paper explores how, like\nyoung giraffes that are still mastering their environment, humans are in the\nearly stages of adapting to and shaping Gen AI. It delves into the strategies\nhumans are developing and refining to help mitigate risks such as bias,\nmisinformation, and privacy breaches, that influence and shape Gen AI's\nevolution. While the giraffe-acacia analogy aptly frames human-AI relations, it\ncontrasts nature's evolutionary perfection with the inherent flaws of\nhuman-made technology and the tendency of humans to misuse it, giving rise to\nmany ethical dilemmas. Through the HHH framework we identify pathways to embed\nvalues of helpfulness, honesty, and harmlessness in AI development, fostering\nsafety-aligned agents that resonate with human values. This narrative presents\na cautiously optimistic view of human resilience and adaptability, illustrating\nour capacity to harness technologies and implement safeguards effectively,\nwithout succumbing to their perils. It emphasises a symbiotic relationship\nwhere humans and AI continually shape each other for mutual benefit.",
+    "authors": [
+      "Waqar Hussain"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11360v1",
+    "category": [
+      "Explainable AI",
+      "AI in Healthcare"
+    ]
+  },
+  {
+    "title": "Generally-Occurring Model Change for Robust Counterfactual Explanations",
+    "abstract": "With the increasing impact of algorithmic decision-making on human lives, the\ninterpretability of models has become a critical issue in machine learning.\nCounterfactual explanation is an important method in the field of interpretable\nmachine learning, which can not only help users understand why machine learning\nmodels make specific decisions, but also help users understand how to change\nthese decisions. Naturally, it is an important task to study the robustness of\ncounterfactual explanation generation algorithms to model changes. Previous\nliterature has proposed the concept of Naturally-Occurring Model Change, which\nhas given us a deeper understanding of robustness to model change. In this\npaper, we first further generalize the concept of Naturally-Occurring Model\nChange, proposing a more general concept of model parameter changes,\nGenerally-Occurring Model Change, which has a wider range of applicability. We\nalso prove the corresponding probabilistic guarantees. In addition, we consider\na more specific problem, data set perturbation, and give relevant theoretical\nresults by combining optimization theory.",
+    "authors": [
+      "Ao Xu",
+      "Tieru Wu"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11426v1",
+    "category": [
+      "Explainable AI",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Repurformer: Transformers for Repurposing-Aware Molecule Generation",
+    "abstract": "Generating as diverse molecules as possible with desired properties is\ncrucial for drug discovery research, which invokes many approaches based on\ndeep generative models today. Despite recent advancements in these models,\nparticularly in variational autoencoders (VAEs), generative adversarial\nnetworks (GANs), Transformers, and diffusion models, a significant challenge\nknown as \\textit{the sample bias problem} remains. This problem occurs when\ngenerated molecules targeting the same protein tend to be structurally similar,\nreducing the diversity of generation. To address this, we propose leveraging\nmulti-hop relationships among proteins and compounds. Our model, Repurformer,\nintegrates bi-directional pretraining with Fast Fourier Transform (FFT) and\nlow-pass filtering (LPF) to capture complex interactions and generate diverse\nmolecules. A series of experiments on BindingDB dataset confirm that\nRepurformer successfully creates substitutes for anchor compounds that resemble\npositive compounds, increasing diversity between the anchor and generated\ncompounds.",
+    "authors": [
+      "Changhun Lee",
+      "Gyumin Lee"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11439v1",
+    "category": [
+      "Datasets",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Graceful task adaptation with a bi-hemispheric RL agent",
+    "abstract": "In humans, responsibility for performing a task gradually shifts from the\nright hemisphere to the left. The Novelty-Routine Hypothesis (NRH) states that\nthe right and left hemispheres are used to perform novel and routine tasks\nrespectively, enabling us to learn a diverse range of novel tasks while\nperforming the task capably. Drawing on the NRH, we develop a reinforcement\nlearning agent with specialised hemispheres that can exploit generalist\nknowledge from the right-hemisphere to avoid poor initial performance on novel\ntasks. In addition, we find that this design has minimal impact on its ability\nto learn novel tasks. We conclude by identifying improvements to our agent and\nexploring potential expansion to the continual learning setting.",
+    "authors": [
+      "Grant Nicholas",
+      "Levin Kuhlmann",
+      "Gideon Kowadlo"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11456v1",
+    "category": [
+      "Reinforcement Learning",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "Investigating Imperceptibility of Adversarial Attacks on Tabular Data: An Empirical Analysis",
+    "abstract": "Adversarial attacks are a potential threat to machine learning models, as\nthey can cause the model to make incorrect predictions by introducing\nimperceptible perturbations to the input data. While extensively studied in\nunstructured data like images, their application to structured data like\ntabular data presents unique challenges due to the heterogeneity and intricate\nfeature interdependencies of tabular data. Imperceptibility in tabular data\ninvolves preserving data integrity while potentially causing misclassification,\nunderscoring the need for tailored imperceptibility criteria for tabular data.\nHowever, there is currently a lack of standardised metrics for assessing\nadversarial attacks specifically targeted at tabular data. To address this gap,\nwe derive a set of properties for evaluating the imperceptibility of\nadversarial attacks on tabular data. These properties are defined to capture\nseven perspectives of perturbed data: proximity to original inputs, sparsity of\nalterations, deviation to datapoints in the original dataset, sensitivity of\naltering sensitive features, immutability of perturbation, feasibility of\nperturbed values and intricate feature interdepencies among tabular features.\nFurthermore, we conduct both quantitative empirical evaluation and case-based\nqualitative examples analysis for seven properties. The evaluation reveals a\ntrade-off between attack success and imperceptibility, particularly concerning\nproximity, sensitivity, and deviation. Although no evaluated attacks can\nachieve optimal effectiveness and imperceptibility simultaneously, unbounded\nattacks prove to be more promised for tabular data in crafting imperceptible\nadversarial examples. The study also highlights the limitation of evaluated\nalgorithms in controlling sparsity effectively. We suggest incorporating a\nsparsity metric in future attack design to regulate the number of perturbed\nfeatures.",
+    "authors": [
+      "Zhipeng He",
+      "Chun Ouyang",
+      "Laith Alzubaidi",
+      "Alistair Barros",
+      "Catarina Moreira"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11463v1",
+    "category": [
+      "Explainable AI",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "XTraffic: A Dataset Where Traffic Meets Incidents with Explainability and More",
+    "abstract": "Long-separated research has been conducted on two highly correlated tracks:\ntraffic and incidents. Traffic track witnesses complicating deep learning\nmodels, e.g., to push the prediction a few percent more accurate, and the\nincident track only studies the incidents alone, e.g., to infer the incident\nrisk. We, for the first time, spatiotemporally aligned the two tracks in a\nlarge-scale region (16,972 traffic nodes) over the whole year of 2023: our\nXTraffic dataset includes traffic, i.e., time-series indexes on traffic flow,\nlane occupancy, and average vehicle speed, and incidents, whose records are\nspatiotemporally-aligned with traffic data, with seven different incident\nclasses. Additionally, each node includes detailed physical and policy-level\nmeta-attributes of lanes. Our data can revolutionalize traditional\ntraffic-related tasks towards higher interpretability and practice: instead of\ntraditional prediction or classification tasks, we conduct: (1) post-incident\ntraffic forecasting to quantify the impact of different incidents on traffic\nindexes; (2) incident classification using traffic indexes to determine the\nincidents types for precautions measures; (3) global causal analysis among the\ntraffic indexes, meta-attributes, and incidents to give high-level guidance of\nthe interrelations of various factors; (4) local causal analysis within road\nnodes to examine how different incidents affect the road segments' relations.\nThe dataset is available at http://xaitraffic.github.io.",
+    "authors": [
+      "Xiaochuan Gou",
+      "Ziyue Li",
+      "Tian Lan",
+      "Junpeng Lin",
+      "Zhishuai Li",
+      "Bingyu Zhao",
+      "Chen Zhang",
+      "Di Wang",
+      "Xiangliang Zhang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11477v1",
+    "category": [
+      "Datasets",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "AIGC for Industrial Time Series: From Deep Generative Models to Large Generative Models",
+    "abstract": "With the remarkable success of generative models like ChatGPT, Artificial\nIntelligence Generated Content (AIGC) is undergoing explosive development. Not\nlimited to text and images, generative models can generate industrial time\nseries data, addressing challenges such as the difficulty of data collection\nand data annotation. Due to their outstanding generation ability, they have\nbeen widely used in Internet of Things, metaverse, and cyber-physical-social\nsystems to enhance the efficiency of industrial production. In this paper, we\npresent a comprehensive overview of generative models for industrial time\nseries from deep generative models (DGMs) to large generative models (LGMs).\nFirst, a DGM-based AIGC framework is proposed for industrial time series\ngeneration. Within this framework, we survey advanced industrial DGMs and\npresent a multi-perspective categorization. Furthermore, we systematically\nanalyze the critical technologies required to construct industrial LGMs from\nfour aspects: large-scale industrial dataset, LGMs architecture for complex\nindustrial characteristics, self-supervised training for industrial time\nseries, and fine-tuning of industrial downstream tasks. Finally, we conclude\nthe challenges and future directions to enable the development of generative\nmodels in industry.",
+    "authors": [
+      "Lei Ren",
+      "Haiteng Wang",
+      "Yang Tang",
+      "Chunhua Yang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11480v1",
+    "category": [
+      "Datasets",
+      "Speech Synthesis"
+    ]
+  },
+  {
+    "title": "Multi-Channel Masked Autoencoder and Comprehensive Evaluations for Reconstructing 12-Lead ECG from Arbitrary Single-Lead ECG",
+    "abstract": "In the context of cardiovascular diseases (CVD) that exhibit an elevated\nprevalence and mortality, the electrocardiogram (ECG) is a popular and standard\ndiagnostic tool for doctors, commonly utilizing a 12-lead configuration in\nclinical practice. However, the 10 electrodes placed on the surface would cause\na lot of inconvenience and discomfort, while the rapidly advancing wearable\ndevices adopt the reduced-lead or single-lead ECG to reduce discomfort as a\nsolution in long-term monitoring. Since the single-lead ECG is a subset of\n12-lead ECG, it provides insufficient cardiac health information and plays a\nsubstandard role in real-world healthcare applications. Hence, it is necessary\nto utilize signal generation technologies to reduce their clinical importance\ngap by reconstructing 12-lead ECG from the real single-lead ECG. Specifically,\nthis study proposes a multi-channel masked autoencoder (MCMA) for this goal. In\nthe experimental results, the visualized results between the generated and real\nsignals can demonstrate the effectiveness of the proposed framework. At the\nsame time, this study introduces a comprehensive evaluation benchmark named\nECGGenEval, encompassing the signal-level, feature-level, and diagnostic-level\nevaluations, providing a holistic assessment of 12-lead ECG signals and\ngenerative model. Further, the quantitative experimental results are as\nfollows, the mean square errors of 0.0178 and 0.0658, correlation coefficients\nof 0.7698 and 0.7237 in the signal-level evaluation, the average F1-score with\ntwo generated 12-lead ECG is 0.8319 and 0.7824 in the diagnostic-level\nevaluation, achieving the state-of-the-art performance. The open-source code is\npublicly available at \\url{https://github.com/CHENJIAR3/MCMA}.",
+    "authors": [
+      "Jiarong Chen",
+      "Wanqing Wu",
+      "Tong Liu",
+      "Shenda Hong"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11481v1",
+    "category": [
+      "AI in Healthcare",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "A Meta-Learning Approach for Multi-Objective Reinforcement Learning in Sustainable Home Environments",
+    "abstract": "Effective residential appliance scheduling is crucial for sustainable living.\nWhile multi-objective reinforcement learning (MORL) has proven effective in\nbalancing user preferences in appliance scheduling, traditional MORL struggles\nwith limited data in non-stationary residential settings characterized by\nrenewable generation variations. Significant context shifts that can invalidate\npreviously learned policies. To address these challenges, we extend\nstate-of-the-art MORL algorithms with the meta-learning paradigm, enabling\nrapid, few-shot adaptation to shifting contexts. Additionally, we employ an\nauto-encoder (AE)-based unsupervised method to detect environment context\nchanges. We have also developed a residential energy environment to evaluate\nour method using real-world data from London residential settings. This study\nnot only assesses the application of MORL in residential appliance scheduling\nbut also underscores the effectiveness of meta-learning in energy management.\nOur top-performing method significantly surpasses the best baseline, while the\ntrained model saves 3.28% on electricity bills, a 2.74% increase in user\ncomfort, and a 5.9% improvement in expected utility. Additionally, it reduces\nthe sparsity of solutions by 62.44%. Remarkably, these gains were accomplished\nusing 96.71% less training data and 61.1% fewer training steps.",
+    "authors": [
+      "Junlin Lu",
+      "Patrick Mannion",
+      "Karl Mason"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11489v1",
+    "category": [
+      "Reinforcement Learning",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "Diff-MTS: Temporal-Augmented Conditional Diffusion-based AIGC for Industrial Time Series Towards the Large Model Era",
+    "abstract": "Industrial Multivariate Time Series (MTS) is a critical view of the\nindustrial field for people to understand the state of machines. However, due\nto data collection difficulty and privacy concerns, available data for building\nindustrial intelligence and industrial large models is far from sufficient.\nTherefore, industrial time series data generation is of great importance.\nExisting research usually applies Generative Adversarial Networks (GANs) to\ngenerate MTS. However, GANs suffer from unstable training process due to the\njoint training of the generator and discriminator. This paper proposes a\ntemporal-augmented conditional adaptive diffusion model, termed Diff-MTS, for\nMTS generation. It aims to better handle the complex temporal dependencies and\ndynamics of MTS data. Specifically, a conditional Adaptive Maximum-Mean\nDiscrepancy (Ada-MMD) method has been proposed for the controlled generation of\nMTS, which does not require a classifier to control the generation. It improves\nthe condition consistency of the diffusion model. Moreover, a Temporal\nDecomposition Reconstruction UNet (TDR-UNet) is established to capture complex\ntemporal patterns and further improve the quality of the synthetic time series.\nComprehensive experiments on the C-MAPSS and FEMTO datasets demonstrate that\nthe proposed Diff-MTS performs substantially better in terms of diversity,\nfidelity, and utility compared with GAN-based methods. These results show that\nDiff-MTS facilitates the generation of industrial data, contributing to\nintelligent maintenance and the construction of industrial large models.",
+    "authors": [
+      "Lei Ren",
+      "Haiteng Wang",
+      "Yuanjun Laili"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11501v1",
+    "category": [
+      "Datasets",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "LRQ: Optimizing Post-Training Quantization for Large Language Models by Learning Low-Rank Weight-Scaling Matrices",
+    "abstract": "With the commercialization of large language models (LLMs), weight-activation\nquantization has emerged to compress and accelerate LLMs, achieving high\nthroughput while reducing inference costs. However, existing post-training\nquantization (PTQ) techniques for quantizing weights and activations of LLMs\nstill suffer from non-negligible accuracy drops, especially on massive\nmultitask language understanding. To address this issue, we propose Low-Rank\nQuantization (LRQ) $-$ a simple yet effective post-training weight quantization\nmethod for LLMs that reconstructs the outputs of an intermediate Transformer\nblock by leveraging low-rank weight-scaling matrices, replacing the\nconventional full weight-scaling matrices that entail as many learnable scales\nas their associated weights. Thanks to parameter sharing via low-rank\nstructure, LRQ only needs to learn significantly fewer parameters while\nenabling the individual scaling of weights, thus boosting the generalization\ncapability of quantized LLMs. We show the superiority of LRQ over prior LLM PTQ\nworks under (i) $8$-bit weight and per-tensor activation quantization, (ii)\n$4$-bit weight and $8$-bit per-token activation quantization, and (iii) low-bit\nweight-only quantization schemes. Our code is available at\n\\url{https://github.com/onliwad101/FlexRound_LRQ} to inspire LLM researchers\nand engineers.",
+    "authors": [
+      "Jung Hyun Lee",
+      "Jeonghoon Kim",
+      "June Yong Yang",
+      "Se Jung Kwon",
+      "Eunho Yang",
+      "Kang Min Yoo",
+      "Dongsoo Lee"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11534v1",
+    "category": [
+      "LLMs",
+      "Speech Recognition"
+    ]
+  },
+  {
+    "title": "Learning Global and Local Features of Power Load Series Through Transformer and 2D-CNN: An image-based Multi-step Forecasting Approach Incorporating Phase Space Reconstruction",
+    "abstract": "As modern power systems continue to evolve, accurate power load forecasting\nremains a critical issue. The phase space reconstruction method can effectively\nretain the chaotic characteristics of power load from a system dynamics\nperspective and thus is a promising knowledge-based preprocessing method for\npower load forecasting. However, limited by its fundamental theory, there is\nstill a gap in implementing a multi-step forecasting scheme in current studies.\nTo bridge this gap, this study proposes a novel multi-step forecasting approach\nby integrating the PSR with neural networks. Firstly, the useful features in\nthe phase trajectory obtained from the preprocessing of PSR are discussed in\ndetail. Through mathematical derivation, the equivalent characterization of the\nPSR and another time series preprocessing method, patch segmentation, is\ndemonstrated for the first time. Based on this prior knowledge, an image-based\nmodeling perspective with the global and local feature extraction strategy is\nintroduced. Subsequently, a novel deep learning model, namely PSR-GALIEN, is\ndesigned for end-to-end processing, in which the Transformer Encoder and\n2D-convolutional neural networks are employed for the extraction of the global\nand local patterns in the image, and a multi-layer perception based predictor\nis used for the efficient correlation modeling. Then, extensive experiments are\nconducted on five real-world benchmark datasets to verify the effectiveness as\nwell as to have an insight into the detailed properties. The results show that,\ncomparing it with six state-of-the-art deep learning models, the forecasting\nperformance of PSR-GALIEN consistently surpasses these baselines, which\nachieves superior accuracy in both intra-day and day-ahead forecasting\nscenarios. At the same time, a visualization-based method is proposed to\nexplain the attributions of the forecasting results.",
+    "authors": [
+      "Zihan Tang",
+      "Tianyao Ji",
+      "Wenhu Tang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11553v1",
+    "category": [
+      "Datasets",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "Improving Engagement and Efficacy of mHealth Micro-Interventions for Stress Coping: an In-The-Wild Study",
+    "abstract": "Sustaining long-term user engagement with mobile health (mHealth)\ninterventions while preserving their high efficacy remains an ongoing challenge\nin real-world well-being applications. To address this issue, we introduce a\nnew algorithm, the Personalized, Context-Aware Recommender (PCAR), for\nintervention selection and evaluate its performance in a field experiment. In a\nfour-week, in-the-wild experiment involving 29 parents of young children, we\ndelivered personalized stress-reducing micro-interventions through a mobile\nchatbot. We assessed their impact on stress reduction using momentary stress\nlevel ecological momentary assessments (EMAs) before and after each\nintervention. Our findings demonstrate the superiority of PCAR intervention\nselection in enhancing the engagement and efficacy of mHealth\nmicro-interventions to stress coping compared to random intervention selection\nand a control group that did not receive any intervention. Furthermore, we show\nthat even brief, one-minute interventions can significantly reduce perceived\nstress levels (p=0.001). We observe that individuals are most receptive to\none-minute interventions during transitional periods between activities, such\nas transitioning from afternoon activities to bedtime routines. Our study\ncontributes to the literature by introducing a personalized context-aware\nintervention selection algorithm that improves engagement and efficacy of\nmHealth interventions, identifying key timing for stress interventions, and\noffering insights into mechanisms to improve stress coping.",
+    "authors": [
+      "Chaya Ben Yehuda",
+      "Ran Gilad-Bachrach",
+      "Yarin Udi"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11612v1",
+    "category": [
+      "AI in Healthcare",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Graph Dimension Attention Networks for Enterprise Credit Assessment",
+    "abstract": "Enterprise credit assessment is critical for evaluating financial risk, and\nGraph Neural Networks (GNNs), with their advanced capability to model\ninter-entity relationships, are a natural tool to get a deeper understanding of\nthese financial networks. However, existing GNN-based methodologies\npredominantly emphasize entity-level attention mechanisms for contagion risk\naggregation, often overlooking the heterogeneous importance of different\nfeature dimensions, thus falling short in adequately modeling credit risk\nlevels. To address this issue, we propose a novel architecture named Graph\nDimension Attention Network (GDAN), which incorporates a dimension-level\nattention mechanism to capture fine-grained risk-related characteristics.\nFurthermore, we explore the interpretability of the GNN-based method in\nfinancial scenarios and propose a simple but effective data-centric explainer\nfor GDAN, called GDAN-DistShift. DistShift provides edge-level interpretability\nby quantifying distribution shifts during the message-passing process.\nMoreover, we collected a real-world, multi-source Enterprise Credit Assessment\nDataset (ECAD) and have made it accessible to the research community since\nhigh-quality datasets are lacking in this field. Extensive experiments\nconducted on ECAD demonstrate the effectiveness of our methods. In addition, we\nran GDAN on the well-known datasets SMEsD and DBLP, also with excellent\nresults.",
+    "authors": [
+      "Shaopeng Wei",
+      "Beni Egressy",
+      "Xingyan Chen",
+      "Yu Zhao",
+      "Fuzhen Zhuang",
+      "Roger Wattenhofer",
+      "Gang Kou"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11615v1",
+    "category": [
+      "Explainable AI",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "SKADA-Bench: Benchmarking Unsupervised Domain Adaptation Methods with Realistic Validation",
+    "abstract": "Unsupervised Domain Adaptation (DA) consists of adapting a model trained on a\nlabeled source domain to perform well on an unlabeled target domain with some\ndata distribution shift. While many methods have been proposed in the\nliterature, fair and realistic evaluation remains an open question,\nparticularly due to methodological difficulties in selecting hyperparameters in\nthe unsupervised setting. With SKADA-Bench, we propose a framework to evaluate\nDA methods and present a fair evaluation of existing shallow algorithms,\nincluding reweighting, mapping, and subspace alignment. Realistic\nhyperparameter selection is performed with nested cross-validation and various\nunsupervised model selection scores, on both simulated datasets with controlled\nshifts and real-world datasets across diverse modalities, such as images, text,\nbiomedical, and tabular data with specific feature extraction. Our benchmark\nhighlights the importance of realistic validation and provides practical\nguidance for real-life applications, with key insights into the choice and\nimpact of model selection approaches. SKADA-Bench is open-source, reproducible,\nand can be easily extended with novel DA methods, datasets, and model selection\ncriteria without requiring re-evaluating competitors. SKADA-Bench is available\non GitHub at https://github.com/scikit-adaptation/skada-bench.",
+    "authors": [
+      "Yanis Lalou",
+      "Th\u00e9o Gnassounou",
+      "Antoine Collas",
+      "Antoine de Mathelin",
+      "Oleksii Kachaiev",
+      "Ambroise Odonnat",
+      "Alexandre Gramfort",
+      "Thomas Moreau",
+      "R\u00e9mi Flamary"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11676v1",
+    "category": [
+      "Datasets",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "Universal Sound Separation with Self-Supervised Audio Masked Autoencoder",
+    "abstract": "Universal sound separation (USS) is a task of separating mixtures of\narbitrary sound sources. Typically, universal separation models are trained\nfrom scratch in a supervised manner, using labeled data. Self-supervised\nlearning (SSL) is an emerging deep learning approach that leverages unlabeled\ndata to obtain task-agnostic representations, which can benefit many downstream\ntasks. In this paper, we propose integrating a self-supervised pre-trained\nmodel, namely the audio masked autoencoder (A-MAE), into a universal sound\nseparation system to enhance its separation performance. We employ two\nstrategies to utilize SSL embeddings: freezing or updating the parameters of\nA-MAE during fine-tuning. The SSL embeddings are concatenated with the\nshort-time Fourier transform (STFT) to serve as input features for the\nseparation model. We evaluate our methods on the AudioSet dataset, and the\nexperimental results indicate that the proposed methods successfully enhance\nthe separation performance of a state-of-the-art ResUNet-based USS model.",
+    "authors": [
+      "Junqi Zhao",
+      "Xubo Liu",
+      "Jinzheng Zhao",
+      "Yi Yuan",
+      "Qiuqiang Kong",
+      "Mark D. Plumbley",
+      "Wenwu Wang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11745v1",
+    "category": [
+      "Speech Recognition",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "Characterizing and Understanding HGNN Training on GPUs",
+    "abstract": "Owing to their remarkable representation capabilities for heterogeneous graph\ndata, Heterogeneous Graph Neural Networks (HGNNs) have been widely adopted in\nmany critical real-world domains such as recommendation systems and medical\nanalysis. Prior to their practical application, identifying the optimal HGNN\nmodel parameters tailored to specific tasks through extensive training is a\ntime-consuming and costly process. To enhance the efficiency of HGNN training,\nit is essential to characterize and analyze the execution semantics and\npatterns within the training process to identify performance bottlenecks. In\nthis study, we conduct an in-depth quantification and analysis of two\nmainstream HGNN training scenarios, including single-GPU and multi-GPU\ndistributed training. Based on the characterization results, we disclose the\nperformance bottlenecks and their underlying causes in different HGNN training\nscenarios and provide optimization guidelines from both software and hardware\nperspectives.",
+    "authors": [
+      "Dengke Han",
+      "Mingyu Yan",
+      "Xiaochun Ye",
+      "Dongrui Fan",
+      "Ninghui Sun"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11790v1",
+    "category": [
+      "LLMs",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Approximating Probabilistic Inference in Statistical EL with Knowledge Graph Embeddings",
+    "abstract": "Statistical information is ubiquitous but drawing valid conclusions from it\nis prohibitively hard. We explain how knowledge graph embeddings can be used to\napproximate probabilistic inference efficiently using the example of\nStatistical EL (SEL), a statistical extension of the lightweight Description\nLogic EL. We provide proofs for runtime and soundness guarantees, and\nempirically evaluate the runtime and approximation quality of our approach.",
+    "authors": [
+      "Yuqicheng Zhu",
+      "Nico Potyka",
+      "Bo Xiong",
+      "Trung-Kien Tran",
+      "Mojtaba Nayyeri",
+      "Evgeny Kharlamov",
+      "Steffen Staab"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11821v1",
+    "category": [
+      "LLMs",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "The Future of Data Science Education",
+    "abstract": "The definition of Data Science is a hotly debated topic. For many, the\ndefinition is a simple shortcut to Artificial Intelligence or Machine Learning.\nHowever, there is far more depth and nuance to the field of Data Science than a\nsimple shortcut can provide. The School of Data Science at the University of\nVirginia has developed a novel model for the definition of Data Science. This\nmodel is based on identifying a unified understanding of the data work done\nacross all areas of Data Science. It represents a generational leap forward in\nhow we understand and teach Data Science. In this paper we will present the\ncore features of the model and explain how it unifies various concepts going\nfar beyond the analytics component of AI. From this foundation we will present\nour Undergraduate Major curriculum in Data Science and demonstrate how it\nprepares students to be well-rounded Data Science team members and leaders. The\npaper will conclude with an in-depth overview of the Foundations of Data\nScience course designed to introduce students to the field while also\nimplementing proven STEM oriented pedagogical methods. These include, for\nexample, specifications grading, active learning lectures, guest lectures from\nindustry experts and weekly gamification labs.",
+    "authors": [
+      "Brian Wright",
+      "Peter Alonzi",
+      "Ali Riveria"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11824v1",
+    "category": [
+      "Datasets",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Variational Randomized Smoothing for Sample-Wise Adversarial Robustness",
+    "abstract": "Randomized smoothing is a defensive technique to achieve enhanced robustness\nagainst adversarial examples which are small input perturbations that degrade\nthe performance of neural network models. Conventional randomized smoothing\nadds random noise with a fixed noise level for every input sample to smooth out\nadversarial perturbations. This paper proposes a new variational framework that\nuses a per-sample noise level suitable for each input by introducing a noise\nlevel selector. Our experimental results demonstrate enhancement of empirical\nrobustness against adversarial attacks. We also provide and analyze the\ncertified robustness for our sample-wise smoothing method.",
+    "authors": [
+      "Ryo Hase",
+      "Ye Wang",
+      "Toshiaki Koike-Akino",
+      "Jing Liu",
+      "Kieran Parsons"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11844v1",
+    "category": [
+      "Explainable AI",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Schema Matching with Large Language Models: an Experimental Study",
+    "abstract": "Large Language Models (LLMs) have shown useful applications in a variety of\ntasks, including data wrangling. In this paper, we investigate the use of an\noff-the-shelf LLM for schema matching. Our objective is to identify semantic\ncorrespondences between elements of two relational schemas using only names and\ndescriptions. Using a newly created benchmark from the health domain, we\npropose different so-called task scopes. These are methods for prompting the\nLLM to do schema matching, which vary in the amount of context information\ncontained in the prompt. Using these task scopes we compare LLM-based schema\nmatching against a string similarity baseline, investigating matching quality,\nverification effort, decisiveness, and complementarity of the approaches. We\nfind that matching quality suffers from a lack of context information, but also\nfrom providing too much context information. In general, using newer LLM\nversions increases decisiveness. We identify task scopes that have acceptable\nverification effort and succeed in identifying a significant number of true\nsemantic matches. Our study shows that LLMs have potential in bootstrapping the\nschema matching process and are able to assist data engineers in speeding up\nthis task solely based on schema element names and descriptions without the\nneed for data instances.",
+    "authors": [
+      "Marcel Parciak",
+      "Brecht Vandevoort",
+      "Frank Neven",
+      "Liesbet M. Peeters",
+      "Stijn Vansummeren"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11852v1",
+    "category": [
+      "LLMs",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Tackling Oversmoothing in GNN via Graph Sparsification: A Truss-based Approach",
+    "abstract": "Graph Neural Network (GNN) achieves great success for node-level and\ngraph-level tasks via encoding meaningful topological structures of networks in\nvarious domains, ranging from social to biological networks. However, repeated\naggregation operations lead to excessive mixing of node representations,\nparticularly in dense regions with multiple GNN layers, resulting in nearly\nindistinguishable embeddings. This phenomenon leads to the oversmoothing\nproblem that hampers downstream graph analytics tasks. To overcome this issue,\nwe propose a novel and flexible truss-based graph sparsification model that\nprunes edges from dense regions of the graph. Pruning redundant edges in dense\nregions helps to prevent the aggregation of excessive neighborhood information\nduring hierarchical message passing and pooling in GNN models. We then utilize\nour sparsification model in the state-of-the-art baseline GNNs and pooling\nmodels, such as GIN, SAGPool, GMT, DiffPool, MinCutPool, HGP-SL, DMonPool, and\nAdamGNN. Extensive experiments on different real-world datasets show that our\nmodel significantly improves the performance of the baseline GNN models in the\ngraph classification task.",
+    "authors": [
+      "Tanvir Hossain",
+      "Khaled Mohammed Saifuddin",
+      "Muhammad Ifte Khairul Islam",
+      "Farhan Tanvir",
+      "Esra Akbas"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.11928v1",
+    "category": [
+      "LLMs",
+      "Datasets"
+    ]
+  }
+]
