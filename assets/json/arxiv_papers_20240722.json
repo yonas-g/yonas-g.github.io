@@ -15,6 +15,177 @@
     ]
   },
   {
+    "title": "MusiConGen: Rhythm and Chord Control for Transformer-Based Text-to-Music Generation",
+    "abstract": "Existing text-to-music models can produce high-quality audio with great\ndiversity. However, textual prompts alone cannot precisely control temporal\nmusical features such as chords and rhythm of the generated music. To address\nthis challenge, we introduce MusiConGen, a temporally-conditioned\nTransformer-based text-to-music model that builds upon the pretrained MusicGen\nframework. Our innovation lies in an efficient finetuning mechanism, tailored\nfor consumer-grade GPUs, that integrates automatically-extracted rhythm and\nchords as the condition signal. During inference, the condition can either be\nmusical features extracted from a reference audio signal, or be user-defined\nsymbolic chord sequence, BPM, and textual prompts. Our performance evaluation\non two datasets -- one derived from extracted features and the other from\nuser-created inputs -- demonstrates that MusiConGen can generate realistic\nbacking track music that aligns well with the specified conditions. We\nopen-source the code and model checkpoints, and provide audio examples online,\nhttps://musicongen.github.io/musicongen_demo/.",
+    "authors": [
+      "Yun-Han Lan",
+      "Wen-Yi Hsiao",
+      "Hao-Chung Cheng",
+      "Yi-Hsuan Yang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.15060v1",
+    "category": [
+      "Speech Synthesis",
+      "Speech Recognition"
+    ]
+  },
+  {
+    "title": "Learning Physics for Unveiling Hidden Earthquake Ground Motions via Conditional Generative Modeling",
+    "abstract": "Predicting high-fidelity ground motions for future earthquakes is crucial for\nseismic hazard assessment and infrastructure resilience. Conventional empirical\nsimulations suffer from sparse sensor distribution and geographically localized\nearthquake locations, while physics-based methods are computationally intensive\nand require accurate representations of Earth structures and earthquake\nsources. We propose a novel artificial intelligence (AI) simulator, Conditional\nGenerative Modeling for Ground Motion (CGM-GM), to synthesize high-frequency\nand spatially continuous earthquake ground motion waveforms. CGM-GM leverages\nearthquake magnitudes and geographic coordinates of earthquakes and sensors as\ninputs, learning complex wave physics and Earth heterogeneities, without\nexplicit physics constraints. This is achieved through a probabilistic\nautoencoder that captures latent distributions in the time-frequency domain and\nvariational sequential models for prior and posterior distributions. We\nevaluate the performance of CGM-GM using small-magnitude earthquake records\nfrom the San Francisco Bay Area, a region with high seismic risks. CGM-GM\ndemonstrates a strong potential for outperforming a state-of-the-art\nnon-ergodic empirical ground motion model and shows great promise in seismology\nand beyond.",
+    "authors": [
+      "Pu Ren",
+      "Rie Nakata",
+      "Maxime Lacour",
+      "Ilan Naiman",
+      "Nori Nakata",
+      "Jialin Song",
+      "Zhengfa Bi",
+      "Osman Asif Malik",
+      "Dmitriy Morozov",
+      "Omri Azencot",
+      "N. Benjamin Erichson",
+      "Michael W. Mahoney"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.15089v1",
+    "category": [
+      "Multimodal Learning",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Chemical Reaction Extraction for Chemical Knowledge Base",
+    "abstract": "The task of searching through patent documents is crucial for chemical patent\nrecommendation and retrieval. This can be enhanced by creating a patent\nknowledge base (ChemPatKB) to aid in prior art searches and to provide a\nplatform for domain experts to explore new innovations in chemical compound\nsynthesis and use-cases. An essential foundational component of this KB is the\nextraction of important reaction snippets from long patents documents which\nfacilitates multiple downstream tasks such as reaction co-reference resolution\nand chemical entity role identification. In this work, we explore the problem\nof extracting reactions spans from chemical patents in order to create a\nreactions resource database. We formulate this task as a paragraph-level\nsequence tagging problem, where the system is required to return a sequence of\nparagraphs that contain a description of a reaction. We propose several\napproaches and modifications of the baseline models and study how different\nmethods generalize across different domains of chemical patents.",
+    "authors": [
+      "Aishwarya Jadhav",
+      "Ritam Dutt"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.15124v1",
+    "category": [
+      "Datasets",
+      "LLMs"
+    ]
+  },
+  {
+    "title": "Proximal Policy Distillation",
+    "abstract": "We introduce Proximal Policy Distillation (PPD), a novel policy distillation\nmethod that integrates student-driven distillation and Proximal Policy\nOptimization (PPO) to increase sample efficiency and to leverage the additional\nrewards that the student policy collects during distillation. To assess the\nefficacy of our method, we compare PPD with two common alternatives,\nstudent-distill and teacher-distill, over a wide range of reinforcement\nlearning environments that include discrete actions and continuous control\n(ATARI, Mujoco, and Procgen). For each environment and method, we perform\ndistillation to a set of target student neural networks that are smaller,\nidentical (self-distillation), or larger than the teacher network. Our findings\nindicate that PPD improves sample efficiency and produces better student\npolicies compared to typical policy distillation approaches. Moreover, PPD\ndemonstrates greater robustness than alternative methods when distilling\npolicies from imperfect demonstrations. The code for the paper is released as\npart of a new Python library built on top of stable-baselines3 to facilitate\npolicy distillation: `sb3-distill'.",
+    "authors": [
+      "Giacomo Spigler"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.15134v1",
+    "category": [
+      "Reinforcement Learning",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Mitigating Deep Reinforcement Learning Backdoors in the Neural Activation Space",
+    "abstract": "This paper investigates the threat of backdoors in Deep Reinforcement\nLearning (DRL) agent policies and proposes a novel method for their detection\nat runtime. Our study focuses on elusive in-distribution backdoor triggers.\nSuch triggers are designed to induce a deviation in the behaviour of a\nbackdoored agent while blending into the expected data distribution to evade\ndetection. Through experiments conducted in the Atari Breakout environment, we\ndemonstrate the limitations of current sanitisation methods when faced with\nsuch triggers and investigate why they present a challenging defence problem.\nWe then evaluate the hypothesis that backdoor triggers might be easier to\ndetect in the neural activation space of the DRL agent's policy network. Our\nstatistical analysis shows that indeed the activation patterns in the agent's\npolicy network are distinct in the presence of a trigger, regardless of how\nwell the trigger is concealed in the environment. Based on this, we propose a\nnew defence approach that uses a classifier trained on clean environment\nsamples and detects abnormal activations. Our results show that even\nlightweight classifiers can effectively prevent malicious actions with\nconsiderable accuracy, indicating the potential of this research direction even\nagainst sophisticated adversaries.",
+    "authors": [
+      "Sanyam Vyas",
+      "Chris Hicks",
+      "Vasilios Mavroudis"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.15168v1",
+    "category": [
+      "Explainable AI",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "TADA: Temporal Adversarial Data Augmentation for Time Series Data",
+    "abstract": "Domain generalization involves training machine learning models to perform\nrobustly on unseen samples from out-of-distribution datasets. Adversarial Data\nAugmentation (ADA) is a commonly used approach that enhances model adaptability\nby incorporating synthetic samples, designed to simulate potential unseen\nsamples. While ADA effectively addresses amplitude-related distribution shifts,\nit falls short in managing temporal shifts, which are essential for time series\ndata. To address this limitation, we propose the Temporal Adversarial Data\nAugmentation for time teries Data (TADA), which incorporates a time warping\ntechnique specifically targeting temporal shifts. Recognizing the challenge of\nnon-differentiability in traditional time warping, we make it differentiable by\nleveraging phase shifts in the frequency domain. Our evaluations across diverse\ndomains demonstrate that TADA significantly outperforms existing ADA variants,\nenhancing model performance across time series datasets with varied\ndistributions.",
+    "authors": [
+      "Byeong Tak Lee",
+      "Joon-myoung Kwon",
+      "Yong-Yeon Jo"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.15174v1",
+    "category": [
+      "Multimodal Learning",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Exploiting Pre-trained Models for Drug Target Affinity Prediction with Nearest Neighbors",
+    "abstract": "Drug-Target binding Affinity (DTA) prediction is essential for drug\ndiscovery. Despite the application of deep learning methods to DTA prediction,\nthe achieved accuracy remain suboptimal. In this work, inspired by the recent\nsuccess of retrieval methods, we propose $k$NN-DTA, a non-parametric\nembedding-based retrieval method adopted on a pre-trained DTA prediction model,\nwhich can extend the power of the DTA model with no or negligible cost.\nDifferent from existing methods, we introduce two neighbor aggregation ways\nfrom both embedding space and label space that are integrated into a unified\nframework. Specifically, we propose a \\emph{label aggregation} with\n\\emph{pair-wise retrieval} and a \\emph{representation aggregation} with\n\\emph{point-wise retrieval} of the nearest neighbors. This method executes in\nthe inference phase and can efficiently boost the DTA prediction performance\nwith no training cost. In addition, we propose an extension, Ada-$k$NN-DTA, an\ninstance-wise and adaptive aggregation with lightweight learning. Results on\nfour benchmark datasets show that $k$NN-DTA brings significant improvements,\noutperforming previous state-of-the-art (SOTA) results, e.g, on BindingDB\nIC$_{50}$ and $K_i$ testbeds, $k$NN-DTA obtains new records of RMSE\n$\\bf{0.684}$ and $\\bf{0.750}$. The extended Ada-$k$NN-DTA further improves the\nperformance to be $\\bf{0.675}$ and $\\bf{0.735}$ RMSE. These results strongly\nprove the effectiveness of our method. Results in other settings and\ncomprehensive studies/analyses also show the great potential of our $k$NN-DTA\napproach.",
+    "authors": [
+      "Qizhi Pei",
+      "Lijun Wu",
+      "Zhenyu He",
+      "Jinhua Zhu",
+      "Yingce Xia",
+      "Shufang Xie",
+      "Rui Yan"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.15202v1",
+    "category": [
+      "Datasets",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "Explainability Paths for Sustained Artistic Practice with AI",
+    "abstract": "The development of AI-driven generative audio mirrors broader AI trends,\noften prioritizing immediate accessibility at the expense of explainability.\nConsequently, integrating such tools into sustained artistic practice remains a\nsignificant challenge. In this paper, we explore several paths to improve\nexplainability, drawing primarily from our research-creation practice in\ntraining and implementing generative audio models. As practical provisions for\nimproved explainability, we highlight human agency over training materials, the\nviability of small-scale datasets, the facilitation of the iterative creative\nprocess, and the integration of interactive machine learning as a mapping tool.\nImportantly, these steps aim to enhance human agency over generative AI systems\nnot only during model inference, but also when curating and preprocessing\ntraining data as well as during the training phase of models.",
+    "authors": [
+      "Austin Tecks",
+      "Thomas Peschlow",
+      "Gabriel Vigliensoni"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.15216v1",
+    "category": [
+      "Explainable AI",
+      "Speech Synthesis"
+    ]
+  },
+  {
+    "title": "Explaining Decisions of Agents in Mixed-Motive Games",
+    "abstract": "In recent years, agents have become capable of communicating seamlessly via\nnatural language and navigating in environments that involve cooperation and\ncompetition, a fact that can introduce social dilemmas. Due to the interleaving\nof cooperation and competition, understanding agents' decision-making in such\nenvironments is challenging, and humans can benefit from obtaining\nexplanations. However, such environments and scenarios have rarely been\nexplored in the context of explainable AI. While some explanation methods for\ncooperative environments can be applied in mixed-motive setups, they do not\naddress inter-agent competition, cheap-talk, or implicit communication by\nactions. In this work, we design explanation methods to address these issues.\nThen, we proceed to demonstrate their effectiveness and usefulness for humans,\nusing a non-trivial mixed-motive game as a test case. Lastly, we establish\ngenerality and demonstrate the applicability of the methods to other games,\nincluding one where we mimic human game actions using large language models.",
+    "authors": [
+      "Maayan Orner",
+      "Oleg Maksimov",
+      "Akiva Kleinerman",
+      "Charles Ortiz",
+      "Sarit Kraus"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.15255v1",
+    "category": [
+      "Explainable AI",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "New Rules for Causal Identification with Background Knowledge",
+    "abstract": "Identifying causal relations is crucial for a variety of downstream tasks. In\nadditional to observational data, background knowledge (BK), which could be\nattained from human expertise or experiments, is usually introduced for\nuncovering causal relations. This raises an open problem that in the presence\nof latent variables, what causal relations are identifiable from observational\ndata and BK. In this paper, we propose two novel rules for incorporating BK,\nwhich offer a new perspective to the open problem. In addition, we show that\nthese rules are applicable in some typical causality tasks, such as determining\nthe set of possible causal effects with observational data. Our rule-based\napproach enhances the state-of-the-art method by circumventing a process of\nenumerating block sets that would otherwise take exponential complexity.",
+    "authors": [
+      "Tian-Zuo Wang",
+      "Lue Tao",
+      "Zhi-Hua Zhou"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.15259v1",
+    "category": [
+      "Datasets",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Unifying Invariant and Variant Features for Graph Out-of-Distribution via Probability of Necessity and Sufficiency",
+    "abstract": "Graph Out-of-Distribution (OOD), requiring that models trained on biased data\ngeneralize to the unseen test data, has considerable real-world applications.\nOne of the most mainstream methods is to extract the invariant subgraph by\naligning the original and augmented data with the help of environment\naugmentation. However, these solutions might lead to the loss or redundancy of\nsemantic subgraphs and result in suboptimal generalization. To address this\nchallenge, we propose exploiting Probability of Necessity and Sufficiency (PNS)\nto extract sufficient and necessary invariant substructures. Beyond that, we\nfurther leverage the domain variant subgraphs related to the labels to boost\nthe generalization performance in an ensemble manner. Specifically, we first\nconsider the data generation process for graph data. Under mild conditions, we\nshow that the sufficient and necessary invariant subgraph can be extracted by\nminimizing an upper bound, built on the theoretical advance of the probability\nof necessity and sufficiency. To further bridge the theory and algorithm, we\ndevise the model called Sufficiency and Necessity Inspired Graph Learning\n(SNIGL), which ensembles an invariant subgraph classifier on top of latent\nsufficient and necessary invariant subgraphs, and a domain variant subgraph\nclassifier specific to the test domain for generalization enhancement.\nExperimental results demonstrate that our SNIGL model outperforms the\nstate-of-the-art techniques on six public benchmarks, highlighting its\neffectiveness in real-world scenarios.",
+    "authors": [
+      "Xuexin Chen",
+      "Ruichu Cai",
+      "Kaitao Zheng",
+      "Zhifan Jiang",
+      "Zhengting Huang",
+      "Zhifeng Hao",
+      "Zijian Li"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.15273v1",
+    "category": [
+      "Datasets",
+      "Multimodal Learning"
+    ]
+  },
+  {
     "title": "Odyssey: Empowering Agents with Open-World Skills",
     "abstract": "Recent studies have delved into constructing generalist agents for open-world\nembodied environments like Minecraft. Despite the encouraging results, existing\nefforts mainly focus on solving basic programmatic tasks, e.g., material\ncollection and tool-crafting following the Minecraft tech-tree, treating the\nObtainDiamond task as the ultimate goal. This limitation stems from the\nnarrowly defined set of actions available to agents, requiring them to learn\neffective long-horizon strategies from scratch. Consequently, discovering\ndiverse gameplay opportunities in the open world becomes challenging. In this\nwork, we introduce ODYSSEY, a new framework that empowers Large Language Model\n(LLM)-based agents with open-world skills to explore the vast Minecraft world.\nODYSSEY comprises three key parts: (1) An interactive agent with an open-world\nskill library that consists of 40 primitive skills and 183 compositional\nskills. (2) A fine-tuned LLaMA-3 model trained on a large question-answering\ndataset with 390k+ instruction entries derived from the Minecraft Wiki. (3) A\nnew open-world benchmark includes thousands of long-term planning tasks, tens\nof dynamic-immediate planning tasks, and one autonomous exploration task.\nExtensive experiments demonstrate that the proposed ODYSSEY framework can\neffectively evaluate the planning and exploration capabilities of agents. All\ndatasets, model weights, and code are publicly available to motivate future\nresearch on more advanced autonomous agent solutions.",
     "authors": [
@@ -34,7 +205,7 @@
     ]
   },
   {
-    "title": "Integrating IP Broadcasting with Audio Tags: Workflow and Challenges",
+    "title": "Integrating IP Broadcasting with Audio Tags- Workflow and Challenges",
     "abstract": "The broadcasting industry is increasingly adopting IP techniques,\nrevolutionising both live and pre-recorded content production, from news\ngathering to live music events. IP broadcasting allows for the transport of\naudio and video signals in an easily configurable way, aligning with modern\nnetworking techniques. This shift towards an IP workflow allows for much\ngreater flexibility, not only in routing signals but with the integration of\ntools using standard web development techniques. One possible tool could\ninclude the use of live audio tagging, which has a number of uses in the\nproduction of content. These include from automated closed captioning to\nidentifying unwanted sound events within a scene. In this paper, we describe\nthe process of containerising an audio tagging model into a microservice, a\nsmall segregated code module that can be integrated into a multitude of\ndifferent network setups. The goal is to develop a modular, accessible, and\nflexible tool capable of seamless deployment into broadcasting workflows of all\nsizes, from small productions to large corporations. Challenges surrounding\nlatency of the selected audio tagging model and its effect on the usefulness of\nthe end product are discussed.",
     "authors": [
       "Rhys Burchett-Vass",
@@ -42,7 +213,7 @@
       "Gabriel Bibb\u00f3",
       "Mark D. Plumbley"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15423v2",
+    "pdf_link": "http://arxiv.org/pdf/2407.15423v1",
     "category": [
       "Speech Recognition",
       "Speech Synthesis"
