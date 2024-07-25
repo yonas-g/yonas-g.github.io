@@ -1,316 +1,371 @@
 [
   {
-    "title": "Robustness of Speech Separation Models for Similar-pitch Speakers",
-    "abstract": "Single-channel speech separation is a crucial task for enhancing speech\nrecognition systems in multi-speaker environments. This paper investigates the\nrobustness of state-of-the-art Neural Network models in scenarios where the\npitch differences between speakers are minimal. Building on earlier findings by\nDitter and Gerkmann, which identified a significant performance drop for the\n2018 Chimera++ under similar-pitch conditions, our study extends the analysis\nto more recent and sophisticated Neural Network models. Our experiments reveal\nthat modern models have substantially reduced the performance gap for matched\ntraining and testing conditions. However, a substantial performance gap\npersists under mismatched conditions, with models performing well for large\npitch differences but showing worse performance if the speakers' pitches are\nsimilar. These findings motivate further research into the generalizability of\nspeech separation models to similar-pitch speakers and unseen data.",
+    "title": "Synthesizer Sound Matching Using Audio Spectrogram Transformers",
+    "abstract": "Systems for synthesizer sound matching, which automatically set the\nparameters of a synthesizer to emulate an input sound, have the potential to\nmake the process of synthesizer programming faster and easier for novice and\nexperienced musicians alike, whilst also affording new means of interaction\nwith synthesizers. Considering the enormous variety of synthesizers in the\nmarketplace, and the complexity of many of them, general-purpose sound matching\nsystems that function with minimal knowledge or prior assumptions about the\nunderlying synthesis architecture are particularly desirable. With this in\nmind, we introduce a synthesizer sound matching model based on the Audio\nSpectrogram Transformer. We demonstrate the viability of this model by training\non a large synthetic dataset of randomly generated samples from the popular\nMassive synthesizer. We show that this model can reconstruct parameters of\nsamples generated from a set of 16 parameters, highlighting its improved\nfidelity relative to multi-layer perceptron and convolutional neural network\nbaselines. We also provide audio examples demonstrating the out-of-domain model\nperformance in emulating vocal imitations, and sounds from other synthesizers\nand musical instruments.",
     "authors": [
-      "Bunlong Lay",
-      "Sebastian Zaczek",
-      "Kristina Tesch",
-      "Timo Gerkmann"
+      "Fred Bruford",
+      "Frederik Blang",
+      "Shahan Nercessian"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15749v1",
-    "category": [
-      "Speech Recognition",
-      "Speech Synthesis"
-    ]
-  },
-  {
-    "title": "Odyssey: Empowering Agents with Open-World Skills",
-    "abstract": "Recent studies have delved into constructing generalist agents for open-world\nembodied environments like Minecraft. Despite the encouraging results, existing\nefforts mainly focus on solving basic programmatic tasks, e.g., material\ncollection and tool-crafting following the Minecraft tech-tree, treating the\nObtainDiamond task as the ultimate goal. This limitation stems from the\nnarrowly defined set of actions available to agents, requiring them to learn\neffective long-horizon strategies from scratch. Consequently, discovering\ndiverse gameplay opportunities in the open world becomes challenging. In this\nwork, we introduce ODYSSEY, a new framework that empowers Large Language Model\n(LLM)-based agents with open-world skills to explore the vast Minecraft world.\nODYSSEY comprises three key parts: (1) An interactive agent with an open-world\nskill library that consists of 40 primitive skills and 183 compositional\nskills. (2) A fine-tuned LLaMA-3 model trained on a large question-answering\ndataset with 390k+ instruction entries derived from the Minecraft Wiki. (3) A\nnew open-world benchmark includes thousands of long-term planning tasks, tens\nof dynamic-immediate planning tasks, and one autonomous exploration task.\nExtensive experiments demonstrate that the proposed ODYSSEY framework can\neffectively evaluate the planning and exploration capabilities of agents. All\ndatasets, model weights, and code are publicly available to motivate future\nresearch on more advanced autonomous agent solutions.",
-    "authors": [
-      "Shunyu Liu",
-      "Yaoru Li",
-      "Kongcheng Zhang",
-      "Zhenyu Cui",
-      "Wenkai Fang",
-      "Yuxuan Zheng",
-      "Tongya Zheng",
-      "Mingli Song"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15325v1",
-    "category": [
-      "Explainable AI",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "Integrating IP Broadcasting with Audio Tags: Workflow and Challenges",
-    "abstract": "The broadcasting industry is increasingly adopting IP techniques,\nrevolutionising both live and pre-recorded content production, from news\ngathering to live music events. IP broadcasting allows for the transport of\naudio and video signals in an easily configurable way, aligning with modern\nnetworking techniques. This shift towards an IP workflow allows for much\ngreater flexibility, not only in routing signals but with the integration of\ntools using standard web development techniques. One possible tool could\ninclude the use of live audio tagging, which has a number of uses in the\nproduction of content. These include from automated closed captioning to\nidentifying unwanted sound events within a scene. In this paper, we describe\nthe process of containerising an audio tagging model into a microservice, a\nsmall segregated code module that can be integrated into a multitude of\ndifferent network setups. The goal is to develop a modular, accessible, and\nflexible tool capable of seamless deployment into broadcasting workflows of all\nsizes, from small productions to large corporations. Challenges surrounding\nlatency of the selected audio tagging model and its effect on the usefulness of\nthe end product are discussed.",
-    "authors": [
-      "Rhys Burchett-Vass",
-      "Arshdeep Singh",
-      "Gabriel Bibb\u00f3",
-      "Mark D. Plumbley"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15423v2",
-    "category": [
-      "Speech Recognition",
-      "Speech Synthesis"
-    ]
-  },
-  {
-    "title": "Decoding BACnet Packets: A Large Language Model Approach for Packet Interpretation",
-    "abstract": "The Industrial Control System (ICS) environment encompasses a wide range of\nintricate communication protocols, posing substantial challenges for Security\nOperations Center (SOC) analysts tasked with monitoring, interpreting, and\naddressing network activities and security incidents. Conventional monitoring\ntools and techniques often struggle to provide a clear understanding of the\nnature and intent of ICS-specific communications. To enhance comprehension, we\npropose a software solution powered by a Large Language Model (LLM). This\nsolution currently focused on BACnet protocol, processes a packet file data and\nextracts context by using a mapping database, and contemporary context\nretrieval methods for Retrieval Augmented Generation (RAG). The processed\npacket information, combined with the extracted context, serves as input to the\nLLM, which generates a concise packet file summary for the user. The software\ndelivers a clear, coherent, and easily understandable summary of network\nactivities, enabling SOC analysts to better assess the current state of the\ncontrol system.",
-    "authors": [
-      "Rashi Sharma",
-      "Hiroyuki Okada",
-      "Tatsumi Oba",
-      "Karthikk Subramanian",
-      "Naoto Yanai",
-      "Sugiri Pranata"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15428v1",
-    "category": [
-      "Datasets",
-      "Speech Recognition"
-    ]
-  },
-  {
-    "title": "Pre-Training and Prompting for Few-Shot Node Classification on Text-Attributed Graphs",
-    "abstract": "The text-attributed graph (TAG) is one kind of important real-world\ngraph-structured data with each node associated with raw texts. For TAGs,\ntraditional few-shot node classification methods directly conduct training on\nthe pre-processed node features and do not consider the raw texts. The\nperformance is highly dependent on the choice of the feature pre-processing\nmethod. In this paper, we propose P2TAG, a framework designed for few-shot node\nclassification on TAGs with graph pre-training and prompting. P2TAG first\npre-trains the language model (LM) and graph neural network (GNN) on TAGs with\nself-supervised loss. To fully utilize the ability of language models, we adapt\nthe masked language modeling objective for our framework. The pre-trained model\nis then used for the few-shot node classification with a mixed prompt method,\nwhich simultaneously considers both text and graph information. We conduct\nexperiments on six real-world TAGs, including paper citation networks and\nproduct co-purchasing networks. Experimental results demonstrate that our\nproposed framework outperforms existing graph few-shot learning methods on\nthese datasets with +18.98% ~ +35.98% improvements.",
-    "authors": [
-      "Huanjing Zhao",
-      "Beining Yang",
-      "Yukuo Cen",
-      "Junyu Ren",
-      "Chenhui Zhang",
-      "Yuxiao Dong",
-      "Evgeny Kharlamov",
-      "Shu Zhao",
-      "Jie Tang"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15431v1",
-    "category": [
-      "LLMs",
-      "Datasets"
-    ]
-  },
-  {
-    "title": "Future-Proofing Mobile Networks: A Digital Twin Approach to Multi-Signal Management",
-    "abstract": "Digital Twins (DTs) are set to become a key enabling technology in future\nwireless networks, with their use in network management increasing\nsignificantly. We developed a DT framework that leverages the heterogeneity of\nnetwork access technologies as a resource for enhanced network performance and\nmanagement, enabling smart data handling in the physical network. Tested in a\n\\textit{Campus Area Network} environment, our framework integrates diverse data\nsources to provide real-time, holistic insights into network performance and\nenvironmental sensing. We also envision that traditional analytics will evolve\nto rely on emerging AI models, such as Generative AI (GenAI), while leveraging\ncurrent analytics capabilities. This capacity can simplify analytics processes\nthrough advanced ML models, enabling descriptive, diagnostic, predictive, and\nprescriptive analytics in a unified fashion. Finally, we present specific\nresearch opportunities concerning interoperability aspects and envision\naligning advancements in DT technology with evolved AI integration.",
-    "authors": [
-      "Roberto Morabito",
-      "Bivek Pandey",
-      "Paulius Daubaris",
-      "Yasith R Wanigarathna",
-      "Sasu Tarkoma"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15520v1",
-    "category": [
-      "Datasets",
-      "Explainable AI"
-    ]
-  },
-  {
-    "title": "Large-scale Time-Varying Portfolio Optimisation using Graph Attention Networks",
-    "abstract": "Apart from assessing individual asset performance, investors in financial\nmarkets also need to consider how a set of firms performs collectively as a\nportfolio. Whereas traditional Markowitz-based mean-variance portfolios are\nwidespread, network-based optimisation techniques have built upon these\ndevelopments. However, most studies do not contain firms at risk of default and\nremove any firms that drop off indices over a certain time. This is the first\nstudy to incorporate risky firms and use all the firms in portfolio\noptimisation. We propose and empirically test a novel method that leverages\nGraph Attention networks (GATs), a subclass of Graph Neural Networks (GNNs).\nGNNs, as deep learning-based models, can exploit network data to uncover\nnonlinear relationships. Their ability to handle high-dimensional features and\naccommodate customised layers for specific purposes makes them particularly\nappealing for large-scale problems such as mid- and small-cap portfolio\noptimization. This study utilises 30 years of data on mid-cap firms, creating\ngraphs of firms using distance correlation and the Triangulated Maximally\nFiltered Graph approach. These graphs are the inputs to a GAT model that we\ntrain using custom layers which impose weight and allocation constraints and a\nloss function derived from the Sharpe ratio, thus directly maximising portfolio\nrisk-adjusted returns. This new model is benchmarked against a network\ncharacteristic-based portfolio, a mean variance-based portfolio, and an\nequal-weighted portfolio. The results show that the portfolio produced by the\nGAT-based model outperforms all benchmarks and is consistently superior to\nother strategies over a long period while also being informative of market\ndynamics.",
-    "authors": [
-      "Kamesh Korangi",
-      "Christophe Mues",
-      "Cristi\u00e1n Bravo"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15532v1",
-    "category": [
-      "Reinforcement Learning",
-      "Explainable AI"
-    ]
-  },
-  {
-    "title": "Discrete Flow Matching",
-    "abstract": "Despite Flow Matching and diffusion models having emerged as powerful\ngenerative paradigms for continuous variables such as images and videos, their\napplication to high-dimensional discrete data, such as language, is still\nlimited. In this work, we present Discrete Flow Matching, a novel discrete flow\nparadigm designed specifically for generating discrete data. Discrete Flow\nMatching offers several key contributions: (i) it works with a general family\nof probability paths interpolating between source and target distributions;\n(ii) it allows for a generic formula for sampling from these probability paths\nusing learned posteriors such as the probability denoiser ($x$-prediction) and\nnoise-prediction ($\\epsilon$-prediction); (iii) practically, focusing on\nspecific probability paths defined with different schedulers considerably\nimproves generative perplexity compared to previous discrete diffusion and flow\nmodels; and (iv) by scaling Discrete Flow Matching models up to 1.7B\nparameters, we reach 6.7% Pass@1 and 13.4% Pass@10 on HumanEval and 6.7% Pass@1\nand 20.6% Pass@10 on 1-shot MBPP coding benchmarks. Our approach is capable of\ngenerating high-quality discrete data in a non-autoregressive fashion,\nsignificantly closing the gap between autoregressive models and discrete flow\nmodels.",
-    "authors": [
-      "Itai Gat",
-      "Tal Remez",
-      "Neta Shaul",
-      "Felix Kreuk",
-      "Ricky T. Q. Chen",
-      "Gabriel Synnaeve",
-      "Yossi Adi",
-      "Yaron Lipman"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15595v1",
+    "pdf_link": "http://arxiv.org/pdf/2407.16643v1",
     "category": [
       "Speech Synthesis",
       "Speech Recognition"
     ]
   },
   {
-    "title": "Sustainable broadcasting in Blockchain Network with Reinforcement Learning",
-    "abstract": "Recent estimates put the carbon footprint of Bitcoin and Ethereum at an\naverage of 64 and 26 million tonnes of CO2 per year, respectively. To address\nthis growing problem, several possible approaches have been proposed in the\nliterature: creating alternative blockchain consensus mechanisms, applying\nredundancy reduction techniques, utilizing renewable energy sources, and\nemploying energy-efficient devices, etc. In this paper, we follow the second\navenue and propose an efficient approach based on reinforcement learning that\nimproves the block broadcasting scheme in blockchain networks. The analysis and\nexperimental results confirmed that the proposed improvement of the block\npropagation scheme could cleverly handle network dynamics and achieve better\nresults than the default approach. Additionally, our technical integration of\nthe simulator and developed RL environment can be used as a complete solution\nfor further study of new schemes and protocols that use RL or other ML\ntechniques.",
+    "title": "Transformer-based Graph Neural Networks for Battery Range Prediction in AIoT Battery-Swap Services",
+    "abstract": "The concept of the sharing economy has gained broad recognition, and within\nthis context, Sharing E-Bike Battery (SEB) have emerged as a focal point of\nsocietal interest. Despite the popularity, a notable discrepancy remains\nbetween user expectations regarding the remaining battery range of SEBs and the\nreality, leading to a pronounced inclination among users to find an available\nSEB during emergency situations. In response to this challenge, the integration\nof Artificial Intelligence of Things (AIoT) and battery-swap services has\nsurfaced as a viable solution. In this paper, we propose a novel structural\nTransformer-based model, referred to as the SEB-Transformer, designed\nspecifically for predicting the battery range of SEBs. The scenario is\nconceptualized as a dynamic heterogeneous graph that encapsulates the\ninteractions between users and bicycles, providing a comprehensive framework\nfor analysis. Furthermore, we incorporate the graph structure into the\nSEB-Transformer to facilitate the estimation of the remaining e-bike battery\nrange, in conjunction with mean structural similarity, enhancing the prediction\naccuracy. By employing the predictions made by our model, we are able to\ndynamically adjust the optimal cycling routes for users in real-time, while\nalso considering the strategic locations of charging stations, thereby\noptimizing the user experience. Empirically our results on real-world datasets\ndemonstrate the superiority of our model against nine competitive baselines.\nThese innovations, powered by AIoT, not only bridge the gap between user\nexpectations and the physical limitations of battery range but also\nsignificantly improve the operational efficiency and sustainability of SEB\nservices. Through these advancements, the shared electric bicycle ecosystem is\nevolving, making strides towards a more reliable, user-friendly, and\nsustainable mode of transportation.",
     "authors": [
-      "Danila Valko",
-      "Daniel Kudenko"
+      "Zhao Li",
+      "Yang Liu",
+      "Chuan Zhou",
+      "Xuanwu Liu",
+      "Xuming Pan",
+      "Buqing Cao",
+      "Xindong Wu"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15616v1",
+    "pdf_link": "http://arxiv.org/pdf/2407.16115v1",
     "category": [
-      "Reinforcement Learning",
-      "Explainable AI"
+      "Explainable AI",
+      "Datasets"
     ]
   },
   {
-    "title": "Evaluation of Reinforcement Learning for Autonomous Penetration Testing using A3C, Q-learning and DQN",
-    "abstract": "Penetration testing is the process of searching for security weaknesses by\nsimulating an attack. It is usually performed by experienced professionals,\nwhere scanning and attack tools are applied. By automating the execution of\nsuch tools, the need for human interaction and decision-making could be\nreduced. In this work, a Network Attack Simulator (NASim) was used as an\nenvironment to train reinforcement learning agents to solve three predefined\nsecurity scenarios. These scenarios cover techniques of exploitation,\npost-exploitation and wiretapping. A large hyperparameter grid search was\nperformed to find the best hyperparameter combinations. The algorithms\nQ-learning, DQN and A3C were used, whereby A3C was able to solve all scenarios\nand achieve generalization. In addition, A3C could solve these scenarios with\nfewer actions than the baseline automated penetration testing. Although the\ntraining was performed on rather small scenarios and with small state and\naction spaces for the agents, the results show that a penetration test can\nsuccessfully be performed by the RL agent.",
+    "title": "Uncertainty-Aware Deep Neural Representations for Visual Analysis of Vector Field Data",
+    "abstract": "The widespread use of Deep Neural Networks (DNNs) has recently resulted in\ntheir application to challenging scientific visualization tasks. While advanced\nDNNs demonstrate impressive generalization abilities, understanding factors\nlike prediction quality, confidence, robustness, and uncertainty is crucial.\nThese insights aid application scientists in making informed decisions.\nHowever, DNNs lack inherent mechanisms to measure prediction uncertainty,\nprompting the creation of distinct frameworks for constructing robust\nuncertainty-aware models tailored to various visualization tasks. In this work,\nwe develop uncertainty-aware implicit neural representations to model\nsteady-state vector fields effectively. We comprehensively evaluate the\nefficacy of two principled deep uncertainty estimation techniques: (1) Deep\nEnsemble and (2) Monte Carlo Dropout, aimed at enabling uncertainty-informed\nvisual analysis of features within steady vector field data. Our detailed\nexploration using several vector data sets indicate that uncertainty-aware\nmodels generate informative visualization results of vector field features.\nFurthermore, incorporating prediction uncertainty improves the resilience and\ninterpretability of our DNN model, rendering it applicable for the analysis of\nnon-trivial vector field data sets.",
     "authors": [
-      "Norman Becker",
-      "Daniel Reti",
-      "Evridiki V. Ntagiou",
-      "Marcus Wallum",
-      "Hans D. Schotten"
+      "Atul Kumar",
+      "Siddharth Garg",
+      "Soumya Dutta"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15656v1",
-    "category": [
-      "Reinforcement Learning",
-      "Benchmarking"
-    ]
-  },
-  {
-    "title": "How to Shrink Confidence Sets for Many Equivalent Discrete Distributions?",
-    "abstract": "We consider the situation when a learner faces a set of unknown discrete\ndistributions $(p_k)_{k\\in \\mathcal K}$ defined over a common alphabet\n$\\mathcal X$, and can build for each distribution $p_k$ an individual\nhigh-probability confidence set thanks to $n_k$ observations sampled from\n$p_k$. The set $(p_k)_{k\\in \\mathcal K}$ is structured: each distribution $p_k$\nis obtained from the same common, but unknown, distribution q via applying an\nunknown permutation to $\\mathcal X$. We call this\n\\emph{permutation-equivalence}. The goal is to build refined confidence sets\n\\emph{exploiting} this structural property. Like other popular notions of\nstructure (Lipschitz smoothness, Linearity, etc.) permutation-equivalence\nnaturally appears in machine learning problems, and to benefit from its\npotential gain calls for a specific approach. We present a strategy to\neffectively exploit permutation-equivalence, and provide a finite-time\nhigh-probability bound on the size of the refined confidence sets output by the\nstrategy. Since a refinement is not possible for too few observations in\ngeneral, under mild technical assumptions, our finite-time analysis establish\nwhen the number of observations $(n_k)_{k\\in \\mathcal K}$ are large enough so\nthat the output confidence sets improve over initial individual sets. We\ncarefully characterize this event and the corresponding improvement. Further,\nour result implies that the size of confidence sets shrink at asymptotic rates\nof $O(1/\\sqrt{\\sum_{k\\in \\mathcal K} n_k})$ and $O(1/\\max_{k\\in K} n_{k})$,\nrespectively for elements inside and outside the support of q, when the size of\neach individual confidence set shrinks at respective rates of $O(1/\\sqrt{n_k})$\nand $O(1/n_k)$. We illustrate the practical benefit of exploiting permutation\nequivalence on a reinforcement learning task.",
-    "authors": [
-      "Odalric-Ambrym Maillard",
-      "Mohammad Sadegh Talebi"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15662v1",
-    "category": [
-      "Datasets",
-      "Multimodal Learning"
-    ]
-  },
-  {
-    "title": "Problems in AI, their roots in philosophy, and implications for science and society",
-    "abstract": "Artificial Intelligence (AI) is one of today's most relevant emergent\ntechnologies. In view thereof, this paper proposes that more attention should\nbe paid to the philosophical aspects of AI technology and its use. It is argued\nthat this deficit is generally combined with philosophical misconceptions about\nthe growth of knowledge. To identify these misconceptions, reference is made to\nthe ideas of the philosopher of science Karl Popper and the physicist David\nDeutsch. The works of both thinkers aim against mistaken theories of knowledge,\nsuch as inductivism, empiricism, and instrumentalism. This paper shows that\nthese theories bear similarities to how current AI technology operates. It also\nshows that these theories are very much alive in the (public) discourse on AI,\noften called Bayesianism. In line with Popper and Deutsch, it is proposed that\nall these theories are based on mistaken philosophies of knowledge. This\nincludes an analysis of the implications of these mistaken philosophies for the\nuse of AI in science and society, including some of the likely problem\nsituations that will arise. This paper finally provides a realistic outlook on\nArtificial General Intelligence (AGI) and three propositions on A(G)I and\nphilosophy (i.e., epistemology).",
-    "authors": [
-      "Max Velthoven",
-      "Eric Marcus"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15671v1",
+    "pdf_link": "http://arxiv.org/pdf/2407.16119v1",
     "category": [
       "Explainable AI",
       "AI in Healthcare"
     ]
   },
   {
-    "title": "AI-Driven Fast and Early Detection of IoT Botnet Threats: A Comprehensive Network Traffic Analysis Approach",
-    "abstract": "In the rapidly evolving landscape of cyber threats targeting the Internet of\nThings (IoT) ecosystem, and in light of the surge in botnet-driven Distributed\nDenial of Service (DDoS) and brute force attacks, this study focuses on the\nearly detection of IoT bots. It specifically addresses the detection of stealth\nbot communication that precedes and orchestrates attacks. This study proposes a\ncomprehensive methodology for analyzing IoT network traffic, including\nconsiderations for both unidirectional and bidirectional flow, as well as\npacket formats. It explores a wide spectrum of network features critical for\nrepresenting network traffic and characterizing benign IoT traffic patterns\neffectively. Moreover, it delves into the modeling of traffic using various\nsemi-supervised learning techniques. Through extensive experimentation with the\nIoT-23 dataset - a comprehensive collection featuring diverse botnet types and\ntraffic scenarios - we have demonstrated the feasibility of detecting botnet\ntraffic corresponding to different operations and types of bots, specifically\nfocusing on stealth command and control (C2) communications. The results\nobtained have demonstrated the feasibility of identifying C2 communication with\na 100% success rate through packet-based methods and 94% via flow based\napproaches, with a false positive rate of 1.53%.",
+    "title": "Towards Effective Fusion and Forecasting of Multimodal Spatio-temporal Data for Smart Mobility",
+    "abstract": "With the rapid development of location based services, multimodal\nspatio-temporal (ST) data including trajectories, transportation modes, traffic\nflow and social check-ins are being collected for deep learning based methods.\nThese deep learning based methods learn ST correlations to support the\ndownstream tasks in the fields such as smart mobility, smart city and other\nintelligent transportation systems. Despite their effectiveness, ST data fusion\nand forecasting methods face practical challenges in real-world scenarios.\nFirst, forecasting performance for ST data-insufficient area is inferior,\nmaking it necessary to transfer meta knowledge from heterogeneous area to\nenhance the sparse representations. Second, it is nontrivial to accurately\nforecast in multi-transportation-mode scenarios due to the fine-grained ST\nfeatures of similar transportation modes, making it necessary to distinguish\nand measure the ST correlations to alleviate the influence caused by entangled\nST features. At last, partial data modalities (e.g., transportation mode) are\nlost due to privacy or technical issues in certain scenarios, making it\nnecessary to effectively fuse the multimodal sparse ST features and enrich the\nST representations. To tackle these challenges, our research work aim to\ndevelop effective fusion and forecasting methods for multimodal ST data in\nsmart mobility scenario. In this paper, we will introduce our recent works that\ninvestigates the challenges in terms of various real-world applications and\nestablish the open challenges in this field for future work.",
     "authors": [
-      "Abdelaziz Amara korba",
-      "Aleddine Diaf",
-      "Yacine Ghamri-Doudane"
+      "Chenxing Wang"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15688v1",
+    "pdf_link": "http://arxiv.org/pdf/2407.16123v1",
     "category": [
-      "Datasets",
-      "Explainable AI"
+      "Multimodal Learning",
+      "Datasets"
     ]
   },
   {
-    "title": "TaskGen: A Task-Based, Memory-Infused Agentic Framework using StrictJSON",
-    "abstract": "TaskGen is an open-sourced agentic framework which uses an Agent to solve an\narbitrary task by breaking them down into subtasks. Each subtask is mapped to\nan Equipped Function or another Agent to execute. In order to reduce verbosity\n(and hence token usage), TaskGen uses StrictJSON that ensures JSON output from\nthe Large Language Model (LLM), along with additional features such as type\nchecking and iterative error correction. Key to the philosophy of TaskGen is\nthe management of information/memory on a need-to-know basis. We empirically\nevaluate TaskGen on various environments such as 40x40 dynamic maze navigation\nwith changing obstacle locations (100% solve rate), TextWorld escape room\nsolving with dense rewards and detailed goals (96% solve rate), web browsing\n(69% of actions successful), solving the MATH dataset (71% solve rate over 100\nLevel-5 problems), Retrieval Augmented Generation on NaturalQuestions dataset\n(F1 score of 47.03%)",
+    "title": "MCTS Based Dispatch of Autonomous Vehicles under Operational Constraints for Continuous Transportation",
+    "abstract": "Continuous transportation of material in the mining industry is achieved by\nthe dispatch of autonomous haul-trucks with discrete haulage capacities.\nRecently, Monte Carlo Tree Search (MCTS) was successfully deployed in tackling\nchallenges of long-run optimality, scalability and adaptability in haul-truck\ndispatch. Typically, operational constraints imposed on the mine site are\nsatisfied by heuristic controllers or human operators independent of the\ndispatch planning. This article incorporates operational constraint\nsatisfaction into the dispatch planning by utilising the MCTS based dispatch\nplanner Flow-Achieving Scheduling Tree (FAST). Operational constraint violation\nand satisfaction are modelled as opportunity costs in the combinatorial\noptimisation problem of dispatch. Explicit cost formulations are avoided by\nutilising MCTS generator models to derive opportunity costs. Experimental\nstudies with four types of operational constraints demonstrate the success of\nutilising opportunity costs for constraint satisfaction, and the effectiveness\nof integrating constraints into dispatch planning.",
     "authors": [
-      "John Chong Min Tan",
-      "Prince Saroj",
-      "Bharat Runwal",
-      "Hardik Maheshwari",
-      "Brian Lim Yi Sheng",
-      "Richard Cottrill",
-      "Alankrit Chona",
-      "Ambuj Kumar",
-      "Mehul Motani"
+      "Milan Tomy",
+      "Konstantin M. Seiler",
+      "Andrew J. Hill"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15734v1",
-    "category": [
-      "Explainable AI",
-      "Reinforcement Learning"
-    ]
-  },
-  {
-    "title": "MoRSE: Bridging the Gap in Cybersecurity Expertise with Retrieval Augmented Generation",
-    "abstract": "In this paper, we introduce MoRSE (Mixture of RAGs Security Experts), the\nfirst specialised AI chatbot for cybersecurity. MoRSE aims to provide\ncomprehensive and complete knowledge about cybersecurity. MoRSE uses two RAG\n(Retrieval Augmented Generation) systems designed to retrieve and organize\ninformation from multidimensional cybersecurity contexts. MoRSE differs from\ntraditional RAGs by using parallel retrievers that work together to retrieve\nsemantically related information in different formats and structures. Unlike\ntraditional Large Language Models (LLMs) that rely on Parametric Knowledge\nBases, MoRSE retrieves relevant documents from Non-Parametric Knowledge Bases\nin response to user queries. Subsequently, MoRSE uses this information to\ngenerate accurate answers. In addition, MoRSE benefits from real-time updates\nto its knowledge bases, enabling continuous knowledge enrichment without\nretraining. We have evaluated the effectiveness of MoRSE against other\nstate-of-the-art LLMs, evaluating the system on 600 cybersecurity specific\nquestions. The experimental evaluation has shown that the improvement in terms\nof relevance and correctness of the answer is more than 10\\% compared to known\nsolutions such as GPT-4 and Mixtral 7x8.",
-    "authors": [
-      "Marco Simoni",
-      "Andrea Saracino",
-      "Vinod P.",
-      "Mauro Conti"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15748v1",
-    "category": [
-      "Speech Recognition",
-      "Speech Synthesis"
-    ]
-  },
-  {
-    "title": "Model editing for distribution shifts in uranium oxide morphological analysis",
-    "abstract": "Deep learning still struggles with certain kinds of scientific data. Notably,\npretraining data may not provide coverage of relevant distribution shifts\n(e.g., shifts induced via the use of different measurement instruments). We\nconsider deep learning models trained to classify the synthesis conditions of\nuranium ore concentrates (UOCs) and show that model editing is particularly\neffective for improving generalization to distribution shifts common in this\ndomain. In particular, model editing outperforms finetuning on two curated\ndatasets comprising of micrographs taken of U$_{3}$O$_{8}$ aged in humidity\nchambers and micrographs acquired with different scanning electron microscopes,\nrespectively.",
-    "authors": [
-      "Davis Brown",
-      "Cody Nizinski",
-      "Madelyn Shapiro",
-      "Corey Fallon",
-      "Tianzhixi Yin",
-      "Henry Kvinge",
-      "Jonathan H. Tu"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15756v1",
-    "category": [
-      "Datasets",
-      "Explainable AI"
-    ]
-  },
-  {
-    "title": "Diffusion Model Based Resource Allocation Strategy in Ultra-Reliable Wireless Networked Control Systems",
-    "abstract": "Diffusion models are vastly used in generative AI, leveraging their\ncapability to capture complex data distributions. However, their potential\nremains largely unexplored in the field of resource allocation in wireless\nnetworks. This paper introduces a novel diffusion model-based resource\nallocation strategy for Wireless Networked Control Systems (WNCSs) with the\nobjective of minimizing total power consumption through the optimization of the\nsampling period in the control system, and blocklength and packet error\nprobability in the finite blocklength regime of the communication system. The\nproblem is first reduced to the optimization of blocklength only based on the\nderivation of the optimality conditions. Then, the optimization theory solution\ncollects a dataset of channel gains and corresponding optimal blocklengths.\nFinally, the Denoising Diffusion Probabilistic Model (DDPM) uses this collected\ndataset to train the resource allocation algorithm that generates optimal\nblocklength values conditioned on the channel state information (CSI). Via\nextensive simulations, the proposed approach is shown to outperform previously\nproposed Deep Reinforcement Learning (DRL) based approaches with close to\noptimal performance regarding total power consumption. Moreover, an improvement\nof up to eighteen-fold in the reduction of critical constraint violations is\nobserved, further underscoring the accuracy of the solution.",
-    "authors": [
-      "Amirhassan Babazadeh Darabi",
-      "Sinem Coleri"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15784v1",
+    "pdf_link": "http://arxiv.org/pdf/2407.16200v1",
     "category": [
       "Reinforcement Learning",
       "Explainable AI"
     ]
   },
   {
-    "title": "On shallow planning under partial observability",
-    "abstract": "Formulating a real-world problem under the Reinforcement Learning framework\ninvolves non-trivial design choices, such as selecting a discount factor for\nthe learning objective (discounted cumulative rewards), which articulates the\nplanning horizon of the agent. This work investigates the impact of the\ndiscount factor on the biasvariance trade-off given structural parameters of\nthe underlying Markov Decision Process. Our results support the idea that a\nshorter planning horizon might be beneficial, especially under partial\nobservability.",
+    "title": "Strategy and Skill Learning for Physics-based Table Tennis Animation",
+    "abstract": "Recent advancements in physics-based character animation leverage deep\nlearning to generate agile and natural motion, enabling characters to execute\nmovements such as backflips, boxing, and tennis. However, reproducing the\nselection and use of diverse motor skills in dynamic environments to solve\ncomplex tasks, as humans do, still remains a challenge. We present a strategy\nand skill learning approach for physics-based table tennis animation. Our\nmethod addresses the issue of mode collapse, where the characters do not fully\nutilize the motor skills they need to perform to execute complex tasks. More\nspecifically, we demonstrate a hierarchical control system for diversified\nskill learning and a strategy learning framework for effective decision-making.\nWe showcase the efficacy of our method through comparative analysis with\nstate-of-the-art methods, demonstrating its capabilities in executing various\nskills for table tennis. Our strategy learning framework is validated through\nboth agent-agent interaction and human-agent interaction in Virtual Reality,\nhandling both competitive and cooperative tasks.",
     "authors": [
-      "Randy Lefebvre",
-      "Audrey Durand"
+      "Jiashun Wang",
+      "Jessica Hodgins",
+      "Jungdam Won"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15820v1",
+    "pdf_link": "http://arxiv.org/pdf/2407.16210v1",
     "category": [
       "Reinforcement Learning",
       "Explainable AI"
     ]
   },
   {
-    "title": "NV-Retriever: Improving text embedding models with effective hard-negative mining",
-    "abstract": "Text embedding models have been popular for information retrieval\napplications such as semantic search and Question-Answering systems based on\nRetrieval-Augmented Generation (RAG). Those models are typically Transformer\nmodels that are fine-tuned with contrastive learning objectives. Many papers\nintroduced new embedding model architectures and training approaches, however,\none of the key ingredients, the process of mining negative passages, remains\npoorly explored or described. One of the challenging aspects of fine-tuning\nembedding models is the selection of high quality hard-negative passages for\ncontrastive learning. In this paper we propose a family of positive-aware\nmining methods that leverage the positive relevance score for more effective\nfalse negatives removal. We also provide a comprehensive ablation study on\nhard-negative mining methods over their configurations, exploring different\nteacher and base models. We demonstrate the efficacy of our proposed methods by\nintroducing the NV-Retriever-v1 model, which scores 60.9 on MTEB Retrieval\n(BEIR) benchmark and 0.65 points higher than previous methods. The model placed\n1st when it was published to MTEB Retrieval on July 07, 2024.",
+    "title": "ODGR: Online Dynamic Goal Recognition",
+    "abstract": "Traditionally, Reinforcement Learning (RL) problems are aimed at optimization\nof the behavior of an agent. This paper proposes a novel take on RL, which is\nused to learn the policy of another agent, to allow real-time recognition of\nthat agent's goals. Goal Recognition (GR) has traditionally been framed as a\nplanning problem where one must recognize an agent's objectives based on its\nobserved actions. Recent approaches have shown how reinforcement learning can\nbe used as part of the GR pipeline, but are limited to recognizing predefined\ngoals and lack scalability in domains with a large goal space. This paper\nformulates a novel problem, \"Online Dynamic Goal Recognition\" (ODGR), as a\nfirst step to address these limitations. Contributions include introducing the\nconcept of dynamic goals into the standard GR problem definition, revisiting\ncommon approaches by reformulating them using ODGR, and demonstrating the\nfeasibility of solving ODGR in a navigation domain using transfer learning.\nThese novel formulations open the door for future extensions of existing\ntransfer learning-based GR methods, which will be robust to changing and\nexpansive real-time environments.",
     "authors": [
-      "Gabriel de Souza P. Moreira",
-      "Radek Osmulski",
-      "Mengyao Xu",
-      "Ronay Ak",
-      "Benedikt Schifferer",
-      "Even Oldridge"
+      "Matan Shamir",
+      "Osher Elhadad",
+      "Matthew E. Taylor",
+      "Reuth Mirsky"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15831v1",
+    "pdf_link": "http://arxiv.org/pdf/2407.16220v1",
     "category": [
-      "LLMs",
+      "Reinforcement Learning",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Comparison of Static Application Security Testing Tools and Large Language Models for Repo-level Vulnerability Detection",
+    "abstract": "Software vulnerabilities pose significant security challenges and potential\nrisks to society, necessitating extensive efforts in automated vulnerability\ndetection. There are two popular lines of work to address automated\nvulnerability detection. On one hand, Static Application Security Testing\n(SAST) is usually utilized to scan source code for security vulnerabilities,\nespecially in industries. On the other hand, deep learning (DL)-based methods,\nespecially since the introduction of large language models (LLMs), have\ndemonstrated their potential in software vulnerability detection. However,\nthere is no comparative study between SAST tools and LLMs, aiming to determine\ntheir effectiveness in vulnerability detection, understand the pros and cons of\nboth SAST and LLMs, and explore the potential combination of these two families\nof approaches.\n  In this paper, we compared 15 diverse SAST tools with 12 popular or\nstate-of-the-art open-source LLMs in detecting software vulnerabilities from\nrepositories of three popular programming languages: Java, C, and Python. The\nexperimental results showed that SAST tools obtain low vulnerability detection\nrates with relatively low false positives, while LLMs can detect up 90\\% to\n100\\% of vulnerabilities but suffer from high false positives. By further\nensembling the SAST tools and LLMs, the drawbacks of both SAST tools and LLMs\ncan be mitigated to some extent. Our analysis sheds light on both the current\nprogress and future directions for software vulnerability detection.",
+    "authors": [
+      "Xin Zhou",
+      "Duc-Manh Tran",
+      "Thanh Le-Cong",
+      "Ting Zhang",
+      "Ivana Clairine Irsan",
+      "Joshua Sumarlin",
+      "Bach Le",
+      "David Lo"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.16235v1",
+    "category": [
+      "Benchmarking",
+      "LLMs"
+    ]
+  },
+  {
+    "title": "OriGen:Enhancing RTL Code Generation with Code-to-Code Augmentation and Self-Reflection",
+    "abstract": "Recent studies have illuminated that Large Language Models (LLMs) exhibit\nsubstantial potential in the realm of RTL (Register Transfer Level) code\ngeneration, with notable advancements evidenced by commercial models such as\nGPT-4 and Claude3-Opus. Despite their proficiency, these commercial LLMs often\nraise concerns regarding privacy and security. Conversely, open-source LLMs,\nwhich offer solutions to these concerns, have inferior performance in RTL code\ngeneration tasks to commercial models due to the lack of highquality\nopen-source RTL datasets. To address this issue, we introduce OriGen, a fully\nopen-source framework featuring self-reflection capabilities and a dataset\naugmentation methodology for generating high-quality, large-scale RTL code. We\npropose a novel code-to-code augmentation methodology that leverages knowledge\ndistillation to enhance the quality of the open-source RTL code datasets.\nAdditionally, OriGen is capable of correcting syntactic errors by leveraging a\nself-reflection process based on feedback from the compiler. The\nself-reflection ability of the model is facilitated by a carefully constructed\ndataset, which comprises a comprehensive collection of samples. Experimental\nresults demonstrate that OriGen remarkably outperforms other open-source\nalternatives in RTL code generation, surpassing the previous best-performing\nLLM by 9.8% on the VerilogEval-Human benchmark. Furthermore, OriGen exhibits\nsuperior capabilities in self-reflection and error rectification, surpassing\nGPT-4 by 18.1% on the benchmark designed to evaluate the capability of\nself-reflection.",
+    "authors": [
+      "Fan Cui",
+      "Chenyang Yin",
+      "Kexing Zhou",
+      "Youwei Xiao",
+      "Guangyu Sun",
+      "Qiang Xu",
+      "Qipeng Guo",
+      "Demin Song",
+      "Dahua Lin",
+      "Xingcheng Zhang",
+      "Yun",
+      "Liang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.16237v1",
+    "category": [
+      "Speech Synthesis",
       "Speech Recognition"
     ]
   },
   {
-    "title": "LLMmap: Fingerprinting For Large Language Models",
-    "abstract": "We introduce LLMmap, a first-generation fingerprinting attack targeted at\nLLM-integrated applications. LLMmap employs an active fingerprinting approach,\nsending carefully crafted queries to the application and analyzing the\nresponses to identify the specific LLM model in use. With as few as 8\ninteractions, LLMmap can accurately identify LLMs with over 95% accuracy. More\nimportantly, LLMmap is designed to be robust across different application\nlayers, allowing it to identify LLMs operating under various system prompts,\nstochastic sampling hyperparameters, and even complex generation frameworks\nsuch as RAG or Chain-of-Thought.",
+    "title": "Self-Reasoning Assistant Learning for non-Abelian Gauge Fields Design",
+    "abstract": "Non-Abelian braiding has attracted substantial attention because of its\npivotal role in describing the exchange behaviour of anyons, in which the input\nand outcome of non-Abelian braiding are connected by a unitary matrix.\nImplementing braiding in a classical system can assist the experimental\ninvestigation of non-Abelian physics. However, the design of non-Abelian gauge\nfields faces numerous challenges stemmed from the intricate interplay of group\nstructures, Lie algebra properties, representation theory, topology, and\nsymmetry breaking. The extreme diversity makes it a powerful tool for the study\nof condensed matter physics. Whereas the widely used artificial intelligence\nwith data-driven approaches has greatly promoted the development of physics,\nmost works are limited on the data-to-data design. Here we propose a\nself-reasoning assistant learning framework capable of directly generating\nnon-Abelian gauge fields. This framework utilizes the forward diffusion process\nto capture and reproduce the complex patterns and details inherent in the\ntarget distribution through continuous transformation. Then the reverse\ndiffusion process is used to make the generated data closer to the distribution\nof the original situation. Thus, it owns strong self-reasoning capabilities,\nallowing to automatically discover the feature representation and capture more\nsubtle relationships from the dataset. Moreover, the self-reasoning eliminates\nthe need for manual feature engineering and simplifies the process of model\nbuilding. Our framework offers a disruptive paradigm shift to parse complex\nphysical processes, automatically uncovering patterns from massive datasets.",
     "authors": [
-      "Dario Pasquini",
-      "Evgenios M. Kornaropoulos",
-      "Giuseppe Ateniese"
+      "Jinyang Sun",
+      "Xi Chen",
+      "Xiumei Wang",
+      "Dandan Zhu",
+      "Xingping Zhou"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.15847v1",
+    "pdf_link": "http://arxiv.org/pdf/2407.16255v1",
+    "category": [
+      "Explainable AI",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "Comparative Analysis of AES, Blowfish, Twofish, Salsa20, and ChaCha20 for Image Encryption",
+    "abstract": "Nowadays, cybersecurity has grown into a more significant and difficult\nscientific issue. The recog-nition of threats and attacks meant for knowledge\nand safety on the internet is growing harder to detect. Since cybersecurity\nguarantees the privacy and security of data sent via the Internet, it is\nessential, while also providing protection against malicious attacks. Encrypt\nhas grown into an an-swer that has become an essential element of information\nsecurity systems. To ensure the security of shared data, including text,\nimages, or videos, it is essential to employ various methods and strategies.\nThis study delves into the prevalent cryptographic methods and algorithms\nutilized for prevention and stream encryption, examining their encoding\ntechniques such as advanced encryp-tion standard (AES), Blowfish, Twofish,\nSalsa20, and ChaCha20. The primary objective of this re-search is to identify\nthe optimal times and throughputs (speeds) for data encryption and decryption\nprocesses. The methodology of this study involved selecting five distinct types\nof images to com-pare the outcomes of the techniques evaluated in this\nresearch. The assessment focused on pro-cessing time and speed parameters,\nexamining visual encoding and decoding using Java as the pri-mary platform. A\ncomparative analysis of several symmetric key ciphers was performed, focusing\non handling large datasets. Despite this limitation, comparing different images\nhelped evaluate the techniques' novelty. The results showed that ChaCha20 had\nthe best average time for both encryp-tion and decryption, being over 50%\nfaster than some other algorithms. However, the Twofish algo-rithm had lower\nthroughput during testing. The paper concludes with findings and suggestions\nfor future improvements.",
+    "authors": [
+      "Rebwar Khalid Muhammed",
+      "Ribwar Rashid Aziz",
+      "Alla Ahmad Hassan",
+      "Aso Mohammed Aladdin",
+      "Shaida Jumaah Saydah",
+      "Tarik Ahmed. Rashid",
+      "Bryar Ahmad Hassan"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.16274v1",
+    "category": [
+      "Datasets",
+      "Speech Recognition"
+    ]
+  },
+  {
+    "title": "On The Expressive Power of Knowledge Graph Embedding Methods",
+    "abstract": "Knowledge Graph Embedding (KGE) is a popular approach, which aims to\nrepresent entities and relations of a knowledge graph in latent spaces. Their\nrepresentations are known as embeddings. To measure the plausibility of\ntriplets, score functions are defined over embedding spaces. Despite wide\ndissemination of KGE in various tasks, KGE methods have limitations in\nreasoning abilities. In this paper we propose a mathematical framework to\ncompare reasoning abilities of KGE methods. We show that STransE has a higher\ncapability than TransComplEx, and then present new STransCoRe method, which\nimproves the STransE by combining it with the TransCoRe insights, which can\nreduce the STransE space complexity.",
+    "authors": [
+      "Jiexing Gao",
+      "Dmitry Rodin",
+      "Vasily Motolygin",
+      "Denis Zaytsev"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.16326v1",
+    "category": [
+      "LLMs",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "TWIN V2: Scaling Ultra-Long User Behavior Sequence Modeling for Enhanced CTR Prediction at Kuaishou",
+    "abstract": "The significance of modeling long-term user interests for CTR prediction\ntasks in large-scale recommendation systems is progressively gaining attention\namong researchers and practitioners. Existing work, such as SIM and TWIN,\ntypically employs a two-stage approach to model long-term user behavior\nsequences for efficiency concerns. The first stage rapidly retrieves a subset\nof sequences related to the target item from a long sequence using a\nsearch-based mechanism namely the General Search Unit (GSU), while the second\nstage calculates the interest scores using the Exact Search Unit (ESU) on the\nretrieved results. Given the extensive length of user behavior sequences\nspanning the entire life cycle, potentially reaching up to 10^6 in scale, there\nis currently no effective solution for fully modeling such expansive user\ninterests. To overcome this issue, we introduced TWIN-V2, an enhancement of\nTWIN, where a divide-and-conquer approach is applied to compress life-cycle\nbehaviors and uncover more accurate and diverse user interests. Specifically, a\nhierarchical clustering method groups items with similar characteristics in\nlife-cycle behaviors into a single cluster during the offline phase. By\nlimiting the size of clusters, we can compress behavior sequences well beyond\nthe magnitude of 10^5 to a length manageable for online inference in GSU\nretrieval. Cluster-aware target attention extracts comprehensive and\nmulti-faceted long-term interests of users, thereby making the final\nrecommendation results more accurate and diverse. Extensive offline experiments\non a multi-billion-scale industrial dataset and online A/B tests have\ndemonstrated the effectiveness of TWIN-V2. Under an efficient deployment\nframework, TWIN-V2 has been successfully deployed to the primary traffic that\nserves hundreds of millions of daily active users at Kuaishou.",
+    "authors": [
+      "Zihua Si",
+      "Lin Guan",
+      "ZhongXiang Sun",
+      "Xiaoxue Zang",
+      "Jing Lu",
+      "Yiqun Hui",
+      "Xingchao Cao",
+      "Zeyu Yang",
+      "Yichen Zheng",
+      "Dewei Leng",
+      "Kai Zheng",
+      "Chenbin Zhang",
+      "Yanan Niu",
+      "Yang Song",
+      "Kun Gai"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.16357v1",
+    "category": [
+      "Datasets",
+      "LLMs"
+    ]
+  },
+  {
+    "title": "Ranking protein-protein models with large language models and graph neural networks",
+    "abstract": "Protein-protein interactions (PPIs) are associated with various diseases,\nincluding cancer, infections, and neurodegenerative disorders. Obtaining\nthree-dimensional structural information on these PPIs serves as a foundation\nto interfere with those or to guide drug design. Various strategies can be\nfollowed to model those complexes, all typically resulting in a large number of\nmodels. A challenging step in this process is the identification of good models\n(near-native PPI conformations) from the large pool of generated models. To\naddress this challenge, we previously developed DeepRank-GNN-esm, a graph-based\ndeep learning algorithm for ranking modelled PPI structures harnessing the\npower of protein language models. Here, we detail the use of our software with\nexamples. DeepRank-GNN-esm is freely available at\nhttps://github.com/haddocking/DeepRank-GNN-esm",
+    "authors": [
+      "Xiaotong Xu",
+      "Alexandre M. J. J. Bonvin"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.16375v1",
+    "category": [
+      "LLMs",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "On ADMM in Heterogeneous Federated Learning: Personalization, Robustness, and Fairness",
+    "abstract": "Statistical heterogeneity is a root cause of tension among accuracy,\nfairness, and robustness of federated learning (FL), and is key in paving a\npath forward. Personalized FL (PFL) is an approach that aims to reduce the\nimpact of statistical heterogeneity by developing personalized models for\nindividual users, while also inherently providing benefits in terms of fairness\nand robustness. However, existing PFL frameworks focus on improving the\nperformance of personalized models while neglecting the global model. Moreover,\nthese frameworks achieve sublinear convergence rates and rely on strong\nassumptions. In this paper, we propose FLAME, an optimization framework by\nutilizing the alternating direction method of multipliers (ADMM) to train\npersonalized and global models. We propose a model selection strategy to\nimprove performance in situations where clients have different types of\nheterogeneous data. Our theoretical analysis establishes the global convergence\nand two kinds of convergence rates for FLAME under mild assumptions. We\ntheoretically demonstrate that FLAME is more robust and fair than the\nstate-of-the-art methods on a class of linear problems. Our experimental\nfindings show that FLAME outperforms state-of-the-art methods in convergence\nand accuracy, and it achieves higher test accuracy under various attacks and\nperforms more uniformly across clients.",
+    "authors": [
+      "Shengkun Zhu",
+      "Jinshan Zeng",
+      "Sheng Wang",
+      "Yuan Sun",
+      "Xiaodong Li",
+      "Yuan Yao",
+      "Zhiyong Peng"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.16397v1",
+    "category": [
+      "Datasets",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Side-Channel Analysis of OpenVINO-based Neural Network Models",
+    "abstract": "Embedded devices with neural network accelerators offer great versatility for\ntheir users, reducing the need to use cloud-based services. At the same time,\nthey introduce new security challenges in the area of hardware attacks, the\nmost prominent being side-channel analysis (SCA). It was shown that SCA can\nrecover model parameters with a high accuracy, posing a threat to entities that\nwish to keep their models confidential. In this paper, we explore the\nsusceptibility of quantized models implemented in OpenVINO, an embedded\nframework for deploying neural networks on embedded and Edge devices. We show\nthat it is possible to recover model parameters with high precision, allowing\nthe recovered model to perform very close to the original one. Our experiments\non GoogleNet v1 show only a 1% difference in the Top 1 and a 0.64% difference\nin the Top 5 accuracies.",
+    "authors": [
+      "Dirmanto Jap",
+      "Jakub Breier",
+      "Zdenko Lehock\u00fd",
+      "Shivam Bhasin",
+      "Xiaolu Hou"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.16467v1",
     "category": [
       "Explainable AI",
       "Benchmarking"
+    ]
+  },
+  {
+    "title": "Patched RTC: evaluating LLMs for diverse software development tasks",
+    "abstract": "This paper introduces Patched Round-Trip Correctness (Patched RTC), a novel\nevaluation technique for Large Language Models (LLMs) applied to diverse\nsoftware development tasks, particularly focusing on \"outer loop\" activities\nsuch as bug fixing, code review, and documentation updates. Patched RTC extends\nthe original Round-Trip Correctness method to work with any LLM and downstream\ntask, offering a self-evaluating framework that measures consistency and\nrobustness of model responses without human intervention. The study\ndemonstrates a correlation between Patched RTC scores and task-specific\naccuracy metrics, presenting it as an alternative to the LLM-as-Judge paradigm\nfor open-domain task evaluation. We implement Patched RTC in an open-source\nframework called patchwork, allowing for transparent evaluation during\ninference across various patchflows. Experiments comparing GPT-3.5 and GPT-4\nmodels across different software development tasks reveal that Patched RTC\neffectively distinguishes model performance and task difficulty. The paper also\nexplores the impact of consistency prompts on improving model accuracy,\nsuggesting that Patched RTC can guide prompt refinement and model selection for\ncomplex software development workflows.",
+    "authors": [
+      "Asankhaya Sharma"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.16557v1",
+    "category": [
+      "Benchmarking",
+      "LLMs"
+    ]
+  },
+  {
+    "title": "Audio Prompt Adapter: Unleashing Music Editing Abilities for Text-to-Music with Lightweight Finetuning",
+    "abstract": "Text-to-music models allow users to generate nearly realistic musical audio\nwith textual commands. However, editing music audios remains challenging due to\nthe conflicting desiderata of performing fine-grained alterations on the audio\nwhile maintaining a simple user interface. To address this challenge, we\npropose Audio Prompt Adapter (or AP-Adapter), a lightweight addition to\npretrained text-to-music models. We utilize AudioMAE to extract features from\nthe input audio, and construct attention-based adapters to feedthese features\ninto the internal layers of AudioLDM2, a diffusion-based text-to-music model.\nWith 22M trainable parameters, AP-Adapter empowers users to harness both global\n(e.g., genre and timbre) and local (e.g., melody) aspects of music, using the\noriginal audio and a short text as inputs. Through objective and subjective\nstudies, we evaluate AP-Adapter on three tasks: timbre transfer, genre\ntransfer, and accompaniment generation. Additionally, we demonstrate its\neffectiveness on out-of-domain audios containing unseen instruments during\ntraining.",
+    "authors": [
+      "Fang-Duo Tsai",
+      "Shih-Lun Wu",
+      "Haven Kim",
+      "Bo-Yu Chen",
+      "Hao-Chung Cheng",
+      "Yi-Hsuan Yang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.16564v2",
+    "category": [
+      "Speech Synthesis",
+      "Speech Recognition"
+    ]
+  },
+  {
+    "title": "A Faster Branching Algorithm for the Maximum $k$-Defective Clique Problem",
+    "abstract": "A $k$-defective clique of an undirected graph $G$ is a subset of its vertices\nthat induces a nearly complete graph with a maximum of $k$ missing edges. The\nmaximum $k$-defective clique problem, which asks for the largest $k$-defective\nclique from the given graph, is important in many applications, such as social\nand biological network analysis. In the paper, we propose a new branching\nalgorithm that takes advantage of the structural properties of the\n$k$-defective clique and uses the efficient maximum clique algorithm as a\nsubroutine. As a result, the algorithm has a better asymptotic running time\nthan the existing ones. We also investigate upper-bounding techniques and\npropose a new upper bound utilizing the \\textit{conflict relationship} between\nvertex pairs. Because conflict relationship is common in many graph problems,\nwe believe that this technique can be potentially generalized. Finally,\nexperiments show that our algorithm outperforms state-of-the-art solvers on a\nwide range of open benchmarks.",
+    "authors": [
+      "Chunyu Luo",
+      "Yi Zhou",
+      "Zhengren Wang",
+      "Mingyu Xiao"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.16588v2",
+    "category": [
+      "Datasets",
+      "AI in Healthcare"
+    ]
+  },
+  {
+    "title": "GenRec: A Flexible Data Generator for Recommendations",
+    "abstract": "The scarcity of realistic datasets poses a significant challenge in\nbenchmarking recommender systems and social network analysis methods and\ntechniques. A common and effective solution is to generate synthetic data that\nsimulates realistic interactions. However, although various methods have been\nproposed, the existing literature still lacks generators that are fully\nadaptable and allow easy manipulation of the underlying data distributions and\nstructural properties. To address this issue, the present work introduces\nGenRec, a novel framework for generating synthetic user-item interactions that\nexhibit realistic and well-known properties observed in recommendation\nscenarios. The framework is based on a stochastic generative process based on\nlatent factor modeling. Here, the latent factors can be exploited to yield\nlong-tailed preference distributions, and at the same time they characterize\nsubpopulations of users and topic-based item clusters. Notably, the proposed\nframework is highly flexible and offers a wide range of hyper-parameters for\ncustomizing the generation of user-item interactions. The code used to perform\nthe experiments is publicly available at\nhttps://anonymous.4open.science/r/GenRec-DED3.",
+    "authors": [
+      "Erica Coppolillo",
+      "Simone Mungari",
+      "Ettore Ritacco",
+      "Giuseppe Manco"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.16594v1",
+    "category": [
+      "Datasets",
+      "LLMs"
+    ]
+  },
+  {
+    "title": "Functional Acceleration for Policy Mirror Descent",
+    "abstract": "We apply functional acceleration to the Policy Mirror Descent (PMD) general\nfamily of algorithms, which cover a wide range of novel and fundamental methods\nin Reinforcement Learning (RL). Leveraging duality, we propose a momentum-based\nPMD update. By taking the functional route, our approach is independent of the\npolicy parametrization and applicable to large-scale optimization, covering\nprevious applications of momentum at the level of policy parameters as a\nspecial case. We theoretically analyze several properties of this approach and\ncomplement with a numerical ablation study, which serves to illustrate the\npolicy optimization dynamics on the value polytope, relative to different\nalgorithmic design choices in this space. We further characterize numerically\nseveral features of the problem setting relevant for functional acceleration,\nand lastly, we investigate the impact of approximation on their learning\nmechanics.",
+    "authors": [
+      "Veronica Chelu",
+      "Doina Precup"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.16602v1",
+    "category": [
+      "Reinforcement Learning",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "Local vs Global continual learning",
+    "abstract": "Continual learning is the problem of integrating new information in a model\nwhile retaining the knowledge acquired in the past. Despite the tangible\nimprovements achieved in recent years, the problem of continual learning is\nstill an open one. A better understanding of the mechanisms behind the\nsuccesses and failures of existing continual learning algorithms can unlock the\ndevelopment of new successful strategies. In this work, we view continual\nlearning from the perspective of the multi-task loss approximation, and we\ncompare two alternative strategies, namely local and global approximations. We\nclassify existing continual learning algorithms based on the approximation\nused, and we assess the practical effects of this distinction in common\ncontinual learning settings.Additionally, we study optimal continual learning\nobjectives in the case of local polynomial approximations and we provide\nexamples of existing algorithms implementing the optimal objectives",
+    "authors": [
+      "Giulia Lanzillotta",
+      "Sidak Pal Singh",
+      "Benjamin F. Grewe",
+      "Thomas Hofmann"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.16611v1",
+    "category": [
+      "Reinforcement Learning",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "A Geometry-Aware Algorithm to Learn Hierarchical Embeddings in Hyperbolic Space",
+    "abstract": "Hyperbolic embeddings are a class of representation learning methods that\noffer competitive performances when data can be abstracted as a tree-like\ngraph. However, in practice, learning hyperbolic embeddings of hierarchical\ndata is difficult due to the different geometry between hyperbolic space and\nthe Euclidean space. To address such difficulties, we first categorize three\nkinds of illness that harm the performance of the embeddings. Then, we develop\na geometry-aware algorithm using a dilation operation and a transitive closure\nregularization to tackle these illnesses. We empirically validate these\ntechniques and present a theoretical analysis of the mechanism behind the\ndilation operation. Experiments on synthetic and real-world datasets reveal\nsuperior performances of our algorithm.",
+    "authors": [
+      "Zhangyu Wang",
+      "Lantian Xu",
+      "Zhifeng Kong",
+      "Weilong Wang",
+      "Xuyu Peng",
+      "Enyang Zheng"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.16641v1",
+    "category": [
+      "Multimodal Learning",
+      "LLMs"
     ]
   }
 ]
