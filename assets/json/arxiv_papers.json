@@ -1,211 +1,276 @@
 [
   {
-    "title": "Cheems: Wonderful Matrices More Efficient and More Effective Architecture",
-    "abstract": "Recent studies have shown that, relative position encoding performs well in\nselective state space model scanning algorithms, and the architecture that\nbalances SSM and Attention enhances the efficiency and effectiveness of the\nalgorithm, while the sparse activation of the mixture of experts reduces the\ntraining cost. I studied the effectiveness of using different position\nencodings in structured state space dual algorithms, and the more effective\nSSD-Attn internal and external function mixing method, and designed a more\nefficient cross domain mixture of experts. I found that the same matrix is very\nwonderful in different algorithms, which allows us to establish a new hybrid\nsparse architecture: Cheems. Compared with other hybrid architectures, it is\nmore efficient and more effective in language modeling tasks.",
+    "title": "TwIPS: A Large Language Model Powered Texting Application to Simplify Conversational Nuances for Autistic Users",
+    "abstract": "Autistic individuals often experience difficulties in conveying and\ninterpreting emotional tone and non-literal nuances. Many also mask their\ncommunication style to avoid being misconstrued by others, spending\nconsiderable time and mental effort in the process. To address these challenges\nin text-based communication, we present TwIPS, a prototype texting application\npowered by a large language model (LLM), which can assist users with: a)\ndeciphering tone and meaning of incoming messages, b) ensuring the emotional\ntone of their message is in line with their intent, and c) coming up with\nalternate phrasing for messages that could be misconstrued and received\nnegatively by others. We leverage an AI-based simulation and a conversational\nscript to evaluate TwIPS with 8 autistic participants in an in-lab setting. Our\nfindings show TwIPS enables a convenient way for participants to seek\nclarifications, provides a better alternative to tone indicators, and\nfacilitates constructive reflection on writing technique and style. We also\nexamine how autistic users utilize language for self-expression and\ninterpretation in instant messaging, and gather feedback for enhancing our\nprototype. We conclude with a discussion around balancing user-autonomy with\nAI-mediation, establishing appropriate trust levels in AI systems, and\ncustomization needs if autistic users in the context of AI-assisted\ncommunication",
     "authors": [
-      "Jingze Shi",
-      "Lu He",
-      "Yuhan Wang",
-      "Tianyu He",
-      "Bingheng Wu",
-      "Mingkun Hou"
+      "Rukhshan Haroon",
+      "Fahad Dogar"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.16958v2",
+    "pdf_link": "http://arxiv.org/pdf/2407.17760v1",
     "category": [
       "Speech Recognition",
       "Speech Synthesis"
     ]
   },
   {
-    "title": "Stochastic Variance-Reduced Iterative Hard Thresholding in Graph Sparsity Optimization",
-    "abstract": "Stochastic optimization algorithms are widely used for large-scale data\nanalysis due to their low per-iteration costs, but they often suffer from slow\nasymptotic convergence caused by inherent variance. Variance-reduced techniques\nhave been therefore used to address this issue in structured sparse models\nutilizing sparsity-inducing norms or $\\ell_0$-norms. However, these techniques\nare not directly applicable to complex (non-convex) graph sparsity models,\nwhich are essential in applications like disease outbreak monitoring and social\nnetwork analysis. In this paper, we introduce two stochastic variance-reduced\ngradient-based methods to solve graph sparsity optimization: GraphSVRG-IHT and\nGraphSCSG-IHT. We provide a general framework for theoretical analysis,\ndemonstrating that our methods enjoy a linear convergence speed. Extensive\nexperiments validate",
+    "title": "Advancing Multi-Modal Sensing Through Expandable Modality Alignment",
+    "abstract": "Sensing technology is widely used for comprehending the physical world, with\nnumerous modalities explored in past decades. While there has been considerable\nwork on multi-modality learning, they all require data of all modalities be\npaired. How to leverage multi-modality data with partially pairings remains an\nopen problem. To tackle this challenge, we introduce the Babel framework,\nencompassing the neural network architecture, data preparation and processing,\nas well as the training strategies. Babel serves as a scalable pre-trained\nmulti-modal sensing neural network, currently aligning six sensing modalities,\nnamely Wi-Fi, mmWave, IMU, LiDAR, video, and depth. To overcome the scarcity of\ncomplete paired data, the key idea of Babel involves transforming the\nN-modality alignment into a series of two-modality alignments by devising the\nexpandable network architecture. This concept is also realized via a series of\nnovel techniques, including the pre-trained modality tower that capitalizes on\navailable single-modal networks, and the adaptive training strategy balancing\nthe contribution of the newly incorporated modality with the previously\nestablished modality alignment.\n  Evaluation demonstrates Babel's outstanding performance on eight human\nactivity recognition datasets, compared to various baselines e.g., the top\nmulti-modal sensing framework, single-modal sensing networks, and multi-modal\nlarge language models. Babel not only effectively fuses multiple available\nmodalities (up to 22% accuracy increase), but also enhance the performance of\nindividual modality (12% averaged accuracy improvement). Case studies also\nhighlight exciting application scenarios empowered by Babel, including\ncross-modality retrieval (i.e., sensing imaging), and bridging LLM for sensing\ncomprehension.",
     "authors": [
-      "Derek Fox",
-      "Samuel Hernandez",
-      "Qianqian Tong"
+      "Shenghong Dai",
+      "Shiqi Jiang",
+      "Yifan Yang",
+      "Ting Cao",
+      "Mo Li",
+      "Suman Banerjee",
+      "Lili Qiu"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.16968v1",
-    "category": [
-      "Datasets",
-      "LLMs"
-    ]
-  },
-  {
-    "title": "SepsisLab: Early Sepsis Prediction with Uncertainty Quantification and Active Sensing",
-    "abstract": "Sepsis is the leading cause of in-hospital mortality in the USA. Early sepsis\nonset prediction and diagnosis could significantly improve the survival of\nsepsis patients. Existing predictive models are usually trained on high-quality\ndata with few missing information, while missing values widely exist in\nreal-world clinical scenarios (especially in the first hours of admissions to\nthe hospital), which causes a significant decrease in accuracy and an increase\nin uncertainty for the predictive models. The common method to handle missing\nvalues is imputation, which replaces the unavailable variables with estimates\nfrom the observed data. The uncertainty of imputation results can be propagated\nto the sepsis prediction outputs, which have not been studied in existing works\non either sepsis prediction or uncertainty quantification. In this study, we\nfirst define such propagated uncertainty as the variance of prediction output\nand then introduce uncertainty propagation methods to quantify the propagated\nuncertainty. Moreover, for the potential high-risk patients with low confidence\ndue to limited observations, we propose a robust active sensing algorithm to\nincrease confidence by actively recommending clinicians to observe the most\ninformative variables. We validate the proposed models in both publicly\navailable data (i.e., MIMIC-III and AmsterdamUMCdb) and proprietary data in The\nOhio State University Wexner Medical Center (OSUWMC). The experimental results\nshow that the propagated uncertainty is dominant at the beginning of admissions\nto hospitals and the proposed algorithm outperforms state-of-the-art active\nsensing methods. Finally, we implement a SepsisLab system for early sepsis\nprediction and active sensing based on our pre-trained models. Clinicians and\npotential sepsis patients can benefit from the system in early prediction and\ndiagnosis of sepsis.",
-    "authors": [
-      "Changchang Yin",
-      "Pin-Yu Chen",
-      "Bingsheng Yao",
-      "Dakuo Wang",
-      "Jeffrey Caterino",
-      "Ping Zhang"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.16999v1",
-    "category": [
-      "AI in Healthcare",
-      "Datasets"
-    ]
-  },
-  {
-    "title": "Time Series Missing Imputation with Multivariate Radial Basis Function Neural Network",
-    "abstract": "Researchers have been persistently working to address the issue of missing\nvalues in time series data. Numerous models have been proposed, striving to\nestimate the distribution of the data. The Radial Basis Functions Neural\nNetwork (RBFNN) has recently exhibited exceptional performance in estimating\ndata distribution. In this paper, we propose a time series imputation model\nbased on RBFNN. Our imputation model learns local information from timestamps\nto create a continuous function. Additionally, we incorporate time gaps to\nfacilitate learning information considering the missing terms of missing\nvalues. We name this model the Missing Imputation Multivariate RBFNN\n(MIM-RBFNN). However, MIM-RBFNN relies on a local information-based learning\napproach, which presents difficulties in utilizing temporal information.\nTherefore, we propose an extension called the Missing Value Imputation\nRecurrent Neural Network with Continuous Function (MIRNN-CF) using the\ncontinuous function generated by MIM-RBFNN. We evaluate the performance using\ntwo real-world datasets with non-random missing and random missing patterns,\nand conduct an ablation study comparing MIM-RBFNN and MIRNN-CF.",
-    "authors": [
-      "Chanyoung Jung",
-      "Yun Jang"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.17040v1",
-    "category": [
-      "Datasets",
-      "AI in Healthcare"
-    ]
-  },
-  {
-    "title": "Curriculum Negative Mining For Temporal Networks",
-    "abstract": "Temporal networks are effective in capturing the evolving interactions of\nnetworks over time, such as social networks and e-commerce networks. In recent\nyears, researchers have primarily concentrated on developing specific model\narchitectures for Temporal Graph Neural Networks (TGNNs) in order to improve\nthe representation quality of temporal nodes and edges. However, limited\nattention has been given to the quality of negative samples during the training\nof TGNNs. When compared with static networks, temporal networks present two\nspecific challenges for negative sampling: positive sparsity and positive\nshift. Positive sparsity refers to the presence of a single positive sample\namidst numerous negative samples at each timestamp, while positive shift\nrelates to the variations in positive samples across different timestamps. To\nrobustly address these challenges in training TGNNs, we introduce Curriculum\nNegative Mining (CurNM), a model-aware curriculum learning framework that\nadaptively adjusts the difficulty of negative samples. Within this framework,\nwe first establish a dynamically updated negative pool that balances random,\nhistorical, and hard negatives to address the challenges posed by positive\nsparsity. Secondly, we implement a temporal-aware negative selection module\nthat focuses on learning from the disentangled factors of recently active\nedges, thus accurately capturing shifting preferences. Extensive experiments on\n12 datasets and 3 TGNNs demonstrate that our method outperforms baseline\nmethods by a significant margin. Additionally, thorough ablation studies and\nparameter sensitivity experiments verify the usefulness and robustness of our\napproach. Our code is available at https://github.com/zziyue83/CurNM.",
-    "authors": [
-      "Ziyue Chen",
-      "Tongya Zheng",
-      "Mingli Song"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.17070v1",
-    "category": [
-      "Reinforcement Learning",
-      "Datasets"
-    ]
-  },
-  {
-    "title": "Towards Robust Knowledge Tracing Models via k-Sparse Attention",
-    "abstract": "Knowledge tracing (KT) is the problem of predicting students' future\nperformance based on their historical interaction sequences. With the advanced\ncapability of capturing contextual long-term dependency, attention mechanism\nbecomes one of the essential components in many deep learning based KT (DLKT)\nmodels. In spite of the impressive performance achieved by these attentional\nDLKT models, many of them are often vulnerable to run the risk of overfitting,\nespecially on small-scale educational datasets. Therefore, in this paper, we\npropose \\textsc{sparseKT}, a simple yet effective framework to improve the\nrobustness and generalization of the attention based DLKT approaches.\nSpecifically, we incorporate a k-selection module to only pick items with the\nhighest attention scores. We propose two sparsification heuristics : (1)\nsoft-thresholding sparse attention and (2) top-$K$ sparse attention. We show\nthat our \\textsc{sparseKT} is able to help attentional KT models get rid of\nirrelevant student interactions and have comparable predictive performance when\ncompared to 11 state-of-the-art KT models on three publicly available\nreal-world educational datasets. To encourage reproducible research, we make\nour data and code publicly available at\n\\url{https://github.com/pykt-team/pykt-toolkit}\\footnote{We merged our model to\nthe \\textsc{pyKT} benchmark at \\url{https://pykt.org/}.}.",
-    "authors": [
-      "Shuyan Huang",
-      "Zitao Liu",
-      "Xiangyu Zhao",
-      "Weiqi Luo",
-      "Jian Weng"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.17097v1",
-    "category": [
-      "Datasets",
-      "LLMs"
-    ]
-  },
-  {
-    "title": "Neural Dueling Bandits",
-    "abstract": "Contextual dueling bandit is used to model the bandit problems, where a\nlearner's goal is to find the best arm for a given context using observed noisy\npreference feedback over the selected arms for the past contexts. However,\nexisting algorithms assume the reward function is linear, which can be complex\nand non-linear in many real-life applications like online recommendations or\nranking web search results. To overcome this challenge, we use a neural network\nto estimate the reward function using preference feedback for the previously\nselected arms. We propose upper confidence bound- and Thompson sampling-based\nalgorithms with sub-linear regret guarantees that efficiently select arms in\neach round. We then extend our theoretical results to contextual bandit\nproblems with binary feedback, which is in itself a non-trivial contribution.\nExperimental results on the problem instances derived from synthetic datasets\ncorroborate our theoretical results.",
-    "authors": [
-      "Arun Verma",
-      "Zhongxiang Dai",
-      "Xiaoqiang Lin",
-      "Patrick Jaillet",
-      "Bryan Kian Hsiang Low"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.17112v1",
-    "category": [
-      "Reinforcement Learning",
-      "Explainable AI"
-    ]
-  },
-  {
-    "title": "Parameter-Efficient Fine-Tuning for Continual Learning: A Neural Tangent Kernel Perspective",
-    "abstract": "Parameter-efficient fine-tuning for continual learning (PEFT-CL) has shown\npromise in adapting pre-trained models to sequential tasks while mitigating\ncatastrophic forgetting problem. However, understanding the mechanisms that\ndictate continual performance in this paradigm remains elusive. To tackle this\ncomplexity, we undertake a rigorous analysis of PEFT-CL dynamics to derive\nrelevant metrics for continual scenarios using Neural Tangent Kernel (NTK)\ntheory. With the aid of NTK as a mathematical analysis tool, we recast the\nchallenge of test-time forgetting into the quantifiable generalization gaps\nduring training, identifying three key factors that influence these gaps and\nthe performance of PEFT-CL: training sample size, task-level feature\northogonality, and regularization. To address these challenges, we introduce\nNTK-CL, a novel framework that eliminates task-specific parameter storage while\nadaptively generating task-relevant features. Aligning with theoretical\nguidance, NTK-CL triples the feature representation of each sample,\ntheoretically and empirically reducing the magnitude of both task-interplay and\ntask-specific generalization gaps. Grounded in NTK analysis, our approach\nimposes an adaptive exponential moving average mechanism and constraints on\ntask-level feature orthogonality, maintaining intra-task NTK forms while\nattenuating inter-task NTK forms. Ultimately, by fine-tuning optimizable\nparameters with appropriate regularization, NTK-CL achieves state-of-the-art\nperformance on established PEFT-CL benchmarks. This work provides a theoretical\nfoundation for understanding and improving PEFT-CL models, offering insights\ninto the interplay between feature representation, task orthogonality, and\ngeneralization, contributing to the development of more efficient continual\nlearning systems.",
-    "authors": [
-      "Jingren Liu",
-      "Zhong Ji",
-      "YunLong Yu",
-      "Jiale Cao",
-      "Yanwei Pang",
-      "Jungong Han",
-      "Xuelong Li"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.17120v1",
+    "pdf_link": "http://arxiv.org/pdf/2407.17777v1",
     "category": [
       "Multimodal Learning",
+      "Speech Recognition"
+    ]
+  },
+  {
+    "title": "HC-GST: Heterophily-aware Distribution Consistency based Graph Self-training",
+    "abstract": "Graph self-training (GST), which selects and assigns pseudo-labels to\nunlabeled nodes, is popular for tackling label sparsity in graphs. However,\nrecent study on homophily graphs show that GST methods could introduce and\namplify distribution shift between training and test nodes as they tend to\nassign pseudo-labels to nodes they are good at. As GNNs typically perform\nbetter on homophilic nodes, there could be potential shifts towards homophilic\npseudo-nodes, which is underexplored. Our preliminary experiments on\nheterophilic graphs verify that these methods can cause shifts in homophily\nratio distributions, leading to \\textit{training bias} that improves\nperformance on homophilic nodes while degrading it on heterophilic ones.\nTherefore, we study a novel problem of reducing homophily ratio distribution\nshifts during self-training on heterophilic graphs. A key challenge is the\naccurate calculation of homophily ratios and their distributions without\nextensive labeled data. To tackle them, we propose a novel Heterophily-aware\nDistribution Consistency-based Graph Self-Training (HC-GST) framework, which\nestimates homophily ratios using soft labels and optimizes a selection vector\nto align pseudo-nodes with the global homophily ratio distribution. Extensive\nexperiments on both homophilic and heterophilic graphs show that HC-GST\neffectively reduces training bias and enhances self-training performance.",
+    "authors": [
+      "Fali Wang",
+      "Tianxiang Zhao",
+      "Junjie Xu",
+      "Suhang Wang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.17787v1",
+    "category": [
+      "LLMs",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Very Large-Scale Multi-Agent Simulation in AgentScope",
+    "abstract": "Recent advances in large language models (LLMs) have opened new avenues for\napplying multi-agent systems in very large-scale simulations. However, there\nremain several challenges when conducting multi-agent simulations with existing\nplatforms, such as limited scalability and low efficiency, unsatisfied agent\ndiversity, and effort-intensive management processes. To address these\nchallenges, we develop several new features and components for AgentScope, a\nuser-friendly multi-agent platform, enhancing its convenience and flexibility\nfor supporting very large-scale multi-agent simulations. Specifically, we\npropose an actor-based distributed mechanism as the underlying technological\ninfrastructure towards great scalability and high efficiency, and provide\nflexible environment support for simulating various real-world scenarios, which\nenables parallel execution of multiple agents, centralized workflow\norchestration, and both inter-agent and agent-environment interactions among\nagents. Moreover, we integrate an easy-to-use configurable tool and an\nautomatic background generation pipeline in AgentScope, simplifying the process\nof creating agents with diverse yet detailed background settings. Last but not\nleast, we provide a web-based interface for conveniently monitoring and\nmanaging a large number of agents that might deploy across multiple devices. We\nconduct a comprehensive simulation to demonstrate the effectiveness of the\nproposed enhancements in AgentScope, and provide detailed observations and\ndiscussions to highlight the great potential of applying multi-agent systems in\nlarge-scale simulations. The source code is released on GitHub at\nhttps://github.com/modelscope/agentscope to inspire further research and\ndevelopment in large-scale multi-agent simulations.",
+    "authors": [
+      "Xuchen Pan",
+      "Dawei Gao",
+      "Yuexiang Xie",
+      "Zhewei Wei",
+      "Yaliang Li",
+      "Bolin Ding",
+      "Ji-Rong Wen",
+      "Jingren Zhou"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.17789v1",
+    "category": [
+      "Speech Synthesis",
+      "Speech Recognition"
+    ]
+  },
+  {
+    "title": "EEG-SSM: Leveraging State-Space Model for Dementia Detection",
+    "abstract": "State-space models (SSMs) have garnered attention for effectively processing\nlong data sequences, reducing the need to segment time series into shorter\nintervals for model training and inference. Traditionally, SSMs capture only\nthe temporal dynamics of time series data, omitting the equally critical\nspectral features. This study introduces EEG-SSM, a novel state-space\nmodel-based approach for dementia classification using EEG data. Our model\nfeatures two primary innovations: EEG-SSM temporal and EEG-SSM spectral\ncomponents. The temporal component is designed to efficiently process EEG\nsequences of varying lengths, while the spectral component enhances the model\nby integrating frequency-domain information from EEG signals. The synergy of\nthese components allows EEG-SSM to adeptly manage the complexities of\nmultivariate EEG data, significantly improving accuracy and stability across\ndifferent temporal resolutions. Demonstrating a remarkable 91.0 percent\naccuracy in classifying Healthy Control (HC), Frontotemporal Dementia (FTD),\nand Alzheimer's Disease (AD) groups, EEG-SSM outperforms existing models on the\nsame dataset. The development of EEG-SSM represents an improvement in the use\nof state-space models for screening dementia, offering more precise and\ncost-effective tools for clinical neuroscience.",
+    "authors": [
+      "Xuan-The Tran",
+      "Linh Le",
+      "Quoc Toan Nguyen",
+      "Thomas Do",
+      "Chin-Teng Lin"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.17801v1",
+    "category": [
+      "AI in Healthcare",
+      "Speech Recognition"
+    ]
+  },
+  {
+    "title": "NC-NCD: Novel Class Discovery for Node Classification",
+    "abstract": "Novel Class Discovery (NCD) involves identifying new categories within\nunlabeled data by utilizing knowledge acquired from previously established\ncategories. However, existing NCD methods often struggle to maintain a balance\nbetween the performance of old and new categories. Discovering unlabeled new\ncategories in a class-incremental way is more practical but also more\nchallenging, as it is frequently hindered by either catastrophic forgetting of\nold categories or an inability to learn new ones. Furthermore, the\nimplementation of NCD on continuously scalable graph-structured data remains an\nunder-explored area. In response to these challenges, we introduce for the\nfirst time a more practical NCD scenario for node classification (i.e.,\nNC-NCD), and propose a novel self-training framework with prototype replay and\ndistillation called SWORD, adopted to our NC-NCD setting. Our approach enables\nthe model to cluster unlabeled new category nodes after learning labeled nodes\nwhile preserving performance on old categories without reliance on old category\nnodes. SWORD achieves this by employing a self-training strategy to learn new\ncategories and preventing the forgetting of old categories through the joint\nuse of feature prototypes and knowledge distillation. Extensive experiments on\nfour common benchmarks demonstrate the superiority of SWORD over other\nstate-of-the-art methods.",
+    "authors": [
+      "Yue Hou",
+      "Xueyuan Chen",
+      "He Zhu",
+      "Romei Liu",
+      "Bowen Shi",
+      "Jiaheng Liu",
+      "Junran Wu",
+      "Ke Xu"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.17816v1",
+    "category": [
+      "Datasets",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "Long-term Fairness in Ride-Hailing Platform",
+    "abstract": "Matching in two-sided markets such as ride-hailing has recently received\nsignificant attention. However, existing studies on ride-hailing mainly focus\non optimising efficiency, and fairness issues in ride-hailing have been\nneglected. Fairness issues in ride-hailing, including significant earning\ndifferences between drivers and variance of passenger waiting times among\ndifferent locations, have potential impacts on economic and ethical aspects.\nThe recent studies that focus on fairness in ride-hailing exploit traditional\noptimisation methods and the Markov Decision Process to balance efficiency and\nfairness. However, there are several issues in these existing studies, such as\nmyopic short-term decision-making from traditional optimisation and instability\nof fairness in a comparably longer horizon from both traditional optimisation\nand Markov Decision Process-based methods. To address these issues, we propose\na dynamic Markov Decision Process model to alleviate fairness issues currently\nfaced by ride-hailing, and seek a balance between efficiency and fairness, with\ntwo distinct characteristics: (i) a prediction module to predict the number of\nrequests that will be raised in the future from different locations to allow\nthe proposed method to consider long-term fairness based on the whole timeline\ninstead of consider fairness only based on historical and current data\npatterns; (ii) a customised scalarisation function for multi-objective\nmulti-agent Q Learning that aims to balance efficiency and fairness. Extensive\nexperiments on a publicly available real-world dataset demonstrate that our\nproposed method outperforms existing state-of-the-art methods.",
+    "authors": [
+      "Yufan Kang",
+      "Jeffrey Chan",
+      "Wei Shao",
+      "Flora D. Salim",
+      "Christopher Leckie"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.17839v1",
+    "category": [
+      "Reinforcement Learning",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "On the Opportunities of (Re)-Exploring Atmospheric Science by Foundation Models: A Case Study",
+    "abstract": "Most state-of-the-art AI applications in atmospheric science are based on\nclassic deep learning approaches. However, such approaches cannot automatically\nintegrate multiple complicated procedures to construct an intelligent agent,\nsince each functionality is enabled by a separate model learned from\nindependent climate datasets. The emergence of foundation models, especially\nmultimodal foundation models, with their ability to process heterogeneous input\ndata and execute complex tasks, offers a substantial opportunity to overcome\nthis challenge. In this report, we want to explore a central question - how the\nstate-of-the-art foundation model, i.e., GPT-4o, performs various atmospheric\nscientific tasks. Toward this end, we conduct a case study by categorizing the\ntasks into four main classes, including climate data processing, physical\ndiagnosis, forecast and prediction, and adaptation and mitigation. For each\ntask, we comprehensively evaluate the GPT-4o's performance along with a\nconcrete discussion. We hope that this report may shed new light on future AI\napplications and research in atmospheric science.",
+    "authors": [
+      "Lujia Zhang",
+      "Hanzhe Cui",
+      "Yurong Song",
+      "Chenyue Li",
+      "Binhang Yuan",
+      "Mengqian Lu"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.17842v1",
+    "category": [
+      "Explainable AI",
       "Reinforcement Learning"
     ]
   },
   {
-    "title": "Robust Deep Hawkes Process under Label Noise of Both Event and Occurrence",
-    "abstract": "Integrating deep neural networks with the Hawkes process has significantly\nimproved predictive capabilities in finance, health informatics, and\ninformation technology. Nevertheless, these models often face challenges in\nreal-world settings, particularly due to substantial label noise. This issue is\nof significant concern in the medical field, where label noise can arise from\ndelayed updates in electronic medical records or misdiagnoses, leading to\nincreased prediction risks. Our research indicates that deep Hawkes process\nmodels exhibit reduced robustness when dealing with label noise, particularly\nwhen it affects both event types and timing. To address these challenges, we\nfirst investigate the influence of label noise in approximated intensity\nfunctions and present a novel framework, the Robust Deep Hawkes Process (RDHP),\nto overcome the impact of label noise on the intensity function of Hawkes\nmodels, considering both the events and their occurrences. We tested RDHP using\nmultiple open-source benchmarks with synthetic noise and conducted a case study\non obstructive sleep apnea-hypopnea syndrome (OSAHS) in a real-world setting\nwith inherent label noise. The results demonstrate that RDHP can effectively\nperform classification and regression tasks, even in the presence of noise\nrelated to events and their timing. To the best of our knowledge, this is the\nfirst study to successfully address both event and time label noise in deep\nHawkes process models, offering a promising solution for medical applications,\nspecifically in diagnosing OSAHS.",
+    "title": "Unraveling the Never-Ending Story of Lifecycles and Vitalizing Processes",
+    "abstract": "Business process management (BPM) has been widely used to discover, model,\nanalyze, and optimize organizational processes. BPM looks at these processes\nwith analysis techniques that assume a clearly defined start and end. However,\nnot all processes adhere to this logic, with the consequence that their\nbehavior cannot be appropriately captured by BPM analysis techniques. This\npaper addresses this research problem at a conceptual level. More specifically,\nwe introduce the notion of vitalizing business processes that target the\nlifecycle process of one or more entities. We show the existence of lifecycle\nprocesses in many industries and that their appropriate conceptualizations pave\nthe way for the definition of suitable modeling and analysis techniques. This\npaper provides a set of requirements for their analysis, and a\nconceptualization of lifecycle and vitalizing processes.",
     "authors": [
-      "Xiaoyu Tan",
-      "Bin Li",
-      "Xihe Qiu",
-      "Jingjing Huang",
-      "Yinghui Xu",
-      "Wei Chu"
+      "Stephan A. Fahrenkrog-Petersen",
+      "Saimir Bala",
+      "Luise Pufahl",
+      "Jan Mendling"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.17164v1",
+    "pdf_link": "http://arxiv.org/pdf/2407.17881v1",
     "category": [
       "AI in Healthcare",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "An Iterative Approach to Topic Modelling",
+    "abstract": "Topic modelling has become increasingly popular for summarizing text data,\nsuch as social media posts and articles. However, topic modelling is usually\ncompleted in one shot. Assessing the quality of resulting topics is\nchallenging. No effective methods or measures have been developed for assessing\nthe results or for making further enhancements to the topics. In this research,\nwe propose we propose to use an iterative process to perform topic modelling\nthat gives rise to a sense of completeness of the resulting topics when the\nprocess is complete. Using the BERTopic package, a popular method in topic\nmodelling, we demonstrate how the modelling process can be applied iteratively\nto arrive at a set of topics that could not be further improved upon using one\nof the three selected measures for clustering comparison as the decision\ncriteria. This demonstration is conducted using a subset of the COVIDSenti-A\ndataset. The early success leads us to believe that further research using in\nusing this approach in conjunction with other topic modelling algorithms could\nbe viable.",
+    "authors": [
+      "Albert Wong",
+      "Florence Wing Yau Cheng",
+      "Ashley Keung",
+      "Yamileth Hercules",
+      "Mary Alexandra Garcia",
+      "Yew-Wei Lim",
+      "Lien Pham"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.17892v1",
+    "category": [
+      "Datasets",
+      "LLMs"
+    ]
+  },
+  {
+    "title": "Causal Deepsets for Off-policy Evaluation under Spatial or Spatio-temporal Interferences",
+    "abstract": "Off-policy evaluation (OPE) is widely applied in sectors such as\npharmaceuticals and e-commerce to evaluate the efficacy of novel products or\npolicies from offline datasets. This paper introduces a causal deepset\nframework that relaxes several key structural assumptions, primarily the\nmean-field assumption, prevalent in existing OPE methodologies that handle\nspatio-temporal interference. These traditional assumptions frequently prove\ninadequate in real-world settings, thereby restricting the capability of\ncurrent OPE methods to effectively address complex interference effects. In\nresponse, we advocate for the implementation of the permutation invariance (PI)\nassumption. This innovative approach enables the data-driven, adaptive learning\nof the mean-field function, offering a more flexible estimation method beyond\nconventional averaging. Furthermore, we present novel algorithms that\nincorporate the PI assumption into OPE and thoroughly examine their theoretical\nfoundations. Our numerical analyses demonstrate that this novel approach yields\nsignificantly more precise estimations than existing baseline algorithms,\nthereby substantially improving the practical applicability and effectiveness\nof OPE methodologies. A Python implementation of our proposed method is\navailable at https://github.com/BIG-S2/Causal-Deepsets.",
+    "authors": [
+      "Runpeng Dai",
+      "Jianing Wang",
+      "Fan Zhou",
+      "Shikai Luo",
+      "Zhiwei Qin",
+      "Chengchun Shi",
+      "Hongtu Zhu"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.17910v1",
+    "category": [
+      "Datasets",
       "Explainable AI"
     ]
   },
   {
-    "title": "Take a Step and Reconsider: Sequence Decoding for Self-Improved Neural Combinatorial Optimization",
-    "abstract": "The constructive approach within Neural Combinatorial Optimization (NCO)\ntreats a combinatorial optimization problem as a finite Markov decision\nprocess, where solutions are built incrementally through a sequence of\ndecisions guided by a neural policy network. To train the policy, recent\nresearch is shifting toward a 'self-improved' learning methodology that\naddresses the limitations of reinforcement learning and supervised approaches.\nHere, the policy is iteratively trained in a supervised manner, with solutions\nderived from the current policy serving as pseudo-labels. The way these\nsolutions are obtained from the policy determines the quality of the\npseudo-labels. In this paper, we present a simple and problem-independent\nsequence decoding method for self-improved learning based on sampling sequences\nwithout replacement. We incrementally follow the best solution found and repeat\nthe sampling process from intermediate partial solutions. By modifying the\npolicy to ignore previously sampled sequences, we force it to consider only\nunseen alternatives, thereby increasing solution diversity. Experimental\nresults for the Traveling Salesman and Capacitated Vehicle Routing Problem\ndemonstrate its strong performance. Furthermore, our method outperforms\nprevious NCO approaches on the Job Shop Scheduling Problem.",
+    "title": "The Dark Side of Function Calling: Pathways to Jailbreaking Large Language Models",
+    "abstract": "Large language models (LLMs) have demonstrated remarkable capabilities, but\ntheir power comes with significant security considerations. While extensive\nresearch has been conducted on the safety of LLMs in chat mode, the security\nimplications of their function calling feature have been largely overlooked.\nThis paper uncovers a critical vulnerability in the function calling process of\nLLMs, introducing a novel \"jailbreak function\" attack method that exploits\nalignment discrepancies, user coercion, and the absence of rigorous safety\nfilters. Our empirical study, conducted on six state-of-the-art LLMs including\nGPT-4o, Claude-3.5-Sonnet, and Gemini-1.5-pro, reveals an alarming average\nsuccess rate of over 90\\% for this attack. We provide a comprehensive analysis\nof why function calls are susceptible to such attacks and propose defensive\nstrategies, including the use of defensive prompts. Our findings highlight the\nurgent need for enhanced security measures in the function calling capabilities\nof LLMs, contributing to the field of AI safety by identifying a previously\nunexplored risk, designing an effective attack method, and suggesting practical\ndefensive measures. Our code is available at\nhttps://github.com/wooozihui/jailbreakfunction.",
     "authors": [
-      "Jonathan Pirnay",
-      "Dominik G. Grimm"
+      "Zihui Wu",
+      "Haichang Gao",
+      "Jianping He",
+      "Ping Wang"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.17206v1",
+    "pdf_link": "http://arxiv.org/pdf/2407.17915v1",
     "category": [
-      "Reinforcement Learning",
+      "Speech Recognition",
       "Speech Synthesis"
     ]
   },
   {
-    "title": "Sublinear Regret for An Actor-Critic Algorithm in Continuous-Time Linear-Quadratic Reinforcement Learning",
-    "abstract": "We study reinforcement learning (RL) for a class of continuous-time\nlinear-quadratic (LQ) control problems for diffusions where volatility of the\nstate processes depends on both state and control variables. We apply a\nmodel-free approach that relies neither on knowledge of model parameters nor on\ntheir estimations, and devise an actor-critic algorithm to learn the optimal\npolicy parameter directly. Our main contributions include the introduction of a\nnovel exploration schedule and a regret analysis of the proposed algorithm. We\nprovide the convergence rate of the policy parameter to the optimal one, and\nprove that the algorithm achieves a regret bound of $O(N^{\\frac{3}{4}})$ up to\na logarithmic factor. We conduct a simulation study to validate the theoretical\nresults and demonstrate the effectiveness and reliability of the proposed\nalgorithm. We also perform numerical comparisons between our method and those\nof the recent model-based stochastic LQ RL studies adapted to the state- and\ncontrol-dependent volatility setting, demonstrating a better performance of the\nformer in terms of regret bounds.",
+    "title": "Comparison of different Artificial Neural Networks for Bitcoin price forecasting",
+    "abstract": "This study investigates the impact of varying sequence lengths on the\naccuracy of predicting cryptocurrency returns using Artificial Neural Networks\n(ANNs). Utilizing the Mean Absolute Error (MAE) as a threshold criterion, we\naim to enhance prediction accuracy by excluding returns that are smaller than\nthis threshold, thus mitigating errors associated with minor returns. The\nsubsequent evaluation focuses on the accuracy of predicted returns that exceed\nthis threshold. We compare four sequence lengths 168 hours (7 days), 72 hours\n(3 days), 24 hours, and 12 hours each with a return prediction interval of 2\nhours. Our findings reveal the influence of sequence length on prediction\naccuracy and underscore the potential for optimized sequence configurations in\nfinancial forecasting models.",
     "authors": [
-      "Yilie Huang",
-      "Yanwei Jia",
-      "Xun Yu Zhou"
+      "Silas Baumann",
+      "Karl A. Busch",
+      "Hamza A. A. Gardi"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.17226v1",
-    "category": [
-      "Reinforcement Learning",
-      "Explainable AI"
-    ]
-  },
-  {
-    "title": "Co-designing an AI Impact Assessment Report Template with AI Practitioners and AI Compliance Experts",
-    "abstract": "In the evolving landscape of AI regulation, it is crucial for companies to\nconduct impact assessments and document their compliance through comprehensive\nreports. However, current reports lack grounding in regulations and often focus\non specific aspects like privacy in relation to AI systems, without addressing\nthe real-world uses of these systems. Moreover, there is no systematic effort\nto design and evaluate these reports with both AI practitioners and AI\ncompliance experts. To address this gap, we conducted an iterative co-design\nprocess with 14 AI practitioners and 6 AI compliance experts and proposed a\ntemplate for impact assessment reports grounded in the EU AI Act, NIST's AI\nRisk Management Framework, and ISO 42001 AI Management System. We evaluated the\ntemplate by producing an impact assessment report for an AI-based meeting\ncompanion at a major tech company. A user study with 8 AI practitioners from\nthe same company and 5 AI compliance experts from industry and academia\nrevealed that our template effectively provides necessary information for\nimpact assessments and documents the broad impacts of AI systems. Participants\nenvisioned using the template not only at the pre-deployment stage for\ncompliance but also as a tool to guide the design stage of AI uses.",
-    "authors": [
-      "Edyta Bogucka",
-      "Marios Constantinides",
-      "Sanja \u0160\u0107epanovi\u0107",
-      "Daniele Quercia"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.17374v1",
-    "category": [
-      "AI in Healthcare",
-      "Explainable AI"
-    ]
-  },
-  {
-    "title": "Systematic Reasoning About Relational Domains With Graph Neural Networks",
-    "abstract": "Developing models that can learn to reason is a notoriously challenging\nproblem. We focus on reasoning in relational domains, where the use of Graph\nNeural Networks (GNNs) seems like a natural choice. However, previous work on\nreasoning with GNNs has shown that such models tend to fail when presented with\ntest examples that require longer inference chains than those seen during\ntraining. This suggests that GNNs lack the ability to generalize from training\nexamples in a systematic way, which would fundamentally limit their reasoning\nabilities. A common solution is to instead rely on neuro-symbolic methods,\nwhich are capable of reasoning in a systematic way by design. Unfortunately,\nthe scalability of such methods is often limited and they tend to rely on\noverly strong assumptions, e.g.\\ that queries can be answered by inspecting a\nsingle relational path. In this paper, we revisit the idea of reasoning with\nGNNs, showing that systematic generalization is possible as long as the right\ninductive bias is provided. In particular, we argue that node embeddings should\nbe treated as epistemic states and that GNN should be parameterised\naccordingly. We propose a simple GNN architecture which is based on this view\nand show that it is capable of achieving state-of-the-art results. We\nfurthermore introduce a benchmark which requires models to aggregate evidence\nfrom multiple relational paths. We show that existing neuro-symbolic approaches\nfail on this benchmark, whereas our considered GNN model learns to reason\naccurately.",
-    "authors": [
-      "Irtaza Khalid",
-      "Steven Schockaert"
-    ],
-    "pdf_link": "http://arxiv.org/pdf/2407.17396v1",
+    "pdf_link": "http://arxiv.org/pdf/2407.17930v1",
     "category": [
       "Explainable AI",
       "Reinforcement Learning"
     ]
   },
   {
-    "title": "Automated Explanation Selection for Scientific Discovery",
-    "abstract": "Automated reasoning is a key technology in the young but rapidly growing\nfield of Explainable Artificial Intelligence (XAI). Explanability helps build\ntrust in artificial intelligence systems beyond their mere predictive accuracy\nand robustness. In this paper, we propose a cycle of scientific discovery that\ncombines machine learning with automated reasoning for the generation and the\nselection of explanations. We present a taxonomy of explanation selection\nproblems that draws on insights from sociology and cognitive science. These\nselection criteria subsume existing notions and extend them with new\nproperties.",
+    "title": "Relating the Seemingly Unrelated: Principled Understanding of Generalization for Generative Models in Arithmetic Reasoning Tasks",
+    "abstract": "Large language models (LLMs) have demonstrated impressive versatility across\nnumerous tasks, yet their generalization capabilities remain poorly understood.\nTo investigate these behaviors, arithmetic tasks serve as important venues. In\nprevious studies, seemingly unrelated mysteries still exist -- (1) models with\nappropriate positional embeddings can correctly perform longer unseen\narithmetic operations such as addition, but their effectiveness varies in more\ncomplex tasks like multiplication; (2) models perform well for longer unseen\ncases in modular addition under specific moduli (e.g., modulo 100) but struggle\nunder very close moduli (e.g., modulo 101), regardless of the positional\nencoding used. We believe previous studies have been treating the symptoms\nrather than addressing the root cause -- they have paid excessive attention to\nimproving model components, while overlooking the differences in task\nproperties that may be the real drivers. This is confirmed by our unified\ntheoretical framework for different arithmetic scenarios. For example, unlike\nmultiplication, the digital addition task has the property of translation\ninvariance which naturally aligns with the relative positional encoding, and\nthis combination leads to successful generalization of addition to unseen\nlonger domains. The discrepancy in operations modulo 100 and 101 arises from\nthe base. Modulo 100, unlike 101, is compatible with the decimal system (base\n10), such that unseen information in digits beyond the units digit and the tens\ndigit is actually not needed for the task. Extensive experiments with GPT-like\nmodels validate our theoretical predictions. These findings deepen our\nunderstanding of the generalization mechanisms, and facilitate more\ndata-efficient model training and objective-oriented AI alignment.",
     "authors": [
-      "Markus Iser"
+      "Xingcheng Xu",
+      "Zibo Zhao",
+      "Haipeng Zhang",
+      "Yanqing Yang"
     ],
-    "pdf_link": "http://arxiv.org/pdf/2407.17454v1",
+    "pdf_link": "http://arxiv.org/pdf/2407.17963v1",
+    "category": [
+      "LLMs",
+      "Speech Synthesis"
+    ]
+  },
+  {
+    "title": "Peak-Controlled Logits Poisoning Attack in Federated Distillation",
+    "abstract": "Federated Distillation (FD) offers an innovative approach to distributed\nmachine learning, leveraging knowledge distillation for efficient and flexible\ncross-device knowledge transfer without necessitating the upload of extensive\nmodel parameters to a central server. While FD has gained popularity, its\nvulnerability to poisoning attacks remains underexplored. To address this gap,\nwe previously introduced FDLA (Federated Distillation Logits Attack), a method\nthat manipulates logits communication to mislead and degrade the performance of\nclient models. However, the impact of FDLA on participants with different\nidentities and the effects of malicious modifications at various stages of\nknowledge transfer remain unexplored. To this end, we present PCFDLA\n(Peak-Controlled Federated Distillation Logits Attack), an advanced and more\nstealthy logits poisoning attack method for FD. PCFDLA enhances the\neffectiveness of FDLA by carefully controlling the peak values of logits to\ncreate highly misleading yet inconspicuous modifications. Furthermore, we\nintroduce a novel metric for better evaluating attack efficacy, demonstrating\nthat PCFDLA maintains stealth while being significantly more disruptive to\nvictim models compared to its predecessors. Experimental results across various\ndatasets confirm the superior impact of PCFDLA on model accuracy, solidifying\nits potential threat in federated distillation systems.",
+    "authors": [
+      "Yuhan Tang",
+      "Aoxu Zhang",
+      "Zhiyuan Wu",
+      "Bo Gao",
+      "Tian Wen",
+      "Yuwei Wang",
+      "Sheng Sun"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.18039v1",
     "category": [
       "Explainable AI",
-      "AI in Healthcare"
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Maximum Entropy On-Policy Actor-Critic via Entropy Advantage Estimation",
+    "abstract": "Entropy Regularisation is a widely adopted technique that enhances policy\noptimisation performance and stability. A notable form of entropy\nregularisation is augmenting the objective with an entropy term, thereby\nsimultaneously optimising the expected return and the entropy. This framework,\nknown as maximum entropy reinforcement learning (MaxEnt RL), has shown\ntheoretical and empirical successes. However, its practical application in\nstraightforward on-policy actor-critic settings remains surprisingly\nunderexplored. We hypothesise that this is due to the difficulty of managing\nthe entropy reward in practice. This paper proposes a simple method of\nseparating the entropy objective from the MaxEnt RL objective, which\nfacilitates the implementation of MaxEnt RL in on-policy settings. Our\nempirical evaluations demonstrate that extending Proximal Policy Optimisation\n(PPO) and Trust Region Policy Optimisation (TRPO) within the MaxEnt framework\nimproves policy optimisation performance in both MuJoCo and Procgen tasks.\nAdditionally, our results highlight MaxEnt RL's capacity to enhance\ngeneralisation.",
+    "authors": [
+      "Jean Seong Bjorn Choe",
+      "Jong-Kook Kim"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.18143v1",
+    "category": [
+      "Reinforcement Learning",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Gene Regulatory Network Inference from Pre-trained Single-Cell Transcriptomics Transformer with Joint Graph Learning",
+    "abstract": "Inferring gene regulatory networks (GRNs) from single-cell RNA sequencing\n(scRNA-seq) data is a complex challenge that requires capturing the intricate\nrelationships between genes and their regulatory interactions. In this study,\nwe tackle this challenge by leveraging the single-cell BERT-based pre-trained\ntransformer model (scBERT), trained on extensive unlabeled scRNA-seq data, to\naugment structured biological knowledge from existing GRNs. We introduce a\nnovel joint graph learning approach that combines the rich contextual\nrepresentations learned by pre-trained single-cell language models with the\nstructured knowledge encoded in GRNs using graph neural networks (GNNs). By\nintegrating these two modalities, our approach effectively reasons over boththe\ngene expression level constraints provided by the scRNA-seq data and the\nstructured biological knowledge inherent in GRNs. We evaluate our method on\nhuman cell benchmark datasets from the BEELINE study with cell type-specific\nground truth networks. The results demonstrate superior performance over\ncurrent state-of-the-art baselines, offering a deeper understanding of cellular\nregulatory mechanisms.",
+    "authors": [
+      "Sindhura Kommu",
+      "Yizhi Wang",
+      "Yue Wang",
+      "Xuan Wang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.18181v1",
+    "category": [
+      "LLMs",
+      "Datasets"
     ]
   }
 ]
