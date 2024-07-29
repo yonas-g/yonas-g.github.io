@@ -177,7 +177,7 @@ def summarize_abstracts(papers):
 
 # Define the date range for the query
 today = datetime.now()
-yesterday = today - timedelta(days=2)
+yesterday = today - timedelta(days=3)
 base_query = f"submittedDate:[{yesterday.strftime('%Y%m%d')} TO {today.strftime('%Y%m%d')}]"
 
 # Specific queries for cs.AI, speech recognition, and speech synthesis
