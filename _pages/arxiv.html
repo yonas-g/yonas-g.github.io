@@ -12,85 +12,109 @@ permalink: /arxiv/
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-   // Add today's date in its own div
+  // Add today's date in its own div
   const dateContainer = document.getElementById("date-container");
-  const dateElement = document.createElement("div");
-  dateElement.textContent = "Today's papers: " + new Date().toLocaleDateString();
-  dateElement.className = "date";
-  dateContainer.appendChild(dateElement);
-  
+  if (dateContainer) {
+    const dateElement = document.createElement("div");
+    dateElement.textContent = "Today's papers: " + new Date().toLocaleDateString();
+    dateElement.className = "date";
+    dateContainer.appendChild(dateElement);
+  } else {
+    console.error("date-container element not found");
+  }
+
   // Fetch and display summary
   fetch("{{ '/assets/json/summary.json' | relative_url }}")
-    .then(response => response.json())
+    .then(response => {
+      if (!response.ok) throw new Error("Network response was not ok");
+      return response.json();
+    })
     .then(data => {
       const summaryContainer = document.getElementById("summary-container");
-      const summary = document.createElement("div");
-      summary.innerHTML = marked.parse(data.summary);
-      summary.className = "summary";
-      summaryContainer.appendChild(summary);
+      if (summaryContainer) {
+        const summary = document.createElement("div");
+        summary.innerHTML = marked.parse(data.summary);
+        summary.className = "summary";
+        summaryContainer.appendChild(summary);
+      } else {
+        console.error("summary-container element not found");
+      }
     })
     .catch(error => console.error("Error loading summary JSON:", error));
 
   // Toggle summary visibility
   const summaryHeader = document.getElementById("summary-header");
   const summaryContainer = document.getElementById("summary-container");
-  summaryHeader.addEventListener("click", function() {
-    summaryContainer.classList.toggle("expanded");
-  });
+  if (summaryHeader && summaryContainer) {
+    summaryHeader.addEventListener("click", function() {
+      summaryContainer.classList.toggle("expanded");
+    });
+  } else {
+    console.error("summary-header or summary-container element not found");
+  }
 
   // Fetch and display papers
   fetch("{{ '/assets/json/arxiv_papers.json' | relative_url }}")
-    .then(response => response.json())
+    .then(response => {
+      if (!response.ok) throw new Error("Network response was not ok");
+      return response.json();
+    })
     .then(data => {
       const papersList = document.getElementById("papers-list");
-      data.forEach((paper, index) => {
-        const listItem = document.createElement("li");
-        listItem.className = "paper";
+      if (papersList) {
+        data.forEach((paper, index) => {
+          const listItem = document.createElement("li");
+          listItem.className = "paper";
 
-        const title = document.createElement("div");
-        title.textContent = paper.title;
-        title.className = "paper-title";
-        title.setAttribute("data-index", index);
-        title.addEventListener("click", function() {
-          const details = document.getElementById("details-" + this.getAttribute("data-index"));
-          details.classList.toggle("expanded");
+          const title = document.createElement("div");
+          title.textContent = paper.title;
+          title.className = "paper-title";
+          title.setAttribute("data-index", index);
+          title.addEventListener("click", function() {
+            const details = document.getElementById("details-" + this.getAttribute("data-index"));
+            if (details) details.classList.toggle("expanded");
+          });
+          listItem.appendChild(title);
+
+          const categories = document.createElement("div");
+          categories.className = "categories";
+          if (Array.isArray(paper.category)) {
+            paper.category.forEach(cat => {
+              const hashtag = document.createElement("span");
+              hashtag.textContent = "#" + cat;
+              hashtag.className = "category-hashtag";
+              categories.appendChild(hashtag);
+            });
+          }
+          listItem.appendChild(categories);
+
+          const details = document.createElement("div");
+          details.id = "details-" + index;
+          details.className = "paper-details";
+
+          const authors = document.createElement("div");
+          authors.textContent = "Authors: " + (paper.authors || []).join(", ");
+          authors.className = "authors";
+          details.appendChild(authors);
+
+          const abstract = document.createElement("div");
+          abstract.textContent = paper.abstract;
+          abstract.className = "abstract";
+          details.appendChild(abstract);
+
+          const pdfLink = document.createElement("a");
+          pdfLink.href = paper.pdf_link;
+          pdfLink.textContent = "link";
+          pdfLink.target = "_blank";
+          pdfLink.className = "paper-pdf-link";
+          details.appendChild(pdfLink);
+
+          listItem.appendChild(details);
+          papersList.appendChild(listItem);
         });
-        listItem.appendChild(title);
-
-        const categories = document.createElement("div");
-        categories.className = "categories";
-        paper.category.forEach(cat => {
-          const hashtag = document.createElement("span");
-          hashtag.textContent = "#" + cat;
-          hashtag.className = "category-hashtag";
-          categories.appendChild(hashtag);
-        });
-        listItem.appendChild(categories);
-
-        const details = document.createElement("div");
-        details.id = "details-" + index;
-        details.className = "paper-details";
-
-        const authors = document.createElement("div");
-        authors.textContent = "Authors: " + paper.authors.join(", ");
-        authors.className = "authors";
-        details.appendChild(authors);
-
-        const abstract = document.createElement("div");
-        abstract.textContent = paper.abstract;
-        abstract.className = "abstract";
-        details.appendChild(abstract);
-
-        const pdfLink = document.createElement("a");
-        pdfLink.href = paper.pdf_link;
-        pdfLink.textContent = "link";
-        pdfLink.target = "_blank";
-        pdfLink.className = "paper-pdf-link";
-        details.appendChild(pdfLink);
-
-        listItem.appendChild(details);
-        papersList.appendChild(listItem);
-      });
+      } else {
+        console.error("papers-list element not found");
+      }
     })
     .catch(error => console.error("Error loading papers JSON:", error));
 });
