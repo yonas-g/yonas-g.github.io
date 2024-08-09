@@ -1,0 +1,535 @@
+[
+  {
+    "title": "Towards AI-Safety-by-Design: A Taxonomy of Runtime Guardrails in Foundation Model based Systems",
+    "abstract": "The rapid advancement and widespread deployment of foundation model (FM)\nbased systems have revolutionized numerous applications across various domains.\nHowever, the fast-growing capabilities and autonomy have also raised\nsignificant concerns about responsible AI and AI safety. Recently, there have\nbeen increasing attention toward implementing guardrails to ensure the runtime\nbehavior of FM-based systems is safe and responsible. Given the early stage of\nFMs and their applications (such as agents), the design of guardrails have not\nyet been systematically studied. It remains underexplored which software\nqualities should be considered when designing guardrails and how these\nqualities can be ensured from a software architecture perspective. Therefore,\nin this paper, we present a taxonomy for guardrails to classify and compare the\ncharacteristics and design options of guardrails. Our taxonomy is organized\ninto three main categories: the motivation behind adopting runtime guardrails,\nthe quality attributes to consider, and the design options available. This\ntaxonomy provides structured and concrete guidance for making architectural\ndesign decisions when designing guardrails and highlights trade-offs arising\nfrom the design decisions.",
+    "authors": [
+      "Md Shamsujjoha",
+      "Qinghua Lu",
+      "Dehai Zhao",
+      "Liming Zhu"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02205v1",
+    "category": [
+      "Explainable AI",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Is Large Language Model Good at Database Knob Tuning? A Comprehensive Experimental Evaluation",
+    "abstract": "Knob tuning plays a crucial role in optimizing databases by adjusting knobs\nto enhance database performance. However, traditional tuning methods often\nfollow a Try-Collect-Adjust approach, proving inefficient and\ndatabase-specific. Moreover, these methods are often opaque, making it\nchallenging for DBAs to grasp the underlying decision-making process.\n  The emergence of large language models (LLMs) like GPT-4 and Claude-3 has\nexcelled in complex natural language tasks, yet their potential in database\nknob tuning remains largely unexplored. This study harnesses LLMs as\nexperienced DBAs for knob-tuning tasks with carefully designed prompts. We\nidentify three key subtasks in the tuning system: knob pruning, model\ninitialization, and knob recommendation, proposing LLM-driven solutions to\nreplace conventional methods for each subtask.\n  We conduct extensive experiments to compare LLM-driven approaches against\ntraditional methods across the subtasks to evaluate LLMs' efficacy in the knob\ntuning domain. Furthermore, we explore the adaptability of LLM-based solutions\nin diverse evaluation settings, encompassing new benchmarks, database engines,\nand hardware environments. Our findings reveal that LLMs not only match or\nsurpass traditional methods but also exhibit notable interpretability by\ngenerating responses in a coherent ``chain-of-thought'' manner. We further\nobserve that LLMs exhibit remarkable generalizability through simple\nadjustments in prompts, eliminating the necessity for additional training or\nextensive code modifications.\n  Drawing insights from our experimental findings, we identify several\nopportunities for future research aimed at advancing the utilization of LLMs in\nthe realm of database management.",
+    "authors": [
+      "Yiyan Li",
+      "Haoyang Li",
+      "Zhao Pu",
+      "Jing Zhang",
+      "Xinyi Zhang",
+      "Tao Ji",
+      "Luming Sun",
+      "Cuiping Li",
+      "Hong Chen"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02213v1",
+    "category": [
+      "Datasets",
+      "LLMs"
+    ]
+  },
+  {
+    "title": "SpecRover: Code Intent Extraction via LLMs",
+    "abstract": "Autonomous program improvement typically involves automatically producing bug\nfixes and feature additions. Such program improvement can be accomplished by a\ncombination of large language model (LLM) and program analysis capabilities, in\nthe form of an LLM agent. Since program repair or program improvement typically\nrequires a specification of intended behavior - specification inference can be\nuseful for producing high quality program patches. In this work, we examine\nefficient and low-cost workflows for iterative specification inference within\nan LLM agent. Given a GitHub issue to be resolved in a software project, our\ngoal is to conduct iterative code search accompanied by specification inference\n- thereby inferring intent from both the project structure and behavior. The\nintent thus captured is examined by a reviewer agent with the goal of vetting\nthe patches as well as providing a measure of confidence in the vetted patches.\nOur approach SpecRover (AutoCodeRover-v2) is built on the open-source LLM agent\nAutoCodeRover. In an evaluation on the full SWE-Bench consisting of 2294 GitHub\nissues, it shows more than 50% improvement in efficacy over AutoCodeRover.\nCompared to the open-source agents available, our work shows modest cost ($0.65\nper issue) in resolving an average GitHub issue in SWE-Bench lite. The\nproduction of explanation by SpecRover allows for a better \"signal\" to be given\nto the developer, on when the suggested patches can be accepted with\nconfidence. SpecRover also seeks to demonstrate the continued importance of\nspecification inference in automated program repair, even as program repair\ntechnologies enter the LLM era.",
+    "authors": [
+      "Haifeng Ruan",
+      "Yuntong Zhang",
+      "Abhik Roychoudhury"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02232v2",
+    "category": [
+      "Explainable AI",
+      "LLMs"
+    ]
+  },
+  {
+    "title": "Contrastive Learning and Abstract Concepts: The Case of Natural Numbers",
+    "abstract": "Contrastive Learning (CL) has been successfully applied to classification and\nother downstream tasks related to concrete concepts, such as objects contained\nin the ImageNet dataset. No attempts seem to have been made so far in applying\nthis promising scheme to more abstract entities. A prominent example of these\ncould be the concept of (discrete) Quantity. CL can be frequently interpreted\nas a self-supervised scheme guided by some profound and ubiquitous conservation\nprinciple (e.g. conservation of identity in object classification tasks). In\nthis introductory work we apply a suitable conservation principle to the\nsemi-abstract concept of natural numbers by which discrete quantities can be\nestimated or predicted. We experimentally show, by means of a toy problem, that\ncontrastive learning can be trained to count at a glance with high accuracy\nboth at human as well as at super-human ranges.. We compare this with the\nresults of a trained-to-count at a glance supervised learning (SL) neural\nnetwork scheme of similar architecture. We show that both schemes exhibit\nsimilar good performance on baseline experiments, where the distributions of\nthe training and testing stages are equal. Importantly, we demonstrate that in\nsome generalization scenarios, where training and testing distributions differ,\nCL boasts more robust and much better error performance.",
+    "authors": [
+      "Daniel N. Nissani"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02247v1",
+    "category": [
+      "Multimodal Learning",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "DRFormer: Multi-Scale Transformer Utilizing Diverse Receptive Fields for Long Time-Series Forecasting",
+    "abstract": "Long-term time series forecasting (LTSF) has been widely applied in finance,\ntraffic prediction, and other domains. Recently, patch-based transformers have\nemerged as a promising approach, segmenting data into sub-level patches that\nserve as input tokens. However, existing methods mostly rely on predetermined\npatch lengths, necessitating expert knowledge and posing challenges in\ncapturing diverse characteristics across various scales. Moreover, time series\ndata exhibit diverse variations and fluctuations across different temporal\nscales, which traditional approaches struggle to model effectively. In this\npaper, we propose a dynamic tokenizer with a dynamic sparse learning algorithm\nto capture diverse receptive fields and sparse patterns of time series data. In\norder to build hierarchical receptive fields, we develop a multi-scale\nTransformer model, coupled with multi-scale sequence extraction, capable of\ncapturing multi-resolution features. Additionally, we introduce a group-aware\nrotary position encoding technique to enhance intra- and inter-group position\nawareness among representations across different temporal scales. Our proposed\nmodel, named DRFormer, is evaluated on various real-world datasets, and\nexperimental results demonstrate its superiority compared to existing methods.\nOur code is available at: https://github.com/ruixindingECNU/DRFormer.",
+    "authors": [
+      "Ruixin Ding",
+      "Yuqi Chen",
+      "Yu-Ting Lan",
+      "Wei Zhang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02279v1",
+    "category": [
+      "Multimodal Learning",
+      "Speech Synthesis"
+    ]
+  },
+  {
+    "title": "Hardware Aware Ensemble Selection for Balancing Predictive Accuracy and Cost",
+    "abstract": "Automated Machine Learning (AutoML) significantly simplifies the deployment\nof machine learning models by automating tasks from data preprocessing to model\nselection to ensembling. AutoML systems for tabular data often employ post hoc\nensembling, where multiple models are combined to improve predictive accuracy.\nThis typically results in longer inference times, a major limitation in\npractical deployments. Addressing this, we introduce a hardware-aware ensemble\nselection approach that integrates inference time into post hoc ensembling. By\nleveraging an existing framework for ensemble selection with quality diversity\noptimization, our method evaluates ensemble candidates for their predictive\naccuracy and hardware efficiency. This dual focus allows for a balanced\nconsideration of accuracy and operational efficiency. Thus, our approach\nenables practitioners to choose from a Pareto front of accurate and efficient\nensembles. Our evaluation using 83 classification datasets shows that our\napproach sustains competitive accuracy and can significantly improve ensembles'\noperational efficiency. The results of this study provide a foundation for\nextending these principles to additional hardware constraints, setting the\nstage for the development of more resource-efficient AutoML systems.",
+    "authors": [
+      "Jannis Maier",
+      "Felix M\u00f6ller",
+      "Lennart Purucker"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02280v1",
+    "category": [
+      "Datasets",
+      "Benchmarking"
+    ]
+  },
+  {
+    "title": "Generalized Gaussian Temporal Difference Error For Uncertainty-aware Reinforcement Learning",
+    "abstract": "Conventional uncertainty-aware temporal difference (TD) learning methods\noften rely on simplistic assumptions, typically including a zero-mean Gaussian\ndistribution for TD errors. Such oversimplification can lead to inaccurate\nerror representations and compromised uncertainty estimation. In this paper, we\nintroduce a novel framework for generalized Gaussian error modeling in deep\nreinforcement learning, applicable to both discrete and continuous control\nsettings. Our framework enhances the flexibility of error distribution modeling\nby incorporating higher-order moments, particularly kurtosis, thereby improving\nthe estimation and mitigation of data-dependent noise, i.e., aleatoric\nuncertainty. We examine the influence of the shape parameter of the generalized\nGaussian distribution (GGD) on aleatoric uncertainty and provide a closed-form\nexpression that demonstrates an inverse relationship between uncertainty and\nthe shape parameter. Additionally, we propose a theoretically grounded\nweighting scheme to fully leverage the GGD. To address epistemic uncertainty,\nwe enhance the batch inverse variance weighting by incorporating bias reduction\nand kurtosis considerations, resulting in improved robustness. Extensive\nexperimental evaluations using policy gradient algorithms demonstrate the\nconsistent efficacy of our method, showcasing significant performance\nimprovements.",
+    "authors": [
+      "Seyeon Kim",
+      "Joonhun Lee",
+      "Namhoon Cho",
+      "Sungjun Han",
+      "Seungeon Baek"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02295v1",
+    "category": [
+      "Reinforcement Learning",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Spatial-temporal Graph Convolutional Networks with Diversified Transformation for Dynamic Graph Representation Learning",
+    "abstract": "Dynamic graphs (DG) are often used to describe evolving interactions between\nnodes in real-world applications. Temporal patterns are a natural feature of\nDGs and are also key to representation learning. However, existing dynamic GCN\nmodels are mostly composed of static GCNs and sequence modules, which results\nin the separation of spatiotemporal information and cannot effectively capture\ncomplex temporal patterns in DGs. To address this problem, this study proposes\na spatial-temporal graph convolutional networks with diversified transformation\n(STGCNDT), which includes three aspects: a) constructing a unified graph tensor\nconvolutional network (GTCN) using tensor M-products without the need to\nrepresent spatiotemporal information separately; b) introducing three\ntransformation schemes in GTCN to model complex temporal patterns to aggregate\ntemporal information; and c) constructing an ensemble of diversified\ntransformation schemes to obtain higher representation capabilities. Empirical\nstudies on four DGs that appear in communication networks show that the\nproposed STGCNDT significantly outperforms state-of-the-art models in solving\nlink weight estimation tasks due to the diversified transformations.",
+    "authors": [
+      "Ling Wang",
+      "Yixiang Huang",
+      "Hao Wu"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02704v1",
+    "category": [
+      "Multimodal Learning",
+      "LLMs"
+    ]
+  },
+  {
+    "title": "Active Sensing of Knee Osteoarthritis Progression with Reinforcement Learning",
+    "abstract": "Osteoarthritis (OA) is the most common musculoskeletal disease, which has no\ncure. Knee OA (KOA) is one of the highest causes of disability worldwide, and\nit costs billions of United States dollars to the global community. Prediction\nof KOA progression has been of high interest to the community for years, as it\ncan advance treatment development through more efficient clinical trials and\nimprove patient outcomes through more efficient healthcare utilization.\nExisting approaches for predicting KOA, however, are predominantly static, i.e.\nconsider data from a single time point to predict progression many years into\nthe future, and knee level, i.e. consider progression in a single joint only.\nDue to these and related reasons, these methods fail to deliver the level of\npredictive performance, which is sufficient to result in cost savings and\nbetter patient outcomes. Collecting extensive data from all patients on a\nregular basis could address the issue, but it is limited by the high cost at a\npopulation level. In this work, we propose to go beyond static prediction\nmodels in OA, and bring a novel Active Sensing (AS) approach, designed to\ndynamically follow up patients with the objective of maximizing the number of\ninformative data acquisitions, while minimizing their total cost over a period\nof time. Our approach is based on Reinforcement Learning (RL), and it leverages\na novel reward function designed specifically for AS of disease progression in\nmore than one part of a human body. Our method is end-to-end, relies on\nmulti-modal Deep Learning, and requires no human input at inference time.\nThroughout an exhaustive experimental evaluation, we show that using RL can\nprovide a higher monetary benefit when compared to state-of-the-art baselines.",
+    "authors": [
+      "Khanh Nguyen",
+      "Huy Hoang Nguyen",
+      "Egor Panfilov",
+      "Aleksei Tiulpin"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02349v1",
+    "category": [
+      "AI in Healthcare",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Bayesian Kolmogorov Arnold Networks (Bayesian_KANs): A Probabilistic Approach to Enhance Accuracy and Interpretability",
+    "abstract": "Because of its strong predictive skills, deep learning has emerged as an\nessential tool in many industries, including healthcare. Traditional deep\nlearning models, on the other hand, frequently lack interpretability and omit\nto take prediction uncertainty into account two crucial components of clinical\ndecision making. In order to produce explainable and uncertainty aware\npredictions, this study presents a novel framework called Bayesian Kolmogorov\nArnold Networks (BKANs), which combines the expressive capacity of Kolmogorov\nArnold Networks with Bayesian inference. We employ BKANs on two medical\ndatasets, which are widely used benchmarks for assessing machine learning\nmodels in medical diagnostics: the Pima Indians Diabetes dataset and the\nCleveland Heart Disease dataset. Our method provides useful insights into\nprediction confidence and decision boundaries and outperforms traditional deep\nlearning models in terms of prediction accuracy. Moreover, BKANs' capacity to\nrepresent aleatoric and epistemic uncertainty guarantees doctors receive more\nsolid and trustworthy decision support. Our Bayesian strategy improves the\ninterpretability of the model and considerably minimises overfitting, which is\nimportant for tiny and imbalanced medical datasets, according to experimental\nresults. We present possible expansions to further use BKANs in more\ncomplicated multimodal datasets and address the significance of these\ndiscoveries for future research in building reliable AI systems for healthcare.\nThis work paves the way for a new paradigm in deep learning model deployment in\nvital sectors where transparency and reliability are crucial.",
+    "authors": [
+      "Masoud Muhammed Hassan"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02706v1",
+    "category": [
+      "AI in Healthcare",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Operationalizing Contextual Integrity in Privacy-Conscious Assistants",
+    "abstract": "Advanced AI assistants combine frontier LLMs and tool access to autonomously\nperform complex tasks on behalf of users. While the helpfulness of such\nassistants can increase dramatically with access to user information including\nemails and documents, this raises privacy concerns about assistants sharing\ninappropriate information with third parties without user supervision. To steer\ninformation-sharing assistants to behave in accordance with privacy\nexpectations, we propose to operationalize $\\textit{contextual integrity}$\n(CI), a framework that equates privacy with the appropriate flow of information\nin a given context. In particular, we design and evaluate a number of\nstrategies to steer assistants' information-sharing actions to be CI compliant.\nOur evaluation is based on a novel form filling benchmark composed of synthetic\ndata and human annotations, and it reveals that prompting frontier LLMs to\nperform CI-based reasoning yields strong results.",
+    "authors": [
+      "Sahra Ghalebikesabi",
+      "Eugene Bagdasaryan",
+      "Ren Yi",
+      "Itay Yona",
+      "Ilia Shumailov",
+      "Aneesh Pappu",
+      "Chongyang Shi",
+      "Laura Weidinger",
+      "Robert Stanforth",
+      "Leonard Berrada",
+      "Pushmeet Kohli",
+      "Po-Sen Huang",
+      "Borja Balle"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02373v1",
+    "category": [
+      "Explainable AI",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Perfect Information Monte Carlo with Postponing Reasoning",
+    "abstract": "Imperfect information games, such as Bridge and Skat, present challenges due\nto state-space explosion and hidden information, posing formidable obstacles\nfor search algorithms. Determinization-based algorithms offer a resolution by\nsampling hidden information and solving the game in a perfect information\nsetting, facilitating rapid and effective action estimation. However,\ntransitioning to perfect information introduces challenges, notably one called\nstrategy fusion.This research introduces `Extended Perfect Information Monte\nCarlo' (EPIMC), an online algorithm inspired by the state-of-the-art\ndeterminization-based approach Perfect Information Monte Carlo (PIMC). EPIMC\nenhances the capabilities of PIMC by postponing the perfect information\nresolution, reducing alleviating issues related to strategy fusion. However,\nthe decision to postpone the leaf evaluator introduces novel considerations,\nsuch as the interplay between prior levels of reasoning and the newly deferred\nresolution. In our empirical analysis, we investigate the performance of EPIMC\nacross a range of games, with a particular focus on those characterized by\nvarying degrees of strategy fusion. Our results demonstrate notable performance\nenhancements, particularly in games where strategy fusion significantly impacts\ngameplay. Furthermore, our research contributes to the theoretical foundation\nof determinization-based algorithms addressing challenges associated with\nstrategy fusion.%, thereby enhancing our understanding of these algorithms\nwithin the context of imperfect information game scenarios.",
+    "authors": [
+      "J\u00e9r\u00f4me Arjonilla",
+      "Abdallah Saffidine",
+      "Tristan Cazenave"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02380v1",
+    "category": [
+      "Reinforcement Learning",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Enhancing AI-based Generation of Software Exploits with Contextual Information",
+    "abstract": "This practical experience report explores Neural Machine Translation (NMT)\nmodels' capability to generate offensive security code from natural language\n(NL) descriptions, highlighting the significance of contextual understanding\nand its impact on model performance. Our study employs a dataset comprising\nreal shellcodes to evaluate the models across various scenarios, including\nmissing information, necessary context, and unnecessary context. The\nexperiments are designed to assess the models' resilience against incomplete\ndescriptions, their proficiency in leveraging context for enhanced accuracy,\nand their ability to discern irrelevant information. The findings reveal that\nthe introduction of contextual data significantly improves performance.\nHowever, the benefits of additional context diminish beyond a certain point,\nindicating an optimal level of contextual information for model training.\nMoreover, the models demonstrate an ability to filter out unnecessary context,\nmaintaining high levels of accuracy in the generation of offensive security\ncode. This study paves the way for future research on optimizing context use in\nAI-driven code generation, particularly for applications requiring a high\ndegree of technical precision such as the generation of offensive code.",
+    "authors": [
+      "Pietro Liguori",
+      "Cristina Improta",
+      "Roberto Natella",
+      "Bojan Cukic",
+      "Domenico Cotroneo"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02402v2",
+    "category": [
+      "Explainable AI",
+      "Speech Synthesis"
+    ]
+  },
+  {
+    "title": "SnapE -- Training Snapshot Ensembles of Link Prediction Models",
+    "abstract": "Snapshot ensembles have been widely used in various fields of prediction.\nThey allow for training an ensemble of prediction models at the cost of\ntraining a single one. They are known to yield more robust predictions by\ncreating a set of diverse base models. In this paper, we introduce an approach\nto transfer the idea of snapshot ensembles to link prediction models in\nknowledge graphs. Moreover, since link prediction in knowledge graphs is a\nsetup without explicit negative examples, we propose a novel training loop that\niteratively creates negative examples using previous snapshot models. An\nevaluation with four base models across four datasets shows that this approach\nconstantly outperforms the single model approach, while keeping the training\ntime constant.",
+    "authors": [
+      "Ali Shaban",
+      "Heiko Paulheim"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02707v1",
+    "category": [
+      "Datasets",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "Enhancing Medical Learning and Reasoning Systems: A Boxology-Based Comparative Analysis of Design Patterns",
+    "abstract": "This study analyzes hybrid AI systems' design patterns and their\neffectiveness in clinical decision-making using the boxology framework. It\ncategorizes and copares various architectures combining machine learning and\nrule-based reasoning to provide insights into their structural foundations and\nhealthcare applications. Addressing two main questions, how to categorize these\nsystems againts established design patterns and how to extract insights through\ncomparative analysis, the study uses design patterns from software engineering\nto understand and optimize healthcare AI systems. Boxology helps identify\ncommonalities and create reusable solutions, enhancing these systems'\nscalability, reliability, and performance. Five primary architectures are\nexamined: REML, MLRB, RBML, RMLT, and PERML. Each has unique strengths and\nweaknesses, highlighting the need for tailored approaches in clinical tasks.\nREML excels in high-accuracy prediction for datasets with limited data; MLRB in\nhandling large datasets and complex data integration; RBML in explainability\nand trustworthiness; RMLT in managing high-dimensional data; and PERML, though\nlimited in analysis, shows promise in urgent care scenarios. The study\nintroduces four new patterns, creates five abstract categorization patterns,\nand refines those five further to specific systems. These contributions enhance\nBoxlogy's taxonomical organization and offer novel approaches to integrating\nexpert knowledge with machine learning. Boxology's structured, modular apporach\noffers significant advantages in developing and analyzing hybrid AI systems,\nrevealing commonalities, and promoting reusable solutions. In conclusion, this\nstudy underscores hybrid AI systems' crucial role in advancing healthcare and\nBoxology's potential to drive further innovation in AI integration, ultimately\nimproving clinical decision support and patient outcomes.",
+    "authors": [
+      "Chi Him Ng"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02709v1",
+    "category": [
+      "AI in Healthcare",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Text Conditioned Symbolic Drumbeat Generation using Latent Diffusion Models",
+    "abstract": "This study introduces a text-conditioned approach to generating drumbeats\nwith Latent Diffusion Models (LDMs). It uses informative conditioning text\nextracted from training data filenames. By pretraining a text and drumbeat\nencoder through contrastive learning within a multimodal network, aligned\nfollowing CLIP, we align the modalities of text and music closely.\nAdditionally, we examine an alternative text encoder based on multihot text\nencodings. Inspired by musics multi-resolution nature, we propose a novel LSTM\nvariant, MultiResolutionLSTM, designed to operate at various resolutions\nindependently. In common with recent LDMs in the image space, it speeds up the\ngeneration process by running diffusion in a latent space provided by a\npretrained unconditional autoencoder. We demonstrate the originality and\nvariety of the generated drumbeats by measuring distance (both over binary\npianorolls and in the latent space) versus the training dataset and among the\ngenerated drumbeats. We also assess the generated drumbeats through a listening\ntest focused on questions of quality, aptness for the prompt text, and novelty.\nWe show that the generated drumbeats are novel and apt to the prompt text, and\ncomparable in quality to those created by human musicians.",
+    "authors": [
+      "Pushkar Jajoria",
+      "James McDermott"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02711v1",
+    "category": [
+      "Speech Synthesis",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "Enhancing Heterogeneous Knowledge Graph Completion with a Novel GAT-based Approach",
+    "abstract": "Knowledge graphs (KGs) play a vital role in enhancing search results and\nrecommendation systems. With the rapid increase in the size of the KGs, they\nare becoming inaccuracy and incomplete. This problem can be solved by the\nknowledge graph completion methods, of which graph attention network\n(GAT)-based methods stand out since their superior performance. However,\nexisting GAT-based knowledge graph completion methods often suffer from\noverfitting issues when dealing with heterogeneous knowledge graphs, primarily\ndue to the unbalanced number of samples. Additionally, these methods\ndemonstrate poor performance in predicting the tail (head) entity that shares\nthe same relation and head (tail) entity with others. To solve these problems,\nwe propose GATH, a novel GAT-based method designed for Heterogeneous KGs. GATH\nincorporates two separate attention network modules that work synergistically\nto predict the missing entities. We also introduce novel encoding and feature\ntransformation approaches, enabling the robust performance of GATH in scenarios\nwith imbalanced samples. Comprehensive experiments are conducted to evaluate\nthe GATH's performance. Compared with the existing SOTA GAT-based model on\nHits@10 and MRR metrics, our model improves performance by 5.2% and 5.2% on the\nFB15K-237 dataset, and by 4.5% and 14.6% on the WN18RR dataset, respectively.",
+    "authors": [
+      "Wanxu Wei",
+      "Yitong Song",
+      "Bin Yao"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02456v1",
+    "category": [
+      "LLMs",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "A Review on Organ Deformation Modeling Approaches for Reliable Surgical Navigation using Augmented Reality",
+    "abstract": "Augmented Reality (AR) holds the potential to revolutionize surgical\nprocedures by allowing surgeons to visualize critical structures within the\npatient's body. This is achieved through superimposing preoperative organ\nmodels onto the actual anatomy. Challenges arise from dynamic deformations of\norgans during surgery, making preoperative models inadequate for faithfully\nrepresenting intraoperative anatomy. To enable reliable navigation in augmented\nsurgery, modeling of intraoperative deformation to obtain an accurate alignment\nof the preoperative organ model with the intraoperative anatomy is\nindispensable. Despite the existence of various methods proposed to model\nintraoperative organ deformation, there are still few literature reviews that\nsystematically categorize and summarize these approaches. This review aims to\nfill this gap by providing a comprehensive and technical-oriented overview of\nmodeling methods for intraoperative organ deformation in augmented reality in\nsurgery. Through a systematic search and screening process, 112 closely\nrelevant papers were included in this review. By presenting the current status\nof organ deformation modeling methods and their clinical applications, this\nreview seeks to enhance the understanding of organ deformation modeling in\nAR-guided surgery, and discuss the potential topics for future advancements.",
+    "authors": [
+      "Zheng Han",
+      "Qi Dou"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02713v1",
+    "category": [
+      "AI in Healthcare",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "A First Look at License Compliance Capability of LLMs in Code Generation",
+    "abstract": "Recent advances in Large Language Models (LLMs) have revolutionized code\ngeneration, leading to widespread adoption of AI coding tools by developers.\nHowever, LLMs can generate license-protected code without providing the\nnecessary license information, leading to potential intellectual property\nviolations during software production. This paper addresses the critical, yet\nunderexplored, issue of license compliance in LLM-generated code by\nestablishing a benchmark to evaluate the ability of LLMs to provide accurate\nlicense information for their generated code. To establish this benchmark, we\nconduct an empirical study to identify a reasonable standard for \"striking\nsimilarity\" that excludes the possibility of independent creation, indicating a\ncopy relationship between the LLM output and certain open-source code. Based on\nthis standard, we propose an evaluation benchmark LiCoEval, to evaluate the\nlicense compliance capabilities of LLMs. Using LiCoEval, we evaluate 14 popular\nLLMs, finding that even top-performing LLMs produce a non-negligible proportion\n(0.88% to 2.01%) of code strikingly similar to existing open-source\nimplementations. Notably, most LLMs fail to provide accurate license\ninformation, particularly for code under copyleft licenses. These findings\nunderscore the urgent need to enhance LLM compliance capabilities in code\ngeneration tasks. Our study provides a foundation for future research and\ndevelopment to improve license compliance in AI-assisted software development,\ncontributing to both the protection of open-source software copyrights and the\nmitigation of legal risks for LLM users.",
+    "authors": [
+      "Weiwei Xu",
+      "Kai Gao",
+      "Hao He",
+      "Minghui Zhou"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02487v1",
+    "category": [
+      "LLMs",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Single-tap Latency Reduction with Single- or Double- tap Prediction",
+    "abstract": "Touch surfaces are widely utilized for smartphones, tablet PCs, and laptops\n(touchpad), and single and double taps are the most basic and common operations\non them. The detection of single or double taps causes the single-tap latency\nproblem, which creates a bottleneck in terms of the sensitivity of touch\ninputs. To reduce the single-tap latency, we propose a novel\nmachine-learning-based tap prediction method called PredicTaps. Our method\npredicts whether a detected tap is a single tap or the first contact of a\ndouble tap without having to wait for the hundreds of milliseconds\nconventionally required. We present three evaluations and one user evaluation\nthat demonstrate its broad applicability and usability for various tap\nsituations on two form factors (touchpad and smartphone). The results showed\nPredicTaps reduces the single-tap latency from 150-500 ms to 12 ms on laptops\nand to 17.6 ms on smartphones without reducing usability.",
+    "authors": [
+      "Naoto Nishida",
+      "Kaori Ikematsu",
+      "Junichi Sato",
+      "Shota Yamanaka",
+      "Kota Tsubouchi"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02525v1",
+    "category": [
+      "Speech Recognition",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "Explaining Reinforcement Learning: A Counterfactual Shapley Values Approach",
+    "abstract": "This paper introduces a novel approach Counterfactual Shapley Values (CSV),\nwhich enhances explainability in reinforcement learning (RL) by integrating\ncounterfactual analysis with Shapley Values. The approach aims to quantify and\ncompare the contributions of different state dimensions to various action\nchoices. To more accurately analyze these impacts, we introduce new\ncharacteristic value functions, the ``Counterfactual Difference Characteristic\nValue\" and the ``Average Counterfactual Difference Characteristic Value.\" These\nfunctions help calculate the Shapley values to evaluate the differences in\ncontributions between optimal and non-optimal actions. Experiments across\nseveral RL domains, such as GridWorld, FrozenLake, and Taxi, demonstrate the\neffectiveness of the CSV method. The results show that this method not only\nimproves transparency in complex RL systems but also quantifies the differences\nacross various decisions.",
+    "authors": [
+      "Yiwei Shi",
+      "Qi Zhang",
+      "Kevin McAreavey",
+      "Weiru Liu"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02529v2",
+    "category": [
+      "Explainable AI",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Clustering and Mining Accented Speech for Inclusive and Fair Speech Recognition",
+    "abstract": "Modern automatic speech recognition (ASR) systems are typically trained on\nmore than tens of thousands hours of speech data, which is one of the main\nfactors for their great success. However, the distribution of such data is\ntypically biased towards common accents or typical speech patterns. As a\nresult, those systems often poorly perform on atypical accented speech. In this\npaper, we present accent clustering and mining schemes for fair speech\nrecognition systems which can perform equally well on under-represented\naccented speech. For accent recognition, we applied three schemes to overcome\nlimited size of supervised accent data: supervised or unsupervised\npre-training, distributionally robust optimization (DRO) and unsupervised\nclustering. Three schemes can significantly improve the accent recognition\nmodel especially for unbalanced and small accented speech. Fine-tuning ASR on\nthe mined Indian accent speech using the proposed supervised or unsupervised\nclustering schemes showed 10.0% and 5.3% relative improvements compared to\nfine-tuning on the randomly sampled speech, respectively.",
+    "authors": [
+      "Jaeyoung Kim",
+      "Han Lu",
+      "Soheil Khorram",
+      "Anshuman Tripathi",
+      "Qian Zhang",
+      "Hasim Sak"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02582v1",
+    "category": [
+      "Speech Recognition",
+      "Speech Synthesis"
+    ]
+  },
+  {
+    "title": "Development of REGAI: Rubric Enabled Generative Artificial Intelligence",
+    "abstract": "This paper presents and evaluates a new retrieval augmented generation (RAG)\nand large language model (LLM)-based artificial intelligence (AI) technique:\nrubric enabled generative artificial intelligence (REGAI). REGAI uses rubrics,\nwhich can be created manually or automatically by the system, to enhance the\nperformance of LLMs for evaluation purposes. REGAI improves on the performance\nof both classical LLMs and RAG-based LLM techniques. This paper describes\nREGAI, presents data regarding its performance and discusses several possible\napplication areas for the technology.",
+    "authors": [
+      "Zach Johnson",
+      "Jeremy Straub"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02811v1",
+    "category": [
+      "Speech Recognition",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Hide and Seek: Fingerprinting Large Language Models with Evolutionary Learning",
+    "abstract": "As content generated by Large Language Model (LLM) has grown exponentially,\nthe ability to accurately identify and fingerprint such text has become\nincreasingly crucial. In this work, we introduce a novel black-box approach for\nfingerprinting LLMs, achieving an impressive 72% accuracy in identifying the\ncorrect family of models (Such as Llama, Mistral, Gemma, etc) among a lineup of\nLLMs. We present an evolutionary strategy that leverages the capabilities of\none LLM to discover the most salient features for identifying other LLMs. Our\nmethod employs a unique \"Hide and Seek\" algorithm, where an Auditor LLM\ngenerates discriminative prompts, and a Detective LLM analyzes the responses to\nfingerprint the target models. This approach not only demonstrates the\nfeasibility of LLM-driven model identification but also reveals insights into\nthe semantic manifolds of different LLM families. By iteratively refining\nprompts through in-context learning, our system uncovers subtle distinctions\nbetween model outputs, providing a powerful tool for LLM analysis and\nverification. This research opens new avenues for understanding LLM behavior\nand has significant implications for model attribution, security, and the\nbroader field of AI transparency.",
+    "authors": [
+      "Dmitri Iourovitski",
+      "Sanat Sharma",
+      "Rakshak Talwar"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02871v1",
+    "category": [
+      "LLMs",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "A Taxonomy of Architecture Options for Foundation Model-based Agents: Analysis and Decision Model",
+    "abstract": "The rapid advancement of AI technology has led to widespread applications of\nagent systems across various domains. However, the need for detailed\narchitecture design poses significant challenges in designing and operating\nthese systems. This paper introduces a taxonomy focused on the architectures of\nfoundation-model-based agents, addressing critical aspects such as functional\ncapabilities and non-functional qualities. We also discuss the operations\ninvolved in both design-time and run-time phases, providing a comprehensive\nview of architectural design and operational characteristics. By unifying and\ndetailing these classifications, our taxonomy aims to improve the design of\nfoundation-model-based agents. Additionally, the paper establishes a decision\nmodel that guides critical design and runtime decisions, offering a structured\napproach to enhance the development of foundation-model-based agents. Our\ncontributions include providing a structured architecture design option and\nguiding the development process of foundation-model-based agents, thereby\naddressing current fragmentation in the field.",
+    "authors": [
+      "Jingwen Zhou",
+      "Qinghua Lu",
+      "Jieshan Chen",
+      "Liming Zhu",
+      "Xiwei Xu",
+      "Zhenchang Xing",
+      "Stefan Harrer"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02920v1",
+    "category": [
+      "Explainable AI",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "The Need for a Big World Simulator: A Scientific Challenge for Continual Learning",
+    "abstract": "The \"small agent, big world\" frame offers a conceptual view that motivates\nthe need for continual learning. The idea is that a small agent operating in a\nmuch bigger world cannot store all information that the world has to offer. To\nperform well, the agent must be carefully designed to ingest, retain, and eject\nthe right information. To enable the development of performant continual\nlearning agents, a number of synthetic environments have been proposed.\nHowever, these benchmarks suffer from limitations, including unnatural\ndistribution shifts and a lack of fidelity to the \"small agent, big world\"\nframing. This paper aims to formalize two desiderata for the design of future\nsimulated environments. These two criteria aim to reflect the objectives and\ncomplexity of continual learning in practical settings while enabling rapid\nprototyping of algorithms on a smaller scale.",
+    "authors": [
+      "Saurabh Kumar",
+      "Hong Jun Jeon",
+      "Alex Lewandowski",
+      "Benjamin Van Roy"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02930v1",
+    "category": [
+      "Reinforcement Learning",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "LLM-Empowered Resource Allocation in Wireless Communications Systems",
+    "abstract": "The recent success of large language models (LLMs) has spurred their\napplication in various fields. In particular, there have been efforts to\nintegrate LLMs into various aspects of wireless communication systems. The use\nof LLMs in wireless communication systems has the potential to realize\nartificial general intelligence (AGI)-enabled wireless networks. In this paper,\nwe investigate an LLM-based resource allocation scheme for wireless\ncommunication systems. Specifically, we formulate a simple resource allocation\nproblem involving two transmit pairs and develop an LLM-based resource\nallocation approach that aims to maximize either energy efficiency or spectral\nefficiency. Additionally, we consider the joint use of low-complexity resource\nallocation techniques to compensate for the reliability shortcomings of the\nLLM-based scheme. After confirming the applicability and feasibility of\nLLM-based resource allocation, we address several key technical challenges that\nremain in applying LLMs in practice.",
+    "authors": [
+      "Woongsup Lee",
+      "Jeonghun Park"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02944v1",
+    "category": [
+      "Speech Recognition",
+      "LLMs"
+    ]
+  },
+  {
+    "title": "Scaling Laws for Data Poisoning in LLMs",
+    "abstract": "Recent work shows that LLMs are vulnerable to data poisoning, in which they\nare trained on partially corrupted or harmful data. Poisoned data is hard to\ndetect, breaks guardrails, and leads to undesirable and harmful behavior. Given\nthe intense efforts by leading labs to train and deploy increasingly larger and\nmore capable LLMs, it is critical to ask if the risk of data poisoning will be\nnaturally mitigated by scale, or if it is an increasing threat. We consider\nthree threat models by which data poisoning can occur: malicious fine-tuning,\nimperfect data curation, and intentional data contamination. Our experiments\nevaluate the effects of data poisoning on 23 frontier LLMs ranging from 1.5-72\nbillion parameters on three datasets which speak to each of our threat models.\nWe find that larger LLMs are increasingly vulnerable, learning harmful behavior\n-- including sleeper agent behavior -- significantly more quickly than smaller\nLLMs with even minimal data poisoning. These results underscore the need for\nrobust safeguards against data poisoning in larger LLMs.",
+    "authors": [
+      "Dillon Bowen",
+      "Brendan Murphy",
+      "Will Cai",
+      "David Khachaturov",
+      "Adam Gleave",
+      "Kellin Pelrine"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02946v1",
+    "category": [
+      "Datasets",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Anytime Multi-Agent Path Finding with an Adaptive Delay-Based Heuristic",
+    "abstract": "Anytime multi-agent path finding (MAPF) is a promising approach to scalable\npath optimization in multi-agent systems. MAPF-LNS, based on Large Neighborhood\nSearch (LNS), is the current state-of-the-art approach where a fast initial\nsolution is iteratively optimized by destroying and repairing selected paths of\nthe solution. Current MAPF-LNS variants commonly use an adaptive selection\nmechanism to choose among multiple destroy heuristics. However, to determine\npromising destroy heuristics, MAPF-LNS requires a considerable amount of\nexploration time. As common destroy heuristics are non-adaptive, any\nperformance bottleneck caused by these heuristics cannot be overcome via\nadaptive heuristic selection alone, thus limiting the overall effectiveness of\nMAPF-LNS in terms of solution cost. In this paper, we propose Adaptive\nDelay-based Destroy-and-Repair Enhanced with Success-based Self-Learning\n(ADDRESS) as a single-destroy-heuristic variant of MAPF-LNS. ADDRESS applies\nrestricted Thompson Sampling to the top-K set of the most delayed agents to\nselect a seed agent for adaptive LNS neighborhood generation. We evaluate\nADDRESS in multiple maps from the MAPF benchmark set and demonstrate cost\nimprovements by at least 50% in large-scale scenarios with up to a thousand\nagents, compared with the original MAPF-LNS and other state-of-the-art methods.",
+    "authors": [
+      "Thomy Phan",
+      "Benran Zhang",
+      "Shao-Hung Chan",
+      "Sven Koenig"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02960v1",
+    "category": [
+      "Reinforcement Learning",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "LLMs as Probabilistic Minimally Adequate Teachers for DFA Learning",
+    "abstract": "The emergence of intelligence in large language models (LLMs) has inspired\ninvestigations into their integration into automata learning. This paper\nintroduces the probabilistic Minimally Adequate Teacher (pMAT) formulation,\nwhich leverages a probabilistic oracle that could give persistent errors\nrandomly during answering the membership queries for deterministic finite\nautomata (DFA) learning. Given the tendency of LLMs to produce hallucinatory\ncontent, we have developed techniques to improve answer accuracy and ensure the\ncorrectness of the learned automata. We propose the $\\mathtt{Discrimination}$\nprompt as well as the $\\mathtt{Verification}$ prompt and explore their\nadvantages over common prompts. Additionally, we compare DFA learning\nperformance between the TTT algorithm and common active learning algorithms. To\naddress the exponential number of persistent errors, we implement a dynamic\nquery cache refinement algorithm that identifies and corrects conflicting\nqueries by combining the active and passive learning algorithms. The empirical\nresults demonstrate the robustness and efficiency of our approach, providing a\ntheoretical foundation for automata learning with LLMs in the loop.",
+    "authors": [
+      "Lekai Chen",
+      "Ashutosh Trivedi",
+      "Alvaro Velasquez"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.02999v1",
+    "category": [
+      "LLMs",
+      "Speech Recognition"
+    ]
+  },
+  {
+    "title": "Cross-cultural analysis of pedestrian group behaviour influence on crossing decisions in interactions with autonomous vehicles",
+    "abstract": "Understanding cultural backgrounds is crucial for the seamless integration of\nautonomous driving into daily life as it ensures that systems are attuned to\ndiverse societal norms and behaviours, enhancing acceptance and safety in\nvaried cultural contexts. In this work, we investigate the impact of co-located\npedestrians on crossing behaviour, considering cultural and situational\nfactors. To accomplish this, a full-scale virtual reality (VR) environment was\ncreated in the CARLA simulator, enabling the identical experiment to be\nreplicated in both Spain and Australia. Participants (N=30) attempted to cross\nthe road at an urban crosswalk alongside other pedestrians exhibiting\nconservative to more daring behaviours, while an autonomous vehicle (AV)\napproached with different driving styles. For the analysis of interactions, we\nutilized questionnaires and direct measures of the moment when participants\nentered the lane.\n  Our findings indicate that pedestrians tend to cross the same traffic gap\ntogether, even though reckless behaviour by the group reduces confidence and\nmakes the situation perceived as more complex. Australian participants were\nwilling to take fewer risks than Spanish participants, adopting more cautious\nbehaviour when it was uncertain whether the AV would yield.",
+    "authors": [
+      "Sergio Mart\u00edn Serrano",
+      "\u00d3scar M\u00e9ndez Blanco",
+      "Stewart Worrall",
+      "Miguel \u00c1ngel Sotelo",
+      "David Fern\u00e1ndez-Llorca"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.03003v1",
+    "category": [
+      "Explainable AI",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "NeurDB: On the Design and Implementation of an AI-powered Autonomous Database",
+    "abstract": "Databases are increasingly embracing AI to provide autonomous system\noptimization and intelligent in-database analytics, aiming to relieve end-user\nburdens across various industry sectors. Nonetheless, most existing approaches\nfail to account for the dynamic nature of databases, which renders them\nineffective for real-world applications characterized by evolving data and\nworkloads. This paper introduces NeurDB, an AI-powered autonomous database that\ndeepens the fusion of AI and databases with adaptability to data and workload\ndrift. NeurDB establishes a new in-database AI ecosystem that seamlessly\nintegrates AI workflows within the database. This integration enables efficient\nand effective in-database AI analytics and fast-adaptive learned system\ncomponents. Empirical evaluations demonstrate that NeurDB substantially\noutperforms existing solutions in managing AI analytics tasks, with the\nproposed learned components more effectively handling environmental dynamism\nthan state-of-the-art approaches.",
+    "authors": [
+      "Zhanhao Zhao",
+      "Shaofeng Cai",
+      "Haotian Gao",
+      "Hexiang Pan",
+      "Siqi Xiang",
+      "Naili Xing",
+      "Gang Chen",
+      "Beng Chin Ooi",
+      "Yanyan Shen",
+      "Yuncheng Wu",
+      "Meihui Zhang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.03013v1",
+    "category": [
+      "Datasets",
+      "AI in Healthcare"
+    ]
+  },
+  {
+    "title": "Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning",
+    "abstract": "Reward shaping addresses the challenge of sparse rewards in reinforcement\nlearning by constructing denser and more informative reward signals. To achieve\nself-adaptive and highly efficient reward shaping, we propose a novel method\nthat incorporates success rates derived from historical experiences into shaped\nrewards. Our approach utilizes success rates sampled from Beta distributions,\nwhich dynamically evolve from uncertain to reliable values as more data is\ncollected. Initially, the self-adaptive success rates exhibit more randomness\nto encourage exploration. Over time, they become more certain to enhance\nexploitation, thus achieving a better balance between exploration and\nexploitation. We employ Kernel Density Estimation (KDE) combined with Random\nFourier Features (RFF) to derive the Beta distributions, resulting in a\ncomputationally efficient implementation in high-dimensional continuous state\nspaces. This method provides a non-parametric and learning-free approach. The\nproposed method is evaluated on a wide range of continuous control tasks with\nsparse and delayed rewards, demonstrating significant improvements in sample\nefficiency and convergence stability compared to relevant baselines.",
+    "authors": [
+      "Haozhe Ma",
+      "Zhengding Luo",
+      "Thanh Vinh Vo",
+      "Kuankuan Sima",
+      "Tze-Yun Leong"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.03029v2",
+    "category": [
+      "Reinforcement Learning",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "Learning Provably Robust Policies in Uncertain Parametric Environments",
+    "abstract": "We present a data-driven approach for learning MDP policies that are robust\nacross stochastic environments whose transition probabilities are defined by\nparameters with an unknown distribution. We produce probably approximately\ncorrect (PAC) guarantees for the performance of these learned policies in a\nnew, unseen environment over the unknown distribution. Our approach is based on\nfinite samples of the MDP environments, for each of which we build an\napproximation of the model as an interval MDP, by exploring a set of generated\ntrajectories. We use the built approximations to synthesise a single policy\nthat performs well (meets given requirements) across the sampled environments,\nand furthermore bound its risk (of not meeting the given requirements) when\ndeployed in an unseen environment. Our procedure offers a trade-off between the\nguaranteed performance of the learned policy and the risk of not meeting the\nguarantee in an unseen environment. Our approach exploits knowledge of the\nenvironment's state space and graph structure, and we show how additional\nknowledge of its parametric structure can be leveraged to optimize learning and\nto obtain tighter guarantees from less samples. We evaluate our approach on a\ndiverse range of established benchmarks, demonstrating that we can generate\nhighly performing and robust policies, along with guarantees that tightly\nquantify their performance and the associated risk.",
+    "authors": [
+      "Yannik Schnitzer",
+      "Alessandro Abate",
+      "David Parker"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.03093v1",
+    "category": [
+      "Reinforcement Learning",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Compress and Compare: Interactively Evaluating Efficiency and Behavior Across ML Model Compression Experiments",
+    "abstract": "To deploy machine learning models on-device, practitioners use compression\nalgorithms to shrink and speed up models while maintaining their high-quality\noutput. A critical aspect of compression in practice is model comparison,\nincluding tracking many compression experiments, identifying subtle changes in\nmodel behavior, and negotiating complex accuracy-efficiency trade-offs.\nHowever, existing compression tools poorly support comparison, leading to\ntedious and, sometimes, incomplete analyses spread across disjoint tools. To\nsupport real-world comparative workflows, we develop an interactive visual\nsystem called Compress and Compare. Within a single interface, Compress and\nCompare surfaces promising compression strategies by visualizing provenance\nrelationships between compressed models and reveals compression-induced\nbehavior changes by comparing models' predictions, weights, and activations. We\ndemonstrate how Compress and Compare supports common compression analysis tasks\nthrough two case studies, debugging failed compression on generative language\nmodels and identifying compression artifacts in image classification models. We\nfurther evaluate Compress and Compare in a user study with eight compression\nexperts, illustrating its potential to provide structure to compression\nworkflows, help practitioners build intuition about compression, and encourage\nthorough analysis of compression's effect on model behavior. Through these\nevaluations, we identify compression-specific challenges that future visual\nanalytics tools should consider and Compress and Compare visualizations that\nmay generalize to broader model comparison tasks.",
+    "authors": [
+      "Angie Boggust",
+      "Venkatesh Sivaraman",
+      "Yannick Assogba",
+      "Donghao Ren",
+      "Dominik Moritz",
+      "Fred Hohman"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2408.03274v1",
+    "category": [
+      "Explainable AI",
+      "Benchmarking"
+    ]
+  }
+]
