@@ -1,0 +1,476 @@
+[
+  {
+    "title": "Tractable and Provably Efficient Distributional Reinforcement Learning with General Value Function Approximation",
+    "abstract": "Distributional reinforcement learning improves performance by effectively\ncapturing environmental stochasticity, but a comprehensive theoretical\nunderstanding of its effectiveness remains elusive. In this paper, we present a\nregret analysis for distributional reinforcement learning with general value\nfunction approximation in a finite episodic Markov decision process setting. We\nfirst introduce a key notion of Bellman unbiasedness for a tractable and\nexactly learnable update via statistical functional dynamic programming. Our\ntheoretical results show that approximating the infinite-dimensional return\ndistribution with a finite number of moment functionals is the only method to\nlearn the statistical information unbiasedly, including nonlinear statistical\nfunctionals. Second, we propose a provably efficient algorithm,\n$\\texttt{SF-LSVI}$, achieving a regret bound of $\\tilde{O}(d_E\nH^{\\frac{3}{2}}\\sqrt{K})$ where $H$ is the horizon, $K$ is the number of\nepisodes, and $d_E$ is the eluder dimension of a function class.",
+    "authors": [
+      "Taehyun Cho",
+      "Seungyub Han",
+      "Kyungjae Lee",
+      "Seokhun Ju",
+      "Dohyeong Kim",
+      "Jungwoo Lee"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21260v1",
+    "category": [
+      "Reinforcement Learning",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "A Vectorization Method Induced By Maximal Margin Classification For Persistent Diagrams",
+    "abstract": "Persistent homology is an effective method for extracting topological\ninformation, represented as persistent diagrams, of spatial structure data.\nHence it is well-suited for the study of protein structures. Attempts to\nincorporate Persistent homology in machine learning methods of protein function\nprediction have resulted in several techniques for vectorizing persistent\ndiagrams. However, current vectorization methods are excessively artificial and\ncannot ensure the effective utilization of information or the rationality of\nthe methods. To address this problem, we propose a more geometrical\nvectorization method of persistent diagrams based on maximal margin\nclassification for Banach space, and additionaly propose a framework that\nutilizes topological data analysis to identify proteins with specific\nfunctions. We evaluated our vectorization method using a binary classification\ntask on proteins and compared it with the statistical methods that exhibit the\nbest performance among thirteen commonly used vectorization methods. The\nexperimental results indicate that our approach surpasses the statistical\nmethods in both robustness and precision.",
+    "authors": [
+      "An Wu",
+      "Yu Pan",
+      "Fuqi Zhou",
+      "Jinghui Yan",
+      "Chuanlu Liu"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21298v1",
+    "category": [
+      "Multimodal Learning",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Who should I trust? A Visual Analytics Approach for Comparing Net Load Forecasting Models",
+    "abstract": "Net load forecasting is crucial for energy planning and facilitating informed\ndecision-making regarding trade and load distributions. However, evaluating\nforecasting models' performance against benchmark models remains challenging,\nthereby impeding experts' trust in the model's performance. In this context,\nthere is a demand for technological interventions that allow scientists to\ncompare models across various timeframes and solar penetration levels. This\npaper introduces a visual analytics-based application designed to compare the\nperformance of deep-learning-based net load forecasting models with other\nmodels for probabilistic net load forecasting. This application employs\ncarefully selected visual analytic interventions, enabling users to discern\ndifferences in model performance across different solar penetration levels,\ndataset resolutions, and hours of the day over multiple months. We also present\nobservations made using our application through a case study, demonstrating the\neffectiveness of visualizations in aiding scientists in making informed\ndecisions and enhancing trust in net load forecasting models.",
+    "authors": [
+      "Kaustav Bhattacharjee",
+      "Soumya Kundu",
+      "Indrasis Chakraborty",
+      "Aritra Dasgupta"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21299v1",
+    "category": [
+      "Explainable AI",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Implementing Streaming algorithm and k-means clusters to RAG",
+    "abstract": "Retrieval-augmented generation (RAG) has achieved great success in\ninformation retrieval to assist large models because it builds an external\nknowledge database. However, it also has many problems: it consumes a lot of\nmemory because of the huge database. When faced with massive streaming data, it\nis unable to update the established index database in time. To save the memory\nof building the database and maintain accuracy simultaneously, we proposed a\nnew approach combining a streaming algorithm and k-means cluster with RAG. Our\napproach applies a streaming algorithm to update the index and reduce memory\nconsumption. Then use the k-means algorithm to cluster documents with high\nsimilarities together, the query time will be shortened by doing this. We\nconducted comparative experiments on four methods, and the results show that\nRAG with streaming algorithm and k-means cluster performs well in accuracy and\nmemory. For massive streaming data, we find that our method behaves better than\ntraditional RAG",
+    "authors": [
+      "Haoyu Kang",
+      "Yuzhou Zhu",
+      "Yukun Zhong",
+      "Ke Wang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21300v1",
+    "category": [
+      "Datasets",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "Big Cooperative Learning",
+    "abstract": "Cooperation plays a pivotal role in the evolution of human intelligence;\nmoreover, it also underlies the recent revolutionary advancement of artificial\nintelligence (AI) that is driven by foundation models. Specifically, we reveal\nthat the training of foundation models can be interpreted as a form of big\ncooperative learning (\\textit{abbr.} big learning), where massive learning\nindividuals/tasks \\emph{cooperate} to approach the unique essence of data from\ndiverse perspectives of data prediction, leveraging a universal model. The\npresented big learning therefore unifies most training objectives of foundation\nmodels within a consistent framework, where their underlying assumptions are\nexposed simultaneously. We design tailored simulations to demonstrate the\nprinciple of big learning, based on which we provide learning-perspective\njustifications for the successes of foundation models, with interesting\nside-products. Furthermore, we reveal that big learning is a new dimension for\nupgrading conventional machine learning paradigms, valuable for endowing\nreinvigorations to associated applications; as an illustrative example, we\npropose the BigLearn-GAN, which is a novel adversarially-trained foundation\nmodel with versatile data sampling capabilities. Code is available at\n\\texttt{https://github.com/YulaiCong/BigCooperativeLearning}.",
+    "authors": [
+      "Yulai Cong"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21319v1",
+    "category": [
+      "Explainable AI",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "Dual-Constrained Dynamical Neural ODEs for Ambiguity-aware Continuous Emotion Prediction",
+    "abstract": "There has been a significant focus on modelling emotion ambiguity in recent\nyears, with advancements made in representing emotions as distributions to\ncapture ambiguity. However, there has been comparatively less effort devoted to\nthe consideration of temporal dependencies in emotion distributions which\nencodes ambiguity in perceived emotions that evolve smoothly over time.\nRecognizing the benefits of using constrained dynamical neural ordinary\ndifferential equations (CD-NODE) to model time series as dynamic processes, we\npropose an ambiguity-aware dual-constrained Neural ODE approach to model the\ndynamics of emotion distributions on arousal and valence. In our approach, we\nutilize ODEs parameterised by neural networks to estimate the distribution\nparameters, and we integrate additional constraints to restrict the range of\nthe system outputs to ensure the validity of predicted distributions. We\nevaluated our proposed system on the publicly available RECOLA dataset and\nobserved very promising performance across a range of evaluation metrics.",
+    "authors": [
+      "Jingyao Wu",
+      "Ting Dang",
+      "Vidhyasaharan Sethu",
+      "Eliathamby Ambikairajah"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21344v1",
+    "category": [
+      "Explainable AI",
+      "Speech Synthesis"
+    ]
+  },
+  {
+    "title": "Differentially Private Block-wise Gradient Shuffle for Deep Learning",
+    "abstract": "Traditional Differentially Private Stochastic Gradient Descent (DP-SGD)\nintroduces statistical noise on top of gradients drawn from a Gaussian\ndistribution to ensure privacy. This paper introduces the novel Differentially\nPrivate Block-wise Gradient Shuffle (DP-BloGS) algorithm for deep learning.\nBloGS builds off of existing private deep learning literature, but makes a\ndefinitive shift by taking a probabilistic approach to gradient noise\nintroduction through shuffling modeled after information theoretic privacy\nanalyses. The theoretical results presented in this paper show that the\ncombination of shuffling, parameter-specific block size selection, batch layer\nclipping, and gradient accumulation allows DP-BloGS to achieve training times\nclose to that of non-private training while maintaining similar privacy and\nutility guarantees to DP-SGD. DP-BloGS is found to be significantly more\nresistant to data extraction attempts than DP-SGD. The theoretical results are\nvalidated by the experimental findings.",
+    "authors": [
+      "David Zagardo"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21347v1",
+    "category": [
+      "Datasets",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Tree-of-Traversals: A Zero-Shot Reasoning Algorithm for Augmenting Black-box Language Models with Knowledge Graphs",
+    "abstract": "Knowledge graphs (KGs) complement Large Language Models (LLMs) by providing\nreliable, structured, domain-specific, and up-to-date external knowledge.\nHowever, KGs and LLMs are often developed separately and must be integrated\nafter training. We introduce Tree-of-Traversals, a novel zero-shot reasoning\nalgorithm that enables augmentation of black-box LLMs with one or more KGs. The\nalgorithm equips a LLM with actions for interfacing a KG and enables the LLM to\nperform tree search over possible thoughts and actions to find high confidence\nreasoning paths. We evaluate on two popular benchmark datasets. Our results\nshow that Tree-of-Traversals significantly improves performance on question\nanswering and KG question answering tasks. Code is available at\n\\url{https://github.com/amazon-science/tree-of-traversals}",
+    "authors": [
+      "Elan Markowitz",
+      "Anil Ramakrishna",
+      "Jwala Dhamala",
+      "Ninareh Mehrabi",
+      "Charith Peris",
+      "Rahul Gupta",
+      "Kai-Wei Chang",
+      "Aram Galstyan"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21358v1",
+    "category": [
+      "LLMs",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "ProSpec RL: Plan Ahead, then Execute",
+    "abstract": "Imagining potential outcomes of actions before execution helps agents make\nmore informed decisions, a prospective thinking ability fundamental to human\ncognition. However, mainstream model-free Reinforcement Learning (RL) methods\nlack the ability to proactively envision future scenarios, plan, and guide\nstrategies. These methods typically rely on trial and error to adjust policy\nfunctions, aiming to maximize cumulative rewards or long-term value, even if\nsuch high-reward decisions place the environment in extremely dangerous states.\nTo address this, we propose the Prospective (ProSpec) RL method, which makes\nhigher-value, lower-risk optimal decisions by imagining future n-stream\ntrajectories. Specifically, ProSpec employs a dynamic model to predict future\nstates (termed \"imagined states\") based on the current state and a series of\nsampled actions. Furthermore, we integrate the concept of Model Predictive\nControl and introduce a cycle consistency constraint that allows the agent to\nevaluate and select the optimal actions from these trajectories. Moreover,\nProSpec employs cycle consistency to mitigate two fundamental issues in RL:\naugmenting state reversibility to avoid irreversible events (low risk) and\naugmenting actions to generate numerous virtual trajectories, thereby improving\ndata efficiency. We validated the effectiveness of our method on the DMControl\nbenchmarks, where our approach achieved significant performance improvements.\nCode will be open-sourced upon acceptance.",
+    "authors": [
+      "Liangliang Liu",
+      "Yi Guan",
+      "BoRan Wang",
+      "Rujia Shen",
+      "Yi Lin",
+      "Chaoran Kong",
+      "Lian Yan",
+      "Jingchi Jiang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21359v1",
+    "category": [
+      "Reinforcement Learning",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Deformable 3D Shape Diffusion Model",
+    "abstract": "The Gaussian diffusion model, initially designed for image generation, has\nrecently been adapted for 3D point cloud generation. However, these adaptations\nhave not fully considered the intrinsic geometric characteristics of 3D shapes,\nthereby constraining the diffusion model's potential for 3D shape manipulation.\nTo address this limitation, we introduce a novel deformable 3D shape diffusion\nmodel that facilitates comprehensive 3D shape manipulation, including point\ncloud generation, mesh deformation, and facial animation. Our approach\ninnovatively incorporates a differential deformation kernel, which deconstructs\nthe generation of geometric structures into successive non-rigid deformation\nstages. By leveraging a probabilistic diffusion model to simulate this\nstep-by-step process, our method provides a versatile and efficient solution\nfor a wide range of applications, spanning from graphics rendering to facial\nexpression animation. Empirical evidence highlights the effectiveness of our\napproach, demonstrating state-of-the-art performance in point cloud generation\nand competitive results in mesh deformation. Additionally, extensive visual\ndemonstrations reveal the significant potential of our approach for practical\napplications. Our method presents a unique pathway for advancing 3D shape\nmanipulation and unlocking new opportunities in the realm of virtual reality.",
+    "authors": [
+      "Dengsheng Chen",
+      "Jie Hu",
+      "Xiaoming Wei",
+      "Enhua Wu"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21428v1",
+    "category": [
+      "Multimodal Learning",
+      "Speech Synthesis"
+    ]
+  },
+  {
+    "title": "TinyChirp: Bird Song Recognition Using TinyML Models on Low-power Wireless Acoustic Sensors",
+    "abstract": "Monitoring biodiversity at scale is challenging. Detecting and identifying\nspecies in fine grained taxonomies requires highly accurate machine learning\n(ML) methods. Training such models requires large high quality data sets. And\ndeploying these models to low power devices requires novel compression\ntechniques and model architectures. While species classification methods have\nprofited from novel data sets and advances in ML methods, in particular neural\nnetworks, deploying these state of the art models to low power devices remains\ndifficult. Here we present a comprehensive empirical comparison of various\ntinyML neural network architectures and compression techniques for species\nclassification. We focus on the example of bird song detection, more concretely\na data set curated for studying the corn bunting bird species. The data set is\nreleased along with all code and experiments of this study. In our experiments\nwe compare predictive performance, memory and time complexity of classical\nspectrogram based methods and recent approaches operating on raw audio signal.\nOur results indicate that individual bird species can be robustly detected with\nrelatively simple architectures that can be readily deployed to low power\ndevices.",
+    "authors": [
+      "Zhaolan Huang",
+      "Adrien Tousnakhoff",
+      "Polina Kozyr",
+      "Roman Rehausen",
+      "Felix Bie\u00dfmann",
+      "Robert Lachlan",
+      "Cedric Adjih",
+      "Emmanuel Baccelli"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21453v1",
+    "category": [
+      "Datasets",
+      "Speech Recognition"
+    ]
+  },
+  {
+    "title": "KemenkeuGPT: Leveraging a Large Language Model on Indonesia's Government Financial Data and Regulations to Enhance Decision Making",
+    "abstract": "Data is crucial for evidence-based policymaking and enhancing public\nservices, including those at the Ministry of Finance of the Republic of\nIndonesia. However, the complexity and dynamic nature of governmental financial\ndata and regulations can hinder decision-making. This study investigates the\npotential of Large Language Models (LLMs) to address these challenges, focusing\non Indonesia's financial data and regulations. While LLMs are effective in the\nfinancial sector, their use in the public sector in Indonesia is unexplored.\nThis study undertakes an iterative process to develop KemenkeuGPT using the\nLangChain with Retrieval-Augmented Generation (RAG), prompt engineering and\nfine-tuning. The dataset from 2003 to 2023 was collected from the Ministry of\nFinance, Statistics Indonesia and the International Monetary Fund (IMF).\nSurveys and interviews with Ministry officials informed, enhanced and\nfine-tuned the model. We evaluated the model using human feedback, LLM-based\nevaluation and benchmarking. The model's accuracy improved from 35% to 61%,\nwith correctness increasing from 48% to 64%. The Retrieval-Augmented Generation\nAssessment (RAGAS) framework showed that KemenkeuGPT achieved 44% correctness\nwith 73% faithfulness, 40% precision and 60% recall, outperforming several\nother base models. An interview with an expert from the Ministry of Finance\nindicated that KemenkeuGPT has the potential to become an essential tool for\ndecision-making. These results are expected to improve with continuous human\nfeedback.",
+    "authors": [
+      "Gilang Fajar Febrian",
+      "Grazziela Figueredo"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21459v1",
+    "category": [
+      "Speech Recognition",
+      "Speech Synthesis"
+    ]
+  },
+  {
+    "title": "eSPARQL: Representing and Reconciling Agnostic and Atheistic Beliefs in RDF-star Knowledge Graphs",
+    "abstract": "Over the past few years, we have seen the emergence of large knowledge graphs\ncombining information from multiple sources. Sometimes, this information is\nprovided in the form of assertions about other assertions, defining contexts\nwhere assertions are valid. A recent extension to RDF which admits statements\nover statements, called RDF-star, is in revision to become a W3C standard.\nHowever, there is no proposal for a semantics of these RDF-star statements nor\na built-in facility to operate over them. In this paper, we propose a query\nlanguage for epistemic RDF-star metadata based on a four-valued logic, called\neSPARQL. Our proposed query language extends SPARQL-star, the query language\nfor RDF-star, with a new type of FROM clause to facilitate operating with\nmultiple and sometimes conflicting beliefs. We show that the proposed query\nlanguage can express four use case queries, including the following features:\n(i) querying the belief of an individual, (ii) the aggregating of beliefs,\n(iii) querying who is conflicting with somebody, and (iv) beliefs about beliefs\n(i.e., nesting of beliefs).",
+    "authors": [
+      "Xiny Pan",
+      "Daniel Hern\u00e1ndez",
+      "Philipp Seifer",
+      "Ralf L\u00e4mmel",
+      "Steffen Staab"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21483v2",
+    "category": [
+      "Datasets",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "Parallel Strategies for Best-First Generalized Planning",
+    "abstract": "In recent years, there has been renewed interest in closing the performance\ngap between state-of-the-art planning solvers and generalized planning (GP), a\nresearch area of AI that studies the automated synthesis of algorithmic-like\nsolutions capable of solving multiple classical planning instances. One of the\ncurrent advancements has been the introduction of Best-First Generalized\nPlanning (BFGP), a GP algorithm based on a novel solution space that can be\nexplored with heuristic search, one of the foundations of modern planners. This\npaper evaluates the application of parallel search techniques to BFGP, another\ncritical component in closing the performance gap. We first discuss why BFGP is\nwell suited for parallelization and some of its differentiating characteristics\nfrom classical planners. Then, we propose two simple shared-memory parallel\nstrategies with good scaling with the number of cores.",
+    "authors": [
+      "Alejandro Fern\u00e1ndez-Alburquerque",
+      "Javier Segovia-Aguas"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21485v1",
+    "category": [
+      "Reinforcement Learning",
+      "AI in Healthcare"
+    ]
+  },
+  {
+    "title": "Breaking the Hourglass Phenomenon of Residual Quantization: Enhancing the Upper Bound of Generative Retrieval",
+    "abstract": "Generative retrieval (GR) has emerged as a transformative paradigm in search\nand recommender systems, leveraging numeric-based identifier representations to\nenhance efficiency and generalization. Notably, methods like TIGER employing\nResidual Quantization-based Semantic Identifiers (RQ-SID), have shown\nsignificant promise in e-commerce scenarios by effectively managing item IDs.\nHowever, a critical issue termed the \"\\textbf{Hourglass}\" phenomenon, occurs in\nRQ-SID, where intermediate codebook tokens become overly concentrated,\nhindering the full utilization of generative retrieval methods. This paper\nanalyses and addresses this problem by identifying data sparsity and\nlong-tailed distribution as the primary causes. Through comprehensive\nexperiments and detailed ablation studies, we analyze the impact of these\nfactors on codebook utilization and data distribution. Our findings reveal that\nthe \"Hourglass\" phenomenon substantially impacts the performance of RQ-SID in\ngenerative retrieval. We propose effective solutions to mitigate this issue,\nthereby significantly enhancing the effectiveness of generative retrieval in\nreal-world E-commerce applications.",
+    "authors": [
+      "Zhirui Kuai",
+      "Zuxu Chen",
+      "Huimu Wang",
+      "Mingming Li",
+      "Dadong Miao",
+      "Binbin Wang",
+      "Xusong Chen",
+      "Li Kuang",
+      "Yuxing Han",
+      "Jiaxing Wang",
+      "Guoyu Tang",
+      "Lin Liu",
+      "Songlin Wang",
+      "Jingwei Zhuo"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21488v1",
+    "category": [
+      "Datasets",
+      "LLMs"
+    ]
+  },
+  {
+    "title": "FSSC: Federated Learning of Transformer Neural Networks for Semantic Image Communication",
+    "abstract": "In this paper, we address the problem of image semantic communication in a\nmulti-user deployment scenario and propose a federated learning (FL) strategy\nfor a Swin Transformer-based semantic communication system (FSSC). Firstly, we\ndemonstrate that the adoption of a Swin Transformer for joint source-channel\ncoding (JSCC) effectively extracts semantic information in the communication\nsystem. Next, the FL framework is introduced to collaboratively learn a global\nmodel by aggregating local model parameters, rather than directly sharing\nclients' data. This approach enhances user privacy protection and reduces the\nworkload on the server or mobile edge. Simulation evaluations indicate that our\nmethod outperforms the typical JSCC algorithm and traditional separate-based\ncommunication algorithms. Particularly after integrating local semantics, the\nglobal aggregation model has further increased the Peak Signal-to-Noise Ratio\n(PSNR) by more than 2dB, thoroughly proving the effectiveness of our algorithm.",
+    "authors": [
+      "Yuna Yan",
+      "Xin Zhang",
+      "Lixin Li",
+      "Wensheng Lin",
+      "Rui Li",
+      "Wenchi Cheng",
+      "Zhu Han"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21507v1",
+    "category": [
+      "Multimodal Learning",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Tabular Data Augmentation for Machine Learning: Progress and Prospects of Embracing Generative AI",
+    "abstract": "Machine learning (ML) on tabular data is ubiquitous, yet obtaining abundant\nhigh-quality tabular data for model training remains a significant obstacle.\nNumerous works have focused on tabular data augmentation (TDA) to enhance the\noriginal table with additional data, thereby improving downstream ML tasks.\nRecently, there has been a growing interest in leveraging the capabilities of\ngenerative AI for TDA. Therefore, we believe it is time to provide a\ncomprehensive review of the progress and future prospects of TDA, with a\nparticular emphasis on the trending generative AI. Specifically, we present an\narchitectural view of the TDA pipeline, comprising three main procedures:\npre-augmentation, augmentation, and post-augmentation. Pre-augmentation\nencompasses preparation tasks that facilitate subsequent TDA, including error\nhandling, table annotation, table simplification, table representation, table\nindexing, table navigation, schema matching, and entity matching. Augmentation\nsystematically analyzes current TDA methods, categorized into retrieval-based\nmethods, which retrieve external data, and generation-based methods, which\ngenerate synthetic data. We further subdivide these methods based on the\ngranularity of the augmentation process at the row, column, cell, and table\nlevels. Post-augmentation focuses on the datasets, evaluation and optimization\naspects of TDA. We also summarize current trends and future directions for TDA,\nhighlighting promising opportunities in the era of generative AI. In addition,\nthe accompanying papers and related resources are continuously updated and\nmaintained in the GitHub repository at\nhttps://github.com/SuDIS-ZJU/awesome-tabular-data-augmentation to reflect\nongoing advancements in the field.",
+    "authors": [
+      "Lingxi Cui",
+      "Huan Li",
+      "Ke Chen",
+      "Lidan Shou",
+      "Gang Chen"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21523v1",
+    "category": [
+      "Datasets",
+      "Explainable AI"
+    ]
+  },
+  {
+    "title": "TRGR: Transmissive RIS-aided Gait Recognition Through Walls",
+    "abstract": "Gait recognition with radio frequency (RF) signals enables many potential\napplications requiring accurate identification. However, current systems\nrequire individuals to be within a line-of-sight (LOS) environment and struggle\nwith low signal-to-noise ratio (SNR) when signals traverse concrete and thick\nwalls. To address these challenges, we present TRGR, a novel transmissive\nreconfigurable intelligent surface (RIS)-aided gait recognition system. TRGR\ncan recognize human identities through walls using only the magnitude\nmeasurements of channel state information (CSI) from a pair of transceivers.\nSpecifically, by leveraging transmissive RIS alongside a configuration\nalternating optimization algorithm, TRGR enhances wall penetration and signal\nquality, enabling accurate gait recognition. Furthermore, a residual\nconvolution network (RCNN) is proposed as the backbone network to learn robust\nhuman information. Experimental results confirm the efficacy of transmissive\nRIS, highlighting the significant potential of transmissive RIS in enhancing\nRF-based gait recognition systems. Extensive experiment results show that TRGR\nachieves an average accuracy of 97.88\\% in identifying persons when signals\ntraverse concrete walls, demonstrating the effectiveness and robustness of\nTRGR.",
+    "authors": [
+      "Yunlong Huang",
+      "Junshuo Liu",
+      "Jianan Zhang",
+      "Tiebin Mi",
+      "Xin Shi",
+      "Robert Caiming Qiu"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21566v1",
+    "category": [
+      "Speech Recognition",
+      "Multimodal Learning"
+    ]
+  },
+  {
+    "title": "A Performance Study of LLM-Generated Code on Leetcode",
+    "abstract": "This study evaluates the efficiency of code generation by Large Language\nModels (LLMs) and measures their performance against human-crafted solutions\nusing a dataset from Leetcode. We compare 18 LLMs, considering factors such as\nmodel temperature and success rate, and their impact on code performance. This\nresearch introduces a novel method for measuring and comparing the speed of\nLLM-generated code, revealing that LLMs produce code with comparable\nperformance, irrespective of the adopted LLM. We also find that LLMs are\ncapable of generating code that is, on average, more efficient than the code\nwritten by humans. The paper further discusses the use of Leetcode as a\nbenchmarking dataset, the limitations imposed by potential data contamination,\nand the platform's measurement reliability. We believe that our findings\ncontribute to a better understanding of LLM capabilities in code generation and\nset the stage for future optimizations in the field.",
+    "authors": [
+      "Tristan Coignion",
+      "Cl\u00e9ment Quinton",
+      "Romain Rouvoy"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21579v1",
+    "category": [
+      "LLMs",
+      "Benchmarking"
+    ]
+  },
+  {
+    "title": "Measuring What Matters: Intrinsic Distance Preservation as a Robust Metric for Embedding Quality",
+    "abstract": "Unsupervised embeddings are fundamental to numerous machine learning\napplications, yet their evaluation remains a challenging task. Traditional\nassessment methods often rely on extrinsic variables, such as performance in\ndownstream tasks, which can introduce confounding factors and mask the true\nquality of embeddings. This paper introduces the Intrinsic Distance\nPreservation Evaluation (IDPE) method, a novel approach for assessing embedding\nquality based on the preservation of Mahalanobis distances between data points\nin the original and embedded spaces. We demonstrate the limitations of\nextrinsic evaluation methods through a simple example, highlighting how they\ncan lead to misleading conclusions about embedding quality. IDPE addresses\nthese issues by providing a task-independent measure of how well embeddings\npreserve the intrinsic structure of the original data. Our method leverages\nefficient similarity search techniques to make it applicable to large-scale\ndatasets. We compare IDPE with established intrinsic metrics like\ntrustworthiness and continuity, as well as extrinsic metrics such as Average\nRank and Mean Reciprocal Rank. Our results show that IDPE offers a more\ncomprehensive and reliable assessment of embedding quality across various\nscenarios. We evaluate PCA and t-SNE embeddings using IDPE, revealing insights\ninto their performance that are not captured by traditional metrics. This work\ncontributes to the field by providing a robust, efficient, and interpretable\nmethod for embedding evaluation. IDPE's focus on intrinsic properties offers a\nvaluable tool for researchers and practitioners seeking to develop and assess\nhigh-quality embeddings for diverse machine learning applications.",
+    "authors": [
+      "Steven N. Hart",
+      "Thomas E. Tavolara"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21590v1",
+    "category": [
+      "Multimodal Learning",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Enhancing Partially Spoofed Audio Localization with Boundary-aware Attention Mechanism",
+    "abstract": "The task of partially spoofed audio localization aims to accurately determine\naudio authenticity at a frame level. Although some works have achieved\nencouraging results, utilizing boundary information within a single model\nremains an unexplored research topic. In this work, we propose a novel method\ncalled Boundary-aware Attention Mechanism (BAM). Specifically, it consists of\ntwo core modules: Boundary Enhancement and Boundary Frame-wise Attention. The\nformer assembles the intra-frame and inter-frame information to extract\ndiscriminative boundary features that are subsequently used for boundary\nposition detection and authenticity decision, while the latter leverages\nboundary prediction results to explicitly control the feature interaction\nbetween frames, which achieves effective discrimination between real and fake\nframes. Experimental results on PartialSpoof database demonstrate our proposed\nmethod achieves the best performance. The code is available at\nhttps://github.com/media-sec-lab/BAM.",
+    "authors": [
+      "Jiafeng Zhong",
+      "Bin Li",
+      "Jiangyan Yi"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21611v1",
+    "category": [
+      "Speech Recognition",
+      "Speech Synthesis"
+    ]
+  },
+  {
+    "title": "Between the AI and Me: Analysing Listeners' Perspectives on AI- and Human-Composed Progressive Metal Music",
+    "abstract": "Generative AI models have recently blossomed, significantly impacting\nartistic and musical traditions. Research investigating how humans interact\nwith and deem these models is therefore crucial. Through a listening and\nreflection study, we explore participants' perspectives on AI- vs\nhuman-generated progressive metal, in symbolic format, using rock music as a\ncontrol group. AI-generated examples were produced by ProgGP, a\nTransformer-based model. We propose a mixed methods approach to assess the\neffects of generation type (human vs. AI), genre (progressive metal vs. rock),\nand curation process (random vs. cherry-picked). This combines quantitative\nfeedback on genre congruence, preference, creativity, consistency, playability,\nhumanness, and repeatability, and qualitative feedback to provide insights into\nlisteners' experiences. A total of 32 progressive metal fans completed the\nstudy. Our findings validate the use of fine-tuning to achieve genre-specific\nspecialization in AI music generation, as listeners could distinguish between\nAI-generated rock and progressive metal. Despite some AI-generated excerpts\nreceiving similar ratings to human music, listeners exhibited a preference for\nhuman compositions. Thematic analysis identified key features for genre and AI\nvs. human distinctions. Finally, we consider the ethical implications of our\nwork in promoting musical data diversity within MIR research by focusing on an\nunder-explored genre.",
+    "authors": [
+      "Pedro Sarmento",
+      "Jackson Loth",
+      "Mathieu Barthet"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21615v1",
+    "category": [
+      "Explainable AI",
+      "Speech Synthesis"
+    ]
+  },
+  {
+    "title": "Universal Approximation Theory: Foundations for Parallelism in Neural Networks",
+    "abstract": "Neural networks are increasingly evolving towards training large models with\nbig data, a method that has demonstrated superior performance across many\ntasks. However, this approach introduces an urgent problem: current deep\nlearning models are predominantly serial, meaning that as the number of network\nlayers increases, so do the training and inference times. This is unacceptable\nif deep learning is to continue advancing. Therefore, this paper proposes a\ndeep learning parallelization strategy based on the Universal Approximation\nTheorem (UAT). From this foundation, we designed a parallel network called\nPara-Former to test our theory. Unlike traditional serial models, the inference\ntime of Para-Former does not increase with the number of layers, significantly\naccelerating the inference speed of multi-layer networks. Experimental results\nvalidate the effectiveness of this network.",
+    "authors": [
+      "Wei Wang",
+      "Qing Li"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21670v1",
+    "category": [
+      "Reinforcement Learning",
+      "LLMs"
+    ]
+  },
+  {
+    "title": "TransferTOD: A Generalizable Chinese Multi-Domain Task-Oriented Dialogue System with Transfer Capabilities",
+    "abstract": "Task-oriented dialogue (TOD) systems aim to efficiently handle task-oriented\nconversations, including information gathering. How to utilize ToD accurately,\nefficiently and effectively for information gathering has always been a\ncritical and challenging task. Recent studies have demonstrated that Large\nLanguage Models (LLMs) excel in dialogue, instruction generation, and\nreasoning, and can significantly enhance the performance of TOD through\nfine-tuning. However, current datasets primarily cater to user-led systems and\nare limited to predefined specific scenarios and slots, thereby necessitating\nimprovements in the proactiveness, diversity, and capabilities of TOD. In this\nstudy, we present a detailed multi-domain task-oriented data construction\nprocess for conversations, and a Chinese dialogue dataset generated based on\nthis process, \\textbf{TransferTOD}, which authentically simulates human-machine\ndialogues in 30 popular life service scenarios. Leveraging this dataset, we\ntrained a \\textbf{TransferTOD-7B} model using full-parameter fine-tuning,\nshowcasing notable abilities in slot filling and questioning. Our work has\ndemonstrated its strong generalization capabilities in various downstream\nscenarios, significantly enhancing both data utilization efficiency and system\nperformance. The data is released in\nhttps://github.com/KongLongGeFDU/TransferTOD.",
+    "authors": [
+      "Ming Zhang",
+      "Caishuang Huang",
+      "Yilong Wu",
+      "Shichun Liu",
+      "Huiyuan Zheng",
+      "Yurui Dong",
+      "Yujiong Shen",
+      "Shihan Dou",
+      "Jun Zhao",
+      "Junjie Ye",
+      "Qi Zhang",
+      "Tao Gui",
+      "Xuanjing Huang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21693v1",
+    "category": [
+      "Speech Synthesis",
+      "Speech Recognition"
+    ]
+  },
+  {
+    "title": "CEAR: Automatic construction of a knowledge graph of chemical entities and roles from scientific literature",
+    "abstract": "Ontologies are formal representations of knowledge in specific domains that\nprovide a structured framework for organizing and understanding complex\ninformation. Creating ontologies, however, is a complex and time-consuming\nendeavor. ChEBI is a well-known ontology in the field of chemistry, which\nprovides a comprehensive resource for defining chemical entities and their\nproperties. However, it covers only a small fraction of the rapidly growing\nknowledge in chemistry and does not provide references to the scientific\nliterature. To address this, we propose a methodology that involves augmenting\nexisting annotated text corpora with knowledge from Chebi and fine-tuning a\nlarge language model (LLM) to recognize chemical entities and their roles in\nscientific text. Our experiments demonstrate the effectiveness of our approach.\nBy combining ontological knowledge and the language understanding capabilities\nof LLMs, we achieve high precision and recall rates in identifying both the\nchemical entities and roles in scientific literature. Furthermore, we extract\nthem from a set of 8,000 ChemRxiv articles, and apply a second LLM to create a\nknowledge graph (KG) of chemical entities and roles (CEAR), which provides\ncomplementary information to ChEBI, and can help to extend it.",
+    "authors": [
+      "Stefan Langer",
+      "Fabian Neuhaus",
+      "Andreas N\u00fcrnberger"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21708v1",
+    "category": [
+      "LLMs",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Social Learning through Interactions with Other Agents: A Survey",
+    "abstract": "Social learning plays an important role in the development of human\nintelligence. As children, we imitate our parents' speech patterns until we are\nable to produce sounds; we learn from them praising us and scolding us; and as\nadults, we learn by working with others. In this work, we survey the degree to\nwhich this paradigm -- social learning -- has been mirrored in machine\nlearning. In particular, since learning socially requires interacting with\nothers, we are interested in how embodied agents can and have utilised these\ntechniques. This is especially in light of the degree to which recent advances\nin natural language processing (NLP) enable us to perform new forms of social\nlearning. We look at how behavioural cloning and next-token prediction mirror\nhuman imitation, how learning from human feedback mirrors human education, and\nhow we can go further to enable fully communicative agents that learn from each\nother. We find that while individual social learning techniques have been used\nsuccessfully, there has been little unifying work showing how to bring them\ntogether into socially embodied agents.",
+    "authors": [
+      "Dylan hillier",
+      "Cheston Tan",
+      "Jing Jiang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21713v1",
+    "category": [
+      "Speech Synthesis",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "title": "UMMAN: Unsupervised Multi-graph Merge Adversarial Network for Disease Prediction Based on Intestinal Flora",
+    "abstract": "The abundance of intestinal flora is closely related to human diseases, but\ndiseases are not caused by a single gut microbe. Instead, they result from the\ncomplex interplay of numerous microbial entities. This intricate and implicit\nconnection among gut microbes poses a significant challenge for disease\nprediction using abundance information from OTU data. Recently, several methods\nhave shown potential in predicting corresponding diseases. However, these\nmethods fail to learn the inner association among gut microbes from different\nhosts, leading to unsatisfactory performance. In this paper, we present a novel\narchitecture, Unsupervised Multi-graph Merge Adversarial Network (UMMAN). UMMAN\ncan obtain the embeddings of nodes in the Multi-Graph in an unsupervised\nscenario, so that it helps learn the multiplex association. Our method is the\nfirst to combine Graph Neural Network with the task of intestinal flora disease\nprediction. We employ complex relation-types to construct the Original-Graph\nand disrupt the relationships among nodes to generate corresponding\nShuffled-Graph. We introduce the Node Feature Global Integration (NFGI) module\nto represent the global features of the graph. Furthermore, we design a joint\nloss comprising adversarial loss and hybrid attention loss to ensure that the\nreal graph embedding aligns closely with the Original-Graph and diverges from\nthe Shuffled-Graph. Comprehensive experiments on five classical OTU gut\nmicrobiome datasets demonstrate the effectiveness and stability of our method.\n(We will release our code soon.)",
+    "authors": [
+      "Dingkun Liu",
+      "Hongjie Zhou",
+      "Yilu Qu",
+      "Huimei Zhang",
+      "Yongdong Xu"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21714v1",
+    "category": [
+      "AI in Healthcare",
+      "Datasets"
+    ]
+  },
+  {
+    "title": "Artificial Intelligence Approaches for Energy Efficiency: A Review",
+    "abstract": "United Nations set Sustainable Development Goals and this paper focuses on\n7th (Affordable and Clean Energy), 9th (Industries, Innovation and\nInfrastructure), and 13th (Climate Action) goals. Climate change is a major\nconcern in our society; for this reason, a current global objective is to\nreduce energy waste. This work summarizes all main approaches towards energy\nefficiency using Artificial Intelligence with a particular focus on multi-agent\nsystems to create smart buildings. It mentions the tight relationship between\nAI, especially IoT, and Big Data. It explains the application of AI to anomaly\ndetection in smart buildings and a possible classification of Intelligent\nEnergy Management Systems: Direct and Indirect. Finally, some drawbacks of AI\napproaches and some possible future research focuses are proposed.",
+    "authors": [
+      "Alberto Pasqualetto",
+      "Lorenzo Serafini",
+      "Michele Sprocatti"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21726v1",
+    "category": [
+      "Explainable AI",
+      "AI in Healthcare"
+    ]
+  },
+  {
+    "title": "ParLS-PBO: A Parallel Local Search Solver for Pseudo Boolean Optimization",
+    "abstract": "As a broadly applied technique in numerous optimization problems, recently,\nlocal search has been employed to solve Pseudo-Boolean Optimization (PBO)\nproblem. A representative local search solver for PBO is LSPBO. In this paper,\nfirstly, we improve LSPBO by a dynamic scoring mechanism, which dynamically\nstrikes a balance between score on hard constraints and score on the objective\nfunction.\n  Moreover, on top of this improved LSPBO , we develop the first parallel local\nsearch PBO solver. The main idea is to share good solutions among different\nthreads to guide the search, by maintaining a pool of feasible solutions. For\nevaluating solutions when updating the pool, we propose a function that\nconsiders both the solution quality and the diversity of the pool. Furthermore,\nwe calculate the polarity density in the pool to enhance the scoring function\nof local search. Our empirical experiments show clear benefits of the proposed\nparallel approach, making it competitive with the parallel version of the\nfamous commercial solver Gurobi.",
+    "authors": [
+      "Zhihan Chen",
+      "Peng Lin",
+      "Hao Hu",
+      "Shaowei Cai"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21729v1",
+    "category": [
+      "Reinforcement Learning",
+      "Benchmarking"
+    ]
+  },
+  {
+    "title": "HGOE: Hybrid External and Internal Graph Outlier Exposure for Graph Out-of-Distribution Detection",
+    "abstract": "With the progressive advancements in deep graph learning, out-of-distribution\n(OOD) detection for graph data has emerged as a critical challenge. While the\nefficacy of auxiliary datasets in enhancing OOD detection has been extensively\nstudied for image and text data, such approaches have not yet been explored for\ngraph data. Unlike Euclidean data, graph data exhibits greater diversity but\nlower robustness to perturbations, complicating the integration of outliers. To\ntackle these challenges, we propose the introduction of \\textbf{H}ybrid\nExternal and Internal \\textbf{G}raph \\textbf{O}utlier \\textbf{E}xposure (HGOE)\nto improve graph OOD detection performance. Our framework involves using\nrealistic external graph data from various domains and synthesizing internal\noutliers within ID subgroups to address the poor robustness and presence of OOD\nsamples within the ID class. Furthermore, we develop a boundary-aware OE loss\nthat adaptively assigns weights to outliers, maximizing the use of high-quality\nOOD samples while minimizing the impact of low-quality ones. Our proposed HGOE\nframework is model-agnostic and designed to enhance the effectiveness of\nexisting graph OOD detection models. Experimental results demonstrate that our\nHGOE framework can significantly improve the performance of existing OOD\ndetection models across all 8 real datasets.",
+    "authors": [
+      "Junwei He",
+      "Qianqian Xu",
+      "Yangbangyan Jiang",
+      "Zitai Wang",
+      "Yuchen Sun",
+      "Qingming Huang"
+    ],
+    "pdf_link": "http://arxiv.org/pdf/2407.21742v1",
+    "category": [
+      "Datasets",
+      "Multimodal Learning"
+    ]
+  }
+]
