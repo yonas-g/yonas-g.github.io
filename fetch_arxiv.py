@@ -142,7 +142,7 @@ def classify_abstract(abstract):
 
 
 def summarize_abstracts(papers):
-    openai_api_key = os.getenv("OPENAI_API_KEY")
+    openai_api_key = os.getenv("GROQ_API_KEY")
     if not openai_api_key:
         raise ValueError("OPENAI_API_KEY environment variable is not set")
     
