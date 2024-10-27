@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Carnegie Mellon University | <a href='https://www.linkedin.com/in/yonas-g'>Linkedin</a> | <a href='https://www.github.com/yonas-g'>Github</a>
+subtitle: <a href='https://scholar.google.com/citations?user=dr0ArckAAAAJ&hl=en'>Google Scholar</a> | <a href='https://www.linkedin.com/in/yonas-g'>Linkedin</a> | <a href='https://www.github.com/yonas-g'>Github</a>
 #. Address. Contacts. Moto. Etc.
 
 profile:
@@ -16,11 +16,11 @@ profile:
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
 
-I am a Master's student in Engineering Artificial Intelligence at [Carnegie Mellon University (CMU)](https://cmu.edu). My research interests lie in the applications of machine learning and deep learning for speech processing. Currently, I am focusing on utilizing deep learning-based models for automatic speech recognition, particularly in the context of African languages within a low-resource multilingual setup. Additionally, I am exploring the application of machine learning in the field of earth observation. Specifically, I am involved in a project that predicts flood extent using open-source satellite imagery data.
+I am a Senior Deep Learning Engineer at Pindo, where I specialize in developing speech and language technologies for African languages. My work focuses on building multilingual speech recognition and text-to-speech systems, achieving industry-leading accuracy rates for Kinyarwanda, Swahili, and Luganda. I hold a master's degree in Engineering Artificial Intelligence from Carnegie Mellon University, where I focused on developing automatic speech recognition systems. My research interests include deep learning, and natural language processing. I am passionate about using AI to solve real world problems, particularly in the context of efficient and scalable solutions for new domains, including  low-resource languages.
 
-Before joining CMU, I worked as a software engineer at [Paga](https://mypaga.com), where I contributed to the development and scalability of the backend infrastructure for the Paga mobile money platform. My primary focus was on enhancing the Paga agent network system. I hold a Bachelor's degree in Software Engineering from [Addis Ababa Science and Technology University, Ethiopia](http://www.aastu.edu.et).
+Before my current role, I served as a Graduate Teaching Assistant at Carnegie Mellon University, where I contributed to courses [Introduction Deep Learning](https://deeplearning.cs.cmu.edu) and Machine Learning for Earth Observation. I've also worked as a Machine Learning Engineer Consultant at GFA Consulting Group, training professionals in applying machine learning to Earth observation. My background includes software engineering experience at Paga, where I worked on scalable backend infrastructure for mobile money platforms. I hold a Bachelor's degree in Software Engineering (Very Great Distinction) from Addis Ababa Science and Technology University, Ethiopia.
