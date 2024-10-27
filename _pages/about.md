@@ -22,7 +22,6 @@ social: false  # includes social icons at the bottom of the page
 
 
 I am a Senior Deep Learning Engineer at Pindo, where I specialize in developing speech and language technologies. 
-My work focuses on building multilingual speech recognition, NLP and TTS systems, achieving industry-leading accuracy rates for Kinyarwanda, Swahili, and Luganda. 
 I hold a master's degree in __Engineering Artificial Intelligence__ from __Carnegie Mellon University__, where I focused on developing automatic speech recognition systems. 
 My research interests include deep learning, and natural language processing. I am passionate about using AI to solve real world problems, particularly in the context of efficient and scalable solutions for new domains, including  low-resource languages.
 
