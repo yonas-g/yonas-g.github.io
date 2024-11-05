@@ -21,8 +21,8 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-I am a Senior Deep Learning Engineer at Pindo, where I specialize in developing speech and language technologies. 
+I am a Senior Deep Learning Engineer at __Pindo__, where I specialize in developing speech and language technologies. 
 I hold a master's degree in __Engineering Artificial Intelligence__ from __Carnegie Mellon University__, where I focused on developing automatic speech recognition systems. 
-My research interests include deep learning, and natural language processing. I am passionate about using AI to solve real world problems, particularly in the context of efficient and scalable solutions for new domains, including  low-resource languages.
+My research interests include deep learning, and speech and natural language processing. I am passionate about using AI to solve real world problems, particularly in the context of efficient and scalable solutions for domains, including lowresource languages.
 
 Before my current role, I served as a Graduate Teaching Assistant at Carnegie Mellon University, where I contributed to courses [Introduction Deep Learning](https://deeplearning.cs.cmu.edu) and Machine Learning for Earth Observation. My background includes software engineering experience at Paga, where I worked on scalable backend infrastructure for mobile money platforms. I hold a Bachelor's degree in Software Engineering (Very Great Distinction) from Addis Ababa Science and Technology University, Ethiopia.
